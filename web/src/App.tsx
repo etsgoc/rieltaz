@@ -1,0 +1,28 @@
+import { Route, Routes } from 'react-router-dom';
+import Layout from './components/layout/Layout';
+import About from './pages/About';
+import Account from './pages/Account';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
+import PropertyDetail from './pages/PropertyDetail';
+import Properties from './pages/Properties';
+import Services from './pages/Services';
+
+export default function App() {
+  return (
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="properties" element={<Properties />} />
+        <Route path="properties/:id" element={<PropertyDetail />} />
+        <Route path="services" element={<Services />} />
+        <Route path="services/:category" element={<Services />} />
+        <Route path="account" element={<Account />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
+  );
+}
