@@ -5,6 +5,7 @@ import type { Service } from '@core';
 import { useCatalog } from '@/providers/CatalogProvider';
 import { useI18n } from '@/providers/I18nProvider';
 import EmptyState from '@/components/ui/EmptyState';
+import { usePageMeta } from '@/lib/meta';
 import Sheet from '@/components/ui/Sheet';
 import CategoryNav from '@/components/services/CategoryNav';
 import ServiceCard from '@/components/services/ServiceCard';
@@ -15,6 +16,7 @@ export default function Services() {
   const { t } = useI18n();
   const { category } = useParams();
   const [open, setOpen] = useState<Service | null>(null);
+  usePageMeta(t('svc.title'), t('svc.subtitle'));
   const cats = cat.serviceCategories ?? [];
 
   if (!features.services || !cats.length) return <div className="wrap section"><EmptyState title={t('svc.unavailable')} /></div>;

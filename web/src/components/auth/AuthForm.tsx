@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useI18n } from '@/providers/I18nProvider';
 import { db, hasBackend } from '@/lib/supabase';
 import Button from '../ui/Button';
@@ -7,6 +8,7 @@ import { Field, Input } from '../ui/Field';
 export default function AuthForm({ compact }: { compact?: boolean }) {
   const { t } = useI18n();
   const [up, setUp] = useState(false);
+  const [agree, setAgree] = useState(false);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [pass, setPass] = useState('');
@@ -32,6 +34,7 @@ export default function AuthForm({ compact }: { compact?: boolean }) {
       {up && <Field label={t('auth.name')}><Input value={name} onChange={e => setName(e.target.value)} autoComplete="name" /></Field>}
       <Field label={t('auth.email')}><Input type="email" value={email} onChange={e => setEmail(e.target.value)} autoComplete="email" required /></Field>
       <Field label={t('auth.password')}><Input type="password" minLength={6} value={pass} onChange={e => setPass(e.target.value)} autoComplete={up ? 'new-password' : 'current-password'} required /></Field>
+      {up && <label className="agree"><input type="checkbox" checked={agree} onChange={e => setAgree(e.target.checked)} required /><span>{t('auth.agree')}: <Link to="/legal/terms">{t('legal.terms')}</Link>, <Link to="/legal/privacy">{t('legal.privacy')}</Link></span></label>}
       <Button type="submit" block disabled={busy}>{up ? t('auth.signUp') : t('auth.signIn')}</Button>
       <Button type="button" variant="ghost" block onClick={() => setUp(!up)}>{up ? t('auth.haveAccount') : t('auth.noAccount')}</Button>
       {err && <p className="err">{err}</p>}

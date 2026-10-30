@@ -6,3 +6,4 @@ export * from './services';
 export * from './payments';
 export * from './tour';
 export * from './i18n';
+export * from './legal';

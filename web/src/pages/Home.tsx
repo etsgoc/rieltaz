@@ -4,6 +4,7 @@ import { ArrowRight, Search } from 'lucide-react';
 import { useCatalog } from '@/providers/CatalogProvider';
 import { useI18n } from '@/providers/I18nProvider';
 import Button from '@/components/ui/Button';
+import { usePageMeta } from '@/lib/meta';
 import Dropdown from '@/components/ui/Dropdown';
 import PropertyCard from '@/components/property/PropertyCard';
 import { categoryIcon } from '@/components/services/icons';
@@ -12,6 +13,7 @@ export default function Home() {
   const { cat, features } = useCatalog();
   const { t } = useI18n();
   const nav = useNavigate();
+  usePageMeta(undefined, t('home.subtitle'));
   const [area, setArea] = useState('all');
   const [own, setOwn] = useState('all');
   const areas = [...new Set(cat.projects.map(p => p.location.area))];

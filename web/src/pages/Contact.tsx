@@ -2,10 +2,12 @@ import { Mail, Phone } from 'lucide-react';
 import { useCatalog } from '@/providers/CatalogProvider';
 import { useI18n } from '@/providers/I18nProvider';
 import ContactForm from '@/components/forms/ContactForm';
+import { usePageMeta } from '@/lib/meta';
 
 export default function Contact() {
   const { cat } = useCatalog();
   const { t } = useI18n();
+  usePageMeta(t('nav.contact'), t('contact.subtitle'));
   return (
     <div className="wrap section narrow">
       <h1>{t('contact.title')}</h1>

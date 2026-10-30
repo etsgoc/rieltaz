@@ -1,9 +1,11 @@
 import { useI18n } from '@/providers/I18nProvider';
 import { useCatalog } from '@/providers/CatalogProvider';
+import { usePageMeta } from '@/lib/meta';
 
 export default function About() {
   const { t } = useI18n();
   const { cat } = useCatalog();
+  usePageMeta(t('nav.about'), t('about.body1'));
   return (
     <div className="wrap section narrow">
       <h1>{t('about.title')}</h1>

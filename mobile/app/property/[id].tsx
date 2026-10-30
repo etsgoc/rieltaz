@@ -12,6 +12,7 @@ import { useTheme } from '@/theme/ThemeProvider';
 import { radius } from '@/theme/colors';
 import ContactForm from '@/components/auth/ContactForm';
 import Gallery from '@/components/property/Gallery';
+import HeartButton from '@/components/property/HeartButton';
 import Button from '@/components/ui/Button';
 import Chip from '@/components/ui/Chip';
 import EmptyState from '@/components/ui/EmptyState';
@@ -90,6 +91,8 @@ export default function PropertyScreen() {
       <Pressable onPress={() => router.back()} style={{ position: 'absolute', top: insets.top + 8, left: 16, width: 42, height: 42, borderRadius: 21, backgroundColor: colors.surface, alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: colors.line }}>
         <ArrowLeft size={22} color={colors.text} />
       </Pressable>
+
+      <HeartButton id={p.id} style={{ position: 'absolute', top: insets.top + 8, right: 16, width: 42, height: 42, borderRadius: 21 }} />
 
       {units.length ? (
         <View style={{ position: 'absolute', left: 16, right: 16, bottom: insets.bottom + 12, flexDirection: 'row', alignItems: 'center', gap: 12, padding: 12, paddingLeft: 18, borderRadius: radius.float, backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.line, shadowColor: colors.shadow, shadowOpacity: 0.2, shadowRadius: 20, shadowOffset: { width: 0, height: 10 }, elevation: 10 }}>

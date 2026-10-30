@@ -27,7 +27,7 @@ export interface Service {
   id: string; categoryId: string; title: string; blurb: string; image?: string;
   priceFrom?: number | null; unit?: string; currency?: string;
   requestOnly?: boolean; needsDate?: boolean; needsPeople?: boolean;
-  options?: ServiceOption[]; partnerId?: string; commissionPct?: number;
+  options?: ServiceOption[]; partnerId?: string; commissionPct?: number; hidden?: boolean;
 }
 export interface Partner { id: string; name: string; payout?: string }
 export interface Features { services: boolean; onlinePayments: boolean }
@@ -43,5 +43,6 @@ export interface Catalog {
   serviceCategories?: ServiceCategory[];
   services?: Service[];
   partners?: Partner[];
+  legal?: { company: string; email: string; address: string };
   [key: string]: unknown;
 }

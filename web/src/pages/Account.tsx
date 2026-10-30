@@ -9,12 +9,14 @@ import Button from '@/components/ui/Button';
 import EmptyState from '@/components/ui/EmptyState';
 import ReservationCard, { type PaymentRow, type Reservation } from '@/components/property/ReservationCard';
 import OrderTicket from '@/components/services/OrderTicket';
+import { usePageMeta } from '@/lib/meta';
 
 export default function Account() {
   const { session, ready } = useSession();
   const { t } = useI18n();
   const { cat, features } = useCatalog();
   const [tab, setTab] = useState<'reservations' | 'orders'>('reservations');
+  usePageMeta(t('nav.account'));
   const [rows, setRows] = useState<Reservation[] | null>(null);
   const [pay, setPay] = useState<PaymentRow[]>([]);
   const [orders, setOrders] = useState<Order[] | null>(null);

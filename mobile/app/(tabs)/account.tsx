@@ -1,5 +1,5 @@
 import { useRouter } from 'expo-router';
-import { Check, ChevronRight, Globe, Mail, UserRound } from 'lucide-react-native';
+import { Check, ChevronRight, Globe, Heart, Mail, ShieldCheck, UserRound } from 'lucide-react-native';
 import { useState } from 'react';
 import { Pressable, View } from 'react-native';
 import { LANGS } from '@core';
@@ -9,7 +9,7 @@ import { useSession } from '@/providers/SessionProvider';
 import { useTheme, type Mode } from '@/theme/ThemeProvider';
 import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
-import Screen from '@/components/ui/Screen';
+import TabScreen from '@/components/ui/TabScreen';
 import Segmented from '@/components/ui/Segmented';
 import Sheet from '@/components/ui/Sheet';
 import Txt from '@/components/ui/Txt';
@@ -32,8 +32,7 @@ export default function Account() {
   const [sheet, setSheet] = useState(false);
 
   return (
-    <Screen tabs>
-      <Txt size={30} weight="heavy" style={{ marginBottom: 16 }}>{t('nav.account')}</Txt>
+    <TabScreen title={t('nav.account')}>
       <Card style={{ gap: 12, marginBottom: 16 }}>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
           <View style={{ width: 48, height: 48, borderRadius: 24, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center' }}><UserRound size={22} color={colors.accent} /></View>
@@ -50,7 +49,18 @@ export default function Account() {
       <Card style={{ paddingVertical: 4 }}>
         <Row icon={<Globe size={20} color={colors.muted} />} label={t('common.language')} value={LANGS.find(l => l.code === lang)?.label} onPress={() => setSheet(true)} />
         <View style={{ height: 1, backgroundColor: colors.line }} />
+        <Row icon={<Heart size={20} color={colors.muted} />} label={t('saved.title')} onPress={() => router.push('/saved')} />
+        <View style={{ height: 1, backgroundColor: colors.line }} />
         <Row icon={<Mail size={20} color={colors.muted} />} label={t('nav.contact')} onPress={() => router.push('/contact')} />
+      </Card>
+
+      <Card style={{ paddingVertical: 4, marginTop: 16 }}>
+        {(['terms', 'privacy', 'refunds', 'cookies'] as const).map((id, i) => (
+          <View key={id}>
+            {i > 0 ? <View style={{ height: 1, backgroundColor: colors.line }} /> : null}
+            <Row icon={<ShieldCheck size={20} color={colors.muted} />} label={t(`legal.${id}`)} onPress={() => router.push(`/legal/${id}`)} />
+          </View>
+        ))}
       </Card>
 
       <Sheet open={sheet} onClose={() => setSheet(false)} title={t('common.language')}>
@@ -60,6 +70,6 @@ export default function Account() {
           </Pressable>
         ))}
       </Sheet>
-    </Screen>
+    </TabScreen>
   );
 }

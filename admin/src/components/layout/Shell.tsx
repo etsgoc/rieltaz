@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { LayoutDashboard, LogOut, MessageSquare, Settings, Ticket, Handshake } from 'lucide-react';
+import { Building2, LayoutDashboard, LogOut, MessageSquare, Settings, Ticket, Handshake } from 'lucide-react';
 import { db } from '@/lib/supabase';
 import Logo from '../ui/Logo';
 import ThemeToggle from '../ui/ThemeToggle';
@@ -8,6 +8,7 @@ const links = [
   { to: '/', label: 'Overview', icon: LayoutDashboard, end: true },
   { to: '/deals', label: 'Property deals', icon: Handshake },
   { to: '/orders', label: 'Service orders', icon: Ticket },
+  { to: '/listings', label: 'Listings', icon: Building2 },
   { to: '/messages', label: 'Messages', icon: MessageSquare },
   { to: '/settings', label: 'Settings', icon: Settings },
 ];

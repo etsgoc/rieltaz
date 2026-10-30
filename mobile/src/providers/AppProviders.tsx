@@ -4,6 +4,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { I18nProvider } from '@/i18n/I18nProvider';
 import { ThemeProvider } from '@/theme/ThemeProvider';
 import { CatalogProvider } from './CatalogProvider';
+import { FavoritesProvider } from './FavoritesProvider';
 import { SessionProvider } from './SessionProvider';
 
 export default function AppProviders({ children }: { children: ReactNode }) {
@@ -13,7 +14,7 @@ export default function AppProviders({ children }: { children: ReactNode }) {
         <ThemeProvider>
           <I18nProvider>
             <CatalogProvider>
-              <SessionProvider>{children}</SessionProvider>
+              <SessionProvider><FavoritesProvider>{children}</FavoritesProvider></SessionProvider>
             </CatalogProvider>
           </I18nProvider>
         </ThemeProvider>

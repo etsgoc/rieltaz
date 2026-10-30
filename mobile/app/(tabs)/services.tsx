@@ -8,6 +8,7 @@ import CategoryBar from '@/components/services/CategoryBar';
 import ServiceCard from '@/components/services/ServiceCard';
 import EmptyState from '@/components/ui/EmptyState';
 import Screen from '@/components/ui/Screen';
+import TabScreen from '@/components/ui/TabScreen';
 import Txt from '@/components/ui/Txt';
 
 export default function Services() {
@@ -22,14 +23,11 @@ export default function Services() {
   const current = cats.find(c => c.id === active) ?? cats[0];
   const list = servicesIn(cat, current.id);
   return (
-    <Screen tabs>
-      <Txt size={30} weight="heavy" style={{ marginBottom: 4 }}>{t('svc.title')}</Txt>
-      <Txt color="muted" style={{ marginBottom: 14 }}>{t('svc.subtitle')}</Txt>
-      <CategoryBar categories={cats} value={current.id} onChange={setActive} />
+    <TabScreen title={t('svc.title')} extra={<CategoryBar categories={cats} value={current.id} onChange={setActive} />}>
       <Txt color="muted" style={{ marginBottom: 12 }}>{current.blurb}</Txt>
       <View style={{ gap: 14 }}>
         {list.length ? list.map(s => <ServiceCard key={s.id} s={s} />) : <EmptyState title={t('svc.empty')} />}
       </View>
-    </Screen>
+    </TabScreen>
   );
 }

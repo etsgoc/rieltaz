@@ -2,6 +2,7 @@ import { useSearchParams } from 'react-router-dom';
 import { useCatalog } from '@/providers/CatalogProvider';
 import { useI18n } from '@/providers/I18nProvider';
 import Button from '@/components/ui/Button';
+import { usePageMeta } from '@/lib/meta';
 import Dropdown from '@/components/ui/Dropdown';
 import EmptyState from '@/components/ui/EmptyState';
 import PropertyCard from '@/components/property/PropertyCard';
@@ -10,6 +11,7 @@ export default function Properties() {
   const { cat } = useCatalog();
   const { t } = useI18n();
   const [params, setParams] = useSearchParams();
+  usePageMeta(t('nav.browse'), t('home.subtitle'));
   const area = params.get('area') ?? 'all';
   const own = params.get('own') ?? 'all';
   const areas = [...new Set(cat.projects.map(p => p.location.area))];

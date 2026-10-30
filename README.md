@@ -1,4 +1,4 @@
-# Rieltaz
+# Reeltaz
 
 One brand for every developer you work with. Residences, reservations with a call to the developer, and a services marketplace (transfers, flights, visas, rentals and more).
 
@@ -6,6 +6,8 @@ One brand for every developer you work with. Residences, reservations with a cal
 data/properties.json     listings, payment plans, fees, services, partners, feature switches (edit this)
 packages/core            shared code: catalog loader, quote maths, services and order helpers, translations
 supabase/schema.sql      run once in the Supabase SQL editor
+supabase/emails.sql      email triggers (optional, see Emails)
+supabase/functions/notify  the email function (optional)
 web/                     website            (Vite, React, React Router)
 admin/                   admin dashboard    (Vite, React, React Router)
 mobile/                  app                (Expo, Expo Router)
@@ -44,7 +46,24 @@ Two switches in `properties.json`:
 - `services: false` hides the Services tab on web and mobile.
 - `onlinePayments: true` shows the Pay button. Implement a provider in `packages/core/src/payments.ts` (Stripe Connect or similar, which can split the payout) and call it from `OrderTicket`.
 
-## 5. Deploying
+## 5. Emails
+Emails are optional and use Resend (free plan: 3,000 emails a month, 100 a day) through one Supabase Edge Function.
+
+1. Create a Resend account, add your domain and copy an API key. Without a verified domain Resend only delivers to your own address.
+2. Install the Supabase CLI and, from the repo root, run:
+   ```
+   supabase link --project-ref YOUR_PROJECT_REF
+   supabase secrets set RESEND_API_KEY=... FROM_EMAIL="Reeltaz <hello@yourdomain.com>" ADMIN_EMAIL=you@yourdomain.com WEBHOOK_SECRET=choose-a-long-random-string SITE_URL=https://yourdomain.com
+   supabase functions deploy notify --no-verify-jwt
+   ```
+3. In `supabase/emails.sql` replace `YOUR_PROJECT_REF` and `YOUR_SECRET` (same value as `WEBHOOK_SECRET`), then run it in the SQL editor.
+
+You get an email for each new reservation, call request, service request and message. Customers get an email when a request arrives, when you add a Meet link, when a stage changes, and when a service is confirmed (with the ticket code).
+
+## 6. Legal pages and cookies
+Terms, privacy, refund and cookie pages are generated from `packages/core/src/legal.ts` and show on web (`/legal/...`) and in the mobile Account tab. Set your real company name, email and address in the `legal` block of `data/properties.json`. They are a sensible starting template, so have a lawyer review them before launch. The website asks for cookie consent and loads maps and 360 tours only after the visitor allows it.
+
+## 7. Deploying
 - Web and admin: Vercel, Netlify or Cloudflare Pages. Root directory `web` or `admin`, build `npm run build`, output `dist`. Redirect files for single page routing are included.
 - Mobile: `eas build` from the `mobile` folder.
 
@@ -52,3 +71,6 @@ Two switches in `properties.json`:
 - The reservation price is sent by the client. Check it against your price list in the admin before accepting.
 - Polish and Thai cover the main screens. Anything missing falls back to English. Have a native speaker check them before launch.
 - Dark theme background is `#1e1e1e`.
+- The admin Listings page edits unit prices, availability, services and the feature switches, then downloads a new `properties.json` for you to commit.
+- Saved properties are stored on the device (web and mobile). No account needed.
+- `npm run build` in `web` also regenerates `public/sitemap.xml` and `robots.txt` from the catalog, using `VITE_SITE_URL`.

@@ -22,3 +22,5 @@ code { background: var(--surface-2); padding: 2px 6px; border-radius: 6px; font-
   .side-foot { margin: 0 0 0 auto; flex-direction: row; } .side-foot .btn span, .side-foot .btn { font-size: 0; gap: 0; padding: 10px; }
   .deal { grid-template-columns: 1fr; }
 }
+.table-wrap { overflow-x: auto; padding: 8px 16px; } .table-wrap table { min-width: 560px; } .table-wrap th { text-align: left; font-size: 13px; color: var(--muted); font-weight: 600; padding: 10px 8px; } .table-wrap td { padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: middle; } .table-wrap td:last-child, .table-wrap th:last-child { text-align: left; } .table-wrap .input { max-width: 160px; }
+.filters { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }

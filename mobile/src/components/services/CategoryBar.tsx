@@ -9,7 +9,7 @@ import { categoryIcon } from './icons';
 export default function CategoryBar({ categories, value, onChange }: { categories: ServiceCategory[]; value: string; onChange: (id: string) => void }) {
   const { colors } = useTheme();
   return (
-    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8, paddingHorizontal: 18 }} style={{ flexGrow: 0, marginHorizontal: -18, marginBottom: 14 }}>
+    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8, paddingHorizontal: 18 }} style={{ flexGrow: 0, marginHorizontal: -18 }}>
       {categories.map(c => {
         const on = c.id === value;
         const Icon = categoryIcon(c.icon);

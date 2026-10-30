@@ -11,6 +11,7 @@ import { radius } from '@/theme/colors';
 import Chip from '../ui/Chip';
 import Cover from '../ui/Cover';
 import Txt from '../ui/Txt';
+import HeartButton from './HeartButton';
 
 export default function PropertyCard({ p }: { p: Project }) {
   const router = useRouter();
@@ -22,7 +23,10 @@ export default function PropertyCard({ p }: { p: Project }) {
   return (
     <Pressable onPress={() => router.push(`/property/${p.id}`)}
       style={({ pressed }) => ({ backgroundColor: colors.surface, borderRadius: radius.card, borderWidth: 1, borderColor: colors.line, overflow: 'hidden', transform: [{ scale: pressed ? 0.985 : 1 }] })}>
-      <Cover uri={media(cat, p.media.cover)} seed={p.id} style={{ height: 190, width: '100%' }} />
+      <View>
+        <Cover uri={media(cat, p.media.cover)} seed={p.id} style={{ height: 190, width: '100%' }} />
+        <HeartButton id={p.id} style={{ position: 'absolute', top: 12, right: 12 }} />
+      </View>
       <View style={{ padding: 16, gap: 8 }}>
         <Txt size={19} weight="bold">{p.name}</Txt>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 }}>

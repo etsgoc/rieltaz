@@ -5,6 +5,7 @@ import { useIsAdmin } from './lib/useAdmin';
 import { useSession } from './providers/SessionProvider';
 import Dashboard from './pages/Dashboard';
 import Deals from './pages/Deals';
+import Listings from './pages/Listings';
 import Login from './pages/Login';
 import Messages from './pages/Messages';
 import Orders from './pages/Orders';
@@ -22,6 +23,7 @@ export default function App() {
       <Route element={<Shell />}>
         <Route index element={<Dashboard />} />
         <Route path="deals" element={<Deals />} />
+        <Route path="listings" element={<Listings />} />
         <Route path="orders" element={<Orders />} />
         <Route path="messages" element={<Messages />} />
         <Route path="settings" element={<Settings />} />

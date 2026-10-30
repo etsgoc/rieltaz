@@ -7,6 +7,7 @@ import { useI18n } from '@/providers/I18nProvider';
 import { thb } from '@/lib/format';
 import Chip from '../ui/Chip';
 import Cover from '../ui/Cover';
+import HeartButton from './HeartButton';
 
 export default function PropertyCard({ p }: { p: Project }) {
   const { cat } = useCatalog();
@@ -15,7 +16,7 @@ export default function PropertyCard({ p }: { p: Project }) {
   const count = unitsOf(cat, p.id).length;
   return (
     <Link to={`/properties/${p.id}`} className="card property-card">
-      <div className="card-media"><Cover src={media(cat, p.media.cover)} seed={p.id} alt={p.name} /></div>
+      <div className="card-media"><Cover src={media(cat, p.media.cover)} seed={p.id} alt={p.name} /><HeartButton id={p.id} /></div>
       <div className="card-body">
         <h3>{p.name}</h3>
         <p className="muted loc"><MapPin size={14} />{p.location.area}, {p.location.city}</p>

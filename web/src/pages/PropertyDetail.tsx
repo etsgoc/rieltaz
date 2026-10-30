@@ -10,6 +10,8 @@ import Button from '@/components/ui/Button';
 import Chip from '@/components/ui/Chip';
 import EmptyState from '@/components/ui/EmptyState';
 import ContactForm from '@/components/forms/ContactForm';
+import ConsentGate from '@/components/ui/ConsentGate';
+import { usePageMeta } from '@/lib/meta';
 import Gallery from '@/components/property/Gallery';
 import MapView from '@/components/property/MapView';
 import ReservePanel from '@/components/property/ReservePanel';
@@ -30,6 +32,7 @@ export default function PropertyDetail() {
   }, [id]);
 
   const p = cat.projects.find(x => x.id === id);
+  usePageMeta(p?.name, p?.tagline);
   if (!p) return <div className="wrap section"><EmptyState title={t('prop.notFound')}><Button to="/properties" variant="soft">{t('prop.back')}</Button></EmptyState></div>;
 
   const units = unitsOf(cat, p.id).filter(u => u.status === 'available' && !taken.has(`${p.id}:${u.id}`));
@@ -58,9 +61,9 @@ export default function PropertyDetail() {
           {p.leaseTerms ? <><h2>{t('prop.leaseTerms')}</h2><p className="body-text">{String(p.leaseTerms)}</p></> : null}
           {p.management ? <><h2>{t('prop.management')}</h2><p className="body-text">{String(p.management)}</p></> : null}
           {amenities.length > 0 && <><h2>{t('prop.amenities')}</h2><div className="chips">{amenities.map(a => <Chip key={a}>{a}</Chip>)}</div></>}
-          {tour && <><h2>{t('prop.tour')}</h2><Tour360 tour={tour} /></>}
+          {tour && <><h2>{t('prop.tour')}</h2><ConsentGate><Tour360 tour={tour} /></ConsentGate></>}
           <h2>{t('prop.map')}</h2>
-          <MapView lat={p.location.lat} lng={p.location.lng} name={p.name} />
+          <ConsentGate><MapView lat={p.location.lat} lng={p.location.lng} name={p.name} /></ConsentGate>
         </div>
         <aside className="detail-side" id="reserve" ref={panel}>
           <div className="panel sticky">

@@ -19,7 +19,7 @@ export const features = (cat: Catalog): Features => ({
 });
 
 export const servicesIn = (cat: Catalog, categoryId: string): Service[] =>
-  (cat.services ?? []).filter(s => s.categoryId === categoryId);
+  (cat.services ?? []).filter(s => s.categoryId === categoryId && !s.hidden);
 
 export function estimate(service: Service, optionId?: string, people = 1): number | null {
   const opt = service.options?.find(o => o.id === optionId);

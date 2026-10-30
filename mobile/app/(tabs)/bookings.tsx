@@ -11,7 +11,7 @@ import ReservationCard, { type PaymentRow, type Reservation } from '@/components
 import OrderTicket from '@/components/services/OrderTicket';
 import Button from '@/components/ui/Button';
 import EmptyState from '@/components/ui/EmptyState';
-import Screen from '@/components/ui/Screen';
+import TabScreen from '@/components/ui/TabScreen';
 import Segmented from '@/components/ui/Segmented';
 import Txt from '@/components/ui/Txt';
 
@@ -44,20 +44,14 @@ export default function Bookings() {
 
   if (!session) {
     return (
-      <Screen tabs>
-        <Txt size={30} weight="heavy" style={{ marginBottom: 14 }}>{t('nav.bookings')}</Txt>
+      <TabScreen title={t('nav.bookings')}>
         <EmptyState title={t('res.signInFirst')}><Button label={t('auth.signIn')} onPress={() => router.push('/auth')} /></EmptyState>
-      </Screen>
+      </TabScreen>
     );
   }
   return (
-    <Screen tabs refreshControl={refresh}>
-      <Txt size={30} weight="heavy" style={{ marginBottom: 14 }}>{t('nav.bookings')}</Txt>
-      {features.services ? (
-        <View style={{ marginBottom: 16 }}>
-          <Segmented value={tab} onChange={setTab} options={[{ value: 'reservations', label: t('bookings.title') }, { value: 'orders', label: t('orders.title') }]} />
-        </View>
-      ) : null}
+    <TabScreen title={t('nav.bookings')} refreshControl={refresh}
+      extra={features.services ? <Segmented value={tab} onChange={setTab} options={[{ value: 'reservations', label: t('bookings.title') }, { value: 'orders', label: t('orders.title') }]} /> : undefined}>
       <View style={{ gap: 14 }}>
         {tab === 'reservations'
           ? (rows?.length ? rows.map(r => <ReservationCard key={r.id} r={r} projectName={cat.projects.find(p => p.id === r.project_id)?.name ?? r.project_id} payments={pay.filter(p => p.reservation_id === r.id)} />)
@@ -65,6 +59,6 @@ export default function Bookings() {
           : (orders?.length ? orders.map(o => <OrderTicket key={o.id} o={o} />)
             : orders && <EmptyState title={t('orders.empty')}><Button variant="soft" label={t('nav.services')} onPress={() => router.navigate('/services')} compact /></EmptyState>)}
       </View>
-    </Screen>
+    </TabScreen>
   );
 }

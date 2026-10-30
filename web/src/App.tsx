@@ -4,6 +4,8 @@ import About from './pages/About';
 import Account from './pages/Account';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
+import Legal from './pages/Legal';
+import Saved from './pages/Saved';
 import NotFound from './pages/NotFound';
 import PropertyDetail from './pages/PropertyDetail';
 import Properties from './pages/Properties';
@@ -21,6 +23,8 @@ export default function App() {
         <Route path="account" element={<Account />} />
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
+        <Route path="saved" element={<Saved />} />
+        <Route path="legal/:doc" element={<Legal />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

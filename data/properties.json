@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "2026-10-29",
+  "version": 3,
+  "updatedAt": "2026-10-31",
   "mediaBase": "https://drive.google.com/thumbnail?sz=w1600&id=",
   "contact": {
     "phone": "+66 99 259 6525",
@@ -2396,5 +2396,10 @@
       "id": "legal-partner",
       "name": "Legal partner"
     }
-  ]
+  ],
+  "legal": {
+    "company": "Reeltaz (legal entity to be added)",
+    "email": "info@thetreesresidencephuket.com",
+    "address": "Warsaw, Poland"
+  }
 }

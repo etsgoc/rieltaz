@@ -12,7 +12,7 @@ import Button from '@/components/ui/Button';
 import Chip from '@/components/ui/Chip';
 import EmptyState from '@/components/ui/EmptyState';
 import { Mark } from '@/components/ui/Cover';
-import Screen from '@/components/ui/Screen';
+import TabScreen from '@/components/ui/TabScreen';
 import Txt from '@/components/ui/Txt';
 
 export default function Explore() {
@@ -26,11 +26,8 @@ export default function Explore() {
   const list = cat.projects.filter(p => (area === 'all' || p.location.area === area) && (own === 'all' || p.ownership.includes(own)));
 
   return (
-    <Screen tabs>
-      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 18 }}>
-        <Mark size={34} /><Txt size={22} weight="heavy">Rieltaz</Txt>
-      </View>
-      <Txt size={32} weight="heavy" style={{ lineHeight: 36, letterSpacing: -0.6 }}>{t('home.title')}</Txt>
+    <TabScreen title="Reeltaz" icon={<Mark size={36} />}>
+      <Txt size={26} weight="heavy" style={{ lineHeight: 31, letterSpacing: -0.4 }}>{t('home.title')}</Txt>
       <Txt color="muted" style={{ marginTop: 8, marginBottom: 16 }}>{t('home.subtitle')}</Txt>
 
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ flexGrow: 0, marginHorizontal: -18 }} contentContainerStyle={{ gap: 8, paddingHorizontal: 18, paddingBottom: 4 }}>
@@ -73,6 +70,6 @@ export default function Explore() {
         <Txt size={14} style={{ color: '#A3A3A3' }}>{t('contact.subtitle')}</Txt>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 8 }}><Txt weight="semibold" style={{ color: '#7BA3FF' }}>{t('nav.contact')}</Txt><ArrowRight size={16} color="#7BA3FF" /></View>
       </Pressable>
-    </Screen>
+    </TabScreen>
   );
 }
