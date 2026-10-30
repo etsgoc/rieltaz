@@ -28,7 +28,7 @@ export default function Explore() {
   return (
     <Screen tabs>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 18 }}>
-        <Mark size={34} /><Txt size={22} weight="heavy">Reeltaz</Txt>
+        <Mark size={34} /><Txt size={22} weight="heavy">Rieltaz</Txt>
       </View>
       <Txt size={32} weight="heavy" style={{ lineHeight: 36, letterSpacing: -0.6 }}>{t('home.title')}</Txt>
       <Txt color="muted" style={{ marginTop: 8, marginBottom: 16 }}>{t('home.subtitle')}</Txt>

@@ -9,5 +9,5 @@ const html = (url: string) => `<!doctype html><html><head><meta name="viewport" 
 
 export default function Pano({ tour }: { tour: Tour }) {
   if (tour.type === 'embed') return <WebView source={{ uri: tour.url }} allowsFullscreenVideo style={{ flex: 1 }} />;
-  return <WebView originWhitelist={['*']} source={{ html: html(tour.url), baseUrl: 'https://reeltaz.app' }} style={{ flex: 1, backgroundColor: '#000' }} />;
+  return <WebView originWhitelist={['*']} source={{ html: html(tour.url), baseUrl: 'https://rieltaz.app' }} style={{ flex: 1, backgroundColor: '#000' }} />;
 }

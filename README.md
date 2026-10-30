@@ -1,4 +1,4 @@
-# Reeltaz
+# Rieltaz
 
 One brand for every developer you work with. Residences, reservations with a call to the developer, and a services marketplace (transfers, flights, visas, rentals and more).
 

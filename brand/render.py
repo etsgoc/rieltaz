@@ -29,7 +29,7 @@ def build(app, root):
     add(f'{root}/icon-maskable-512.png', tile(bg, fg, door, rx=0, scale=0.72), 512)
     add(f'{root}/favicon-32.png', tile(bg, fg, door, rx=96), 32)
     add(f'{root}/favicon-48.png', tile(bg, fg, door, rx=96), 48)
-    og = svg(1200, 630, f'<rect width="1200" height="630" fill="{DARK}"/><g transform="translate(90 190) scale(0.5)">' + tile(DARK, LIGHT, BLUE_L, rx=112).replace('<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">', '').replace('</svg>', '') + f'</g><text x="90" y="520" font-family="Arial, Helvetica, sans-serif" font-size="46" fill="{LIGHT}" font-weight="700">Reeltaz</text><text x="90" y="575" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#a3a3a3">Residences in Phuket, with a clear path to reserve</text>')
+    og = svg(1200, 630, f'<rect width="1200" height="630" fill="{DARK}"/><g transform="translate(90 190) scale(0.5)">' + tile(DARK, LIGHT, BLUE_L, rx=112).replace('<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">', '').replace('</svg>', '') + f'</g><text x="90" y="520" font-family="Arial, Helvetica, sans-serif" font-size="46" fill="{LIGHT}" font-weight="700">Rieltaz</text><text x="90" y="575" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#a3a3a3">Residences in Phuket, with a clear path to reserve</text>')
     if app == 'web': add(f'{root}/og.png', og, 1200)
 
 mobile = 'mobile/assets'

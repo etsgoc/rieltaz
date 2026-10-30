@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "Reeltaz",
-    "slug": "reeltaz",
+    "name": "Rieltaz",
+    "slug": "rieltaz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "reeltaz",
+    "scheme": "rieltaz",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "ios": { "supportsTablet": false, "bundleIdentifier": "app.reeltaz.mobile" },
+    "ios": { "supportsTablet": false, "bundleIdentifier": "app.rieltaz.mobile" },
     "android": {
-      "package": "app.reeltaz.mobile",
+      "package": "app.rieltaz.mobile",
       "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#1E1E1E" }
     },
     "web": { "favicon": "./assets/favicon.png", "bundler": "metro" },

@@ -7,7 +7,7 @@ export default function Logo() {
         <path d="M158 262 L256 176 L354 262 V388 a28 28 0 0 1 -28 28 H186 a28 28 0 0 1 -28 -28 Z" fill="#fff" />
         <path d="M222 416 V350 a34 34 0 0 1 68 0 V416 Z" fill="#1e1e1e" />
       </svg>
-      <span>Reeltaz <em>Admin</em></span>
+      <span>Rieltaz <em>Admin</em></span>
     </span>
   );
 }

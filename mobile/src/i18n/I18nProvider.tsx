@@ -6,7 +6,7 @@ import type { Key, Lang } from '@core';
 
 type T = (key: Key, vars?: Record<string, string | number>) => string;
 const Ctx = createContext<{ lang: Lang; setLang: (l: Lang) => void; t: T } | null>(null);
-const KEY = 'reeltaz.lang';
+const KEY = 'rieltaz.lang';
 
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Lang>(detectLang(getLocales()[0]?.languageCode));

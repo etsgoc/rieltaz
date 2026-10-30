@@ -5,7 +5,7 @@ import { palettes, type Palette } from './colors';
 
 export type Mode = 'system' | 'light' | 'dark';
 const Ctx = createContext<{ colors: Palette; dark: boolean; mode: Mode; setMode: (m: Mode) => void } | null>(null);
-const KEY = 'reeltaz.theme';
+const KEY = 'rieltaz.theme';
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const system = useColorScheme();

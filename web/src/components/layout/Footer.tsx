@@ -26,7 +26,7 @@ export default function Footer() {
           {cat.contact?.email && <a href={`mailto:${cat.contact.email}`}>{cat.contact.email}</a>}
         </div>
       </div>
-      <div className="wrap footer-end muted">© {new Date().getFullYear()} Reeltaz. {t('footer.rights')}</div>
+      <div className="wrap footer-end muted">© {new Date().getFullYear()} Rieltaz. {t('footer.rights')}</div>
     </footer>
   );
 }

@@ -17,5 +17,5 @@ export const th: Partial<Record<keyof typeof en, string>> = {
   'stage.requested': 'ส่งคำขอ', 'stage.meeting_booked': 'นัดคุยแล้ว', 'stage.documents': 'เอกสาร', 'stage.reservation_signed': 'เซ็นใบจองแล้ว', 'stage.fee_paid': 'ชำระค่าจองแล้ว', 'stage.contract_signed': 'เซ็นสัญญาแล้ว', 'stage.closed': 'ปิดดีล', 'stage.cancelled': 'ยกเลิก',
   'auth.signIn': 'เข้าสู่ระบบ', 'auth.signUp': 'สมัครสมาชิก', 'auth.name': 'ชื่อ-นามสกุล', 'auth.email': 'อีเมล', 'auth.password': 'รหัสผ่าน', 'auth.haveAccount': 'ฉันมีบัญชีแล้ว', 'auth.noAccount': 'สมัครสมาชิก', 'auth.titleIn': 'ยินดีต้อนรับกลับ', 'auth.titleUp': 'สร้างบัญชีของคุณ',
   'contact.title': 'ส่งข้อความถึงเรา', 'contact.name': 'ชื่อ', 'contact.email': 'อีเมล', 'contact.message': 'ข้อความ', 'contact.send': 'ส่งข้อความ', 'contact.thanks': 'ขอบคุณ เราจะตอบทางอีเมล', 'contact.failed': 'ส่งไม่สำเร็จ ลองอีกครั้ง',
-  'about.title': 'เกี่ยวกับ Reeltaz', 'footer.tagline': 'ที่พักและบริการในภูเก็ต', 'footer.explore': 'สำรวจ', 'footer.support': 'ช่วยเหลือ', 'footer.rights': 'สงวนลิขสิทธิ์',
+  'about.title': 'เกี่ยวกับ Rieltaz', 'footer.tagline': 'ที่พักและบริการในภูเก็ต', 'footer.explore': 'สำรวจ', 'footer.support': 'ช่วยเหลือ', 'footer.rights': 'สงวนลิขสิทธิ์',
 };

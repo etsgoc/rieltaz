@@ -1,5 +1,5 @@
 {
-  "name": "reeltaz-web", "private": true, "version": "1.0.0", "type": "module",
+  "name": "rieltaz-web", "private": true, "version": "1.0.0", "type": "module",
   "scripts": { "dev": "vite", "build": "tsc --noEmit && vite build", "preview": "vite preview", "typecheck": "tsc --noEmit" },
   "dependencies": {
     "@fontsource-variable/public-sans": "^5.2.0", "@supabase/supabase-js": "^2.45.0", "lucide-react": "^0.460.0",
