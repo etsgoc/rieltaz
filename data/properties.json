@@ -1,10 +1,14 @@
 {
-  "version": 3,
-  "updatedAt": "2026-10-31",
+  "version": 4,
+  "updatedAt": "2026-11-08",
   "mediaBase": "https://drive.google.com/thumbnail?sz=w1600&id=",
   "contact": {
     "phone": "+66 99 259 6525",
-    "email": "info@thetreesresidencephuket.com"
+    "email": "info@thetreesresidencephuket.com",
+    "whatsapp": "+66 99 259 6525",
+    "hours": "Messages answered within one working day",
+    "formEndpoint": "",
+    "formKey": ""
   },
   "developers": [
     {
@@ -32,7 +36,8 @@
         "area": "Bang Tao",
         "city": "Phuket",
         "lat": 8.0,
-        "lng": 98.3
+        "lng": 98.3,
+        "country": "Thailand"
       },
       "ownership": [
         "leasehold"
@@ -88,7 +93,9 @@
       },
       "status": "selling",
       "tagline": "Hotel managed residences in Bang Tao",
-      "summary": "Low rise residences set in the Bang Tao hills, run like a five star hotel. Stay when you like and let the hotel rent the unit when you do not. 168 units across 10 buildings, handover in Q4 2028."
+      "summary": "Low rise residences set in the Bang Tao hills, run like a five star hotel. Stay when you like and let the hotel rent the unit when you do not. 168 units across 10 buildings, handover in Q4 2028.",
+      "category": "new-build",
+      "featured": true
     },
     {
       "id": "ever-prime-karon",
@@ -98,7 +105,8 @@
         "area": "Karon",
         "city": "Phuket",
         "lat": 7.84,
-        "lng": 98.3
+        "lng": 98.3,
+        "country": "Thailand"
       },
       "ownership": [
         "leasehold",
@@ -134,7 +142,9 @@
       },
       "status": "selling",
       "tagline": "Furnished one bedrooms in Karon",
-      "summary": "One bedroom residences of 51.36 m² in Karon, sold as leasehold or freehold. Every unit comes with a complimentary furniture package worth 350,000 THB."
+      "summary": "One bedroom residences of 51.36 m² in Karon, sold as leasehold or freehold. Every unit comes with a complimentary furniture package worth 350,000 THB.",
+      "category": "new-build",
+      "featured": true
     },
     {
       "id": "the-element",
@@ -144,7 +154,8 @@
         "area": "Kamala",
         "city": "Phuket",
         "lat": 7.95,
-        "lng": 98.28
+        "lng": 98.28,
+        "country": "Thailand"
       },
       "ownership": [
         "leasehold",
@@ -173,7 +184,536 @@
       },
       "status": "selling",
       "tagline": "Modern residences in Kamala",
-      "summary": "A calm, modern project in Kamala by Anocha. The Timeless Ivory interior collection uses beige, champagne and soft white tones."
+      "summary": "A calm, modern project in Kamala by Anocha. The Timeless Ivory interior collection uses beige, champagne and soft white tones.",
+      "category": "new-build",
+      "featured": true
+    },
+    {
+      "id": "lisbon-chiado-loft",
+      "name": "Chiado Loft",
+      "category": "resale",
+      "featured": true,
+      "location": {
+        "area": "Chiado",
+        "city": "Lisbon",
+        "country": "Portugal",
+        "lat": 38.7109,
+        "lng": -9.1409
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 485000,
+        "currency": "EUR"
+      },
+      "facts": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "area": 96,
+        "year": 2018
+      },
+      "amenities": [
+        "Lift",
+        "Air conditioning",
+        "Balcony",
+        "River view",
+        "Concierge",
+        "Bike storage"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/lisbon-chiado-loft-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/lisbon-chiado-loft-1/1600/1000",
+          "https://picsum.photos/seed/lisbon-chiado-loft-2/1600/1000",
+          "https://picsum.photos/seed/lisbon-chiado-loft-3/1600/1000",
+          "https://picsum.photos/seed/lisbon-chiado-loft-4/1600/1000",
+          "https://picsum.photos/seed/lisbon-chiado-loft-5/1600/1000"
+        ],
+        "tour360": {
+          "type": "pano",
+          "url": "https://pannellum.org/images/alma.jpg"
+        }
+      },
+      "status": "available",
+      "tagline": "Bright two bedroom loft in the heart of Chiado",
+      "summary": "A renovated loft with high ceilings, oak floors and a south facing balcony. Cafes, the metro and the river are a few minutes on foot. Sold freehold and ready to move into."
+    },
+    {
+      "id": "miami-brickell-condo",
+      "name": "Brickell Bay Residence",
+      "category": "resale",
+      "featured": true,
+      "location": {
+        "area": "Brickell",
+        "city": "Miami",
+        "country": "United States",
+        "lat": 25.7617,
+        "lng": -80.1918
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 620000,
+        "currency": "USD"
+      },
+      "facts": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "area": 112,
+        "year": 2015,
+        "parking": 1
+      },
+      "amenities": [
+        "Pool",
+        "Gym",
+        "Concierge",
+        "Bay view",
+        "Valet parking",
+        "Rooftop terrace"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/miami-brickell-condo-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/miami-brickell-condo-1/1600/1000",
+          "https://picsum.photos/seed/miami-brickell-condo-2/1600/1000",
+          "https://picsum.photos/seed/miami-brickell-condo-3/1600/1000",
+          "https://picsum.photos/seed/miami-brickell-condo-4/1600/1000",
+          "https://picsum.photos/seed/miami-brickell-condo-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Bay view condo with resort style amenities",
+      "summary": "A corner two bedroom on a high floor with floor to ceiling glass and a view over Biscayne Bay. The building has a rooftop pool, gym and 24 hour concierge."
+    },
+    {
+      "id": "tenerife-seafront-apt",
+      "name": "Costa Adeje Seafront Apartment",
+      "category": "resale",
+      "featured": false,
+      "location": {
+        "area": "Costa Adeje",
+        "city": "Tenerife",
+        "country": "Spain",
+        "lat": 28.0875,
+        "lng": -16.734
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 365000,
+        "currency": "EUR"
+      },
+      "facts": {
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "area": 78,
+        "year": 2010
+      },
+      "amenities": [
+        "Sea view",
+        "Shared pool",
+        "Terrace",
+        "Garage",
+        "Walk to beach"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/tenerife-seafront-apt-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/tenerife-seafront-apt-1/1600/1000",
+          "https://picsum.photos/seed/tenerife-seafront-apt-2/1600/1000",
+          "https://picsum.photos/seed/tenerife-seafront-apt-3/1600/1000",
+          "https://picsum.photos/seed/tenerife-seafront-apt-4/1600/1000",
+          "https://picsum.photos/seed/tenerife-seafront-apt-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Two minutes from the beach, with a sea view terrace",
+      "summary": "A well kept two bedroom apartment in a gated complex with a shared pool and garage. Works well as a holiday home or a rental."
+    },
+    {
+      "id": "bali-canggu-villa",
+      "name": "Canggu Rice Field Villa",
+      "category": "rental",
+      "featured": true,
+      "location": {
+        "area": "Canggu",
+        "city": "Bali",
+        "country": "Indonesia",
+        "lat": -8.6478,
+        "lng": 115.1385
+      },
+      "ownership": [],
+      "pricing": {
+        "from": 210,
+        "currency": "USD"
+      },
+      "facts": {
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "guests": 6,
+        "area": 220
+      },
+      "amenities": [
+        "Private pool",
+        "Rice field view",
+        "Full kitchen",
+        "Fast wifi",
+        "Scooter hire",
+        "Daily housekeeping"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/bali-canggu-villa-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/bali-canggu-villa-1/1600/1000",
+          "https://picsum.photos/seed/bali-canggu-villa-2/1600/1000",
+          "https://picsum.photos/seed/bali-canggu-villa-3/1600/1000",
+          "https://picsum.photos/seed/bali-canggu-villa-4/1600/1000",
+          "https://picsum.photos/seed/bali-canggu-villa-5/1600/1000"
+        ],
+        "tour360": {
+          "type": "pano",
+          "url": "https://pannellum.org/images/alma.jpg"
+        }
+      },
+      "status": "available",
+      "tagline": "Private pool villa with daily housekeeping",
+      "summary": "Three bedroom villa a short ride from the beach, set against rice fields. Scouted and checked in person. Ask us for dates, long stay prices and direct booking.",
+      "rental": {
+        "nightly": 210,
+        "currency": "USD",
+        "minNights": 3,
+        "cleaningFee": 40,
+        "deposit": 300,
+        "occupancyPct": 78,
+        "rating": 4.9,
+        "reviews": 214,
+        "source": "Airbnb",
+        "sourceUrl": "https://www.airbnb.com",
+        "rules": [
+          "No parties or events",
+          "Check in after 14:00",
+          "No smoking indoors"
+        ]
+      }
+    },
+    {
+      "id": "krakow-old-town-studio",
+      "name": "Old Town Studio",
+      "category": "rental",
+      "featured": false,
+      "location": {
+        "area": "Old Town",
+        "city": "Krakow",
+        "country": "Poland",
+        "lat": 50.0647,
+        "lng": 19.945
+      },
+      "ownership": [],
+      "pricing": {
+        "from": 260,
+        "currency": "PLN"
+      },
+      "facts": {
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "guests": 2,
+        "area": 34
+      },
+      "amenities": [
+        "Wifi",
+        "Kitchen",
+        "Washing machine",
+        "Air conditioning",
+        "Self check in"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/krakow-old-town-studio-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/krakow-old-town-studio-1/1600/1000",
+          "https://picsum.photos/seed/krakow-old-town-studio-2/1600/1000",
+          "https://picsum.photos/seed/krakow-old-town-studio-3/1600/1000",
+          "https://picsum.photos/seed/krakow-old-town-studio-4/1600/1000",
+          "https://picsum.photos/seed/krakow-old-town-studio-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Studio on a quiet street, five minutes from the square",
+      "summary": "A bright studio with a proper kitchen, fast wifi and blackout curtains. Popular all year, especially in summer and at Christmas markets.",
+      "rental": {
+        "nightly": 260,
+        "currency": "PLN",
+        "minNights": 2,
+        "cleaningFee": 80,
+        "deposit": 500,
+        "occupancyPct": 82,
+        "rating": 4.8,
+        "reviews": 96,
+        "source": "Airbnb",
+        "sourceUrl": "https://www.airbnb.com",
+        "rules": [
+          "Quiet hours from 22:00",
+          "Self check in with a key box"
+        ]
+      }
+    },
+    {
+      "id": "athens-koukaki-rental",
+      "name": "Koukaki Garden Flat",
+      "category": "rental",
+      "featured": false,
+      "location": {
+        "area": "Koukaki",
+        "city": "Athens",
+        "country": "Greece",
+        "lat": 37.9644,
+        "lng": 23.7222
+      },
+      "ownership": [],
+      "pricing": {
+        "from": 1450,
+        "currency": "EUR"
+      },
+      "facts": {
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "guests": 3,
+        "area": 58
+      },
+      "amenities": [
+        "Furnished",
+        "Garden",
+        "Air conditioning",
+        "Fibre internet",
+        "Metro nearby"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/athens-koukaki-rental-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/athens-koukaki-rental-1/1600/1000",
+          "https://picsum.photos/seed/athens-koukaki-rental-2/1600/1000",
+          "https://picsum.photos/seed/athens-koukaki-rental-3/1600/1000",
+          "https://picsum.photos/seed/athens-koukaki-rental-4/1600/1000",
+          "https://picsum.photos/seed/athens-koukaki-rental-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Long let near the Acropolis, furnished",
+      "summary": "A furnished one bedroom flat with a small garden, ten minutes on foot from the Acropolis museum. Available for six months or longer.",
+      "rental": {
+        "monthly": 1450,
+        "currency": "EUR",
+        "minNights": 180,
+        "deposit": 2900,
+        "availableFrom": "2027-01-15",
+        "source": "Direct from owner",
+        "rules": [
+          "Minimum six month let",
+          "Bills not included"
+        ]
+      }
+    },
+    {
+      "id": "lisbon-alfama-renovation",
+      "name": "Alfama House Renovation",
+      "category": "investment",
+      "featured": true,
+      "location": {
+        "area": "Alfama",
+        "city": "Lisbon",
+        "country": "Portugal",
+        "lat": 38.7114,
+        "lng": -9.1285
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 320000,
+        "currency": "EUR"
+      },
+      "facts": {
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area": 128,
+        "year": 1930
+      },
+      "amenities": [
+        "River view",
+        "Original tiles",
+        "Roof terrace potential",
+        "Walk to metro"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/lisbon-alfama-renovation-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/lisbon-alfama-renovation-1/1600/1000",
+          "https://picsum.photos/seed/lisbon-alfama-renovation-2/1600/1000",
+          "https://picsum.photos/seed/lisbon-alfama-renovation-3/1600/1000",
+          "https://picsum.photos/seed/lisbon-alfama-renovation-4/1600/1000",
+          "https://picsum.photos/seed/lisbon-alfama-renovation-5/1600/1000"
+        ],
+        "tour360": {
+          "type": "pano",
+          "url": "https://pannellum.org/images/alma.jpg"
+        }
+      },
+      "status": "available",
+      "tagline": "Four storey townhouse to renovate and sell",
+      "summary": "A narrow townhouse with its original tiles and a view over the Tagus, in need of full renovation. Our contractor has priced the works and the numbers are below.",
+      "investment": {
+        "purchasePrice": 320000,
+        "renovationBudget": 140000,
+        "afterRepairValue": 640000,
+        "currency": "EUR",
+        "strategy": "Renovate and sell",
+        "timelineMonths": 9,
+        "targetRaise": 460000,
+        "raised": 275000,
+        "minTicket": 25000,
+        "scope": [
+          "Structural repairs",
+          "New kitchen and two bathrooms",
+          "Electrics and plumbing",
+          "Windows and insulation",
+          "Interior finishing"
+        ]
+      }
+    },
+    {
+      "id": "phuket-rawai-reno",
+      "name": "Rawai Pool Villa Project",
+      "category": "investment",
+      "featured": false,
+      "location": {
+        "area": "Rawai",
+        "city": "Phuket",
+        "country": "Thailand",
+        "lat": 7.7798,
+        "lng": 98.3248
+      },
+      "ownership": [
+        "leasehold"
+      ],
+      "pricing": {
+        "from": 9800000,
+        "currency": "THB"
+      },
+      "facts": {
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "area": 240,
+        "plot": 620,
+        "year": 2009
+      },
+      "amenities": [
+        "Private pool",
+        "Garden",
+        "Parking for three",
+        "Near Nai Harn beach"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/phuket-rawai-reno-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/phuket-rawai-reno-1/1600/1000",
+          "https://picsum.photos/seed/phuket-rawai-reno-2/1600/1000",
+          "https://picsum.photos/seed/phuket-rawai-reno-3/1600/1000",
+          "https://picsum.photos/seed/phuket-rawai-reno-4/1600/1000",
+          "https://picsum.photos/seed/phuket-rawai-reno-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Dated pool villa to refresh and rent",
+      "summary": "A four bedroom villa on a large plot, ten minutes from Nai Harn beach. The plan is a full refresh and a hotel managed rental programme.",
+      "investment": {
+        "purchasePrice": 9800000,
+        "renovationBudget": 3200000,
+        "afterRepairValue": 17000000,
+        "currency": "THB",
+        "strategy": "Renovate and rent",
+        "timelineMonths": 8,
+        "targetRaise": 13000000,
+        "raised": 4200000,
+        "minTicket": 500000,
+        "scope": [
+          "New roof and pool equipment",
+          "Kitchen and bathrooms",
+          "Air conditioning and electrics",
+          "Landscaping",
+          "Furniture package"
+        ]
+      }
+    },
+    {
+      "id": "warsaw-praga-flat",
+      "name": "Praga Prewar Flat",
+      "category": "investment",
+      "featured": false,
+      "location": {
+        "area": "Praga Polnoc",
+        "city": "Warsaw",
+        "country": "Poland",
+        "lat": 52.2563,
+        "lng": 21.0447
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 690000,
+        "currency": "PLN"
+      },
+      "facts": {
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "area": 74,
+        "year": 1936
+      },
+      "amenities": [
+        "Lift planned",
+        "High ceilings",
+        "Metro nearby",
+        "Quiet courtyard"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/warsaw-praga-flat-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/warsaw-praga-flat-1/1600/1000",
+          "https://picsum.photos/seed/warsaw-praga-flat-2/1600/1000",
+          "https://picsum.photos/seed/warsaw-praga-flat-3/1600/1000",
+          "https://picsum.photos/seed/warsaw-praga-flat-4/1600/1000",
+          "https://picsum.photos/seed/warsaw-praga-flat-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Prewar flat in a district on the rise",
+      "summary": "A three room prewar flat on the second floor of a restored tenement. The building is sound, the interior needs a full renovation before resale.",
+      "investment": {
+        "purchasePrice": 690000,
+        "renovationBudget": 180000,
+        "afterRepairValue": 1050000,
+        "currency": "PLN",
+        "strategy": "Renovate and sell",
+        "timelineMonths": 6,
+        "targetRaise": 870000,
+        "raised": 120000,
+        "minTicket": 20000,
+        "scope": [
+          "Floors and walls",
+          "New bathroom",
+          "Kitchen",
+          "Electrics",
+          "Painting and finishing"
+        ]
+      }
     }
   ],
   "paymentPlans": {
@@ -2401,5 +2941,24 @@
     "company": "Reeltaz (legal entity to be added)",
     "email": "info@thetreesresidencephuket.com",
     "address": "Warsaw, Poland"
+  },
+  "agent": {
+    "name": "Edward",
+    "title": "Property consultant",
+    "languages": [
+      "English",
+      "Polish"
+    ]
+  },
+  "hero": {
+    "image": ""
+  },
+  "rates": {
+    "USD": 1,
+    "EUR": 1.08,
+    "GBP": 1.27,
+    "THB": 0.029,
+    "PLN": 0.25,
+    "IDR": 6.2e-05
   }
 }

@@ -12,9 +12,6 @@
       ],
       "@data/*": [
         "../data/*"
-      ],
-      "@supabase/supabase-js": [
-        "./node_modules/@supabase/supabase-js"
       ]
     }
   },

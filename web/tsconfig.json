@@ -4,8 +4,7 @@
     "jsx": "react-jsx", "strict": true, "skipLibCheck": true, "noEmit": true, "resolveJsonModule": true, "isolatedModules": true,
     "types": ["vite/client"],
     "baseUrl": ".",
-    "paths": { "@core": ["../packages/core/src"], "@core/*": ["../packages/core/src/*"], "@data/*": ["../data/*"], "@/*": ["src/*"],
-      "@supabase/supabase-js": ["./node_modules/@supabase/supabase-js"] }
+    "paths": { "@core": ["../packages/core/src"], "@core/*": ["../packages/core/src/*"], "@data/*": ["../data/*"], "@/*": ["src/*"] }
   },
   "include": ["src", "../packages/core/src"]
 }

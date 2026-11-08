@@ -13,7 +13,7 @@ export default function NavSheet({ open, onClose }: { open: boolean; onClose: ()
     ...(features.services ? [{ to: '/services', label: t('nav.services') }] : []),
     { to: '/about', label: t('nav.about') },
     { to: '/contact', label: t('nav.contact') },
-    { to: '/account', label: t('nav.account') },
+    { to: '/saved', label: t('nav.saved') },
   ];
   return (
     <Sheet open={open} onClose={onClose} title={t('nav.menu')}>

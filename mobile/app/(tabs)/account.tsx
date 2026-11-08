@@ -1,13 +1,10 @@
 import { useRouter } from 'expo-router';
-import { Check, ChevronRight, Globe, Heart, Mail, ShieldCheck, UserRound } from 'lucide-react-native';
+import { Check, ChevronRight, Globe, Heart, Mail, ShieldCheck } from 'lucide-react-native';
 import { useState } from 'react';
 import { Pressable, View } from 'react-native';
 import { LANGS } from '@core';
 import { useI18n } from '@/i18n/I18nProvider';
-import { db } from '@/lib/supabase';
-import { useSession } from '@/providers/SessionProvider';
 import { useTheme, type Mode } from '@/theme/ThemeProvider';
-import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
 import TabScreen from '@/components/ui/TabScreen';
 import Segmented from '@/components/ui/Segmented';
@@ -28,19 +25,10 @@ export default function Account() {
   const router = useRouter();
   const { colors, mode, setMode } = useTheme();
   const { lang, setLang, t } = useI18n();
-  const { session } = useSession();
   const [sheet, setSheet] = useState(false);
 
   return (
     <TabScreen title={t('nav.account')}>
-      <Card style={{ gap: 12, marginBottom: 16 }}>
-        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
-          <View style={{ width: 48, height: 48, borderRadius: 24, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center' }}><UserRound size={22} color={colors.accent} /></View>
-          <Txt weight="semibold" style={{ flex: 1 }} numberOfLines={1}>{session?.user.email ?? t('auth.subtitle')}</Txt>
-        </View>
-        {session ? <Button variant="soft" label={t('common.signOut')} onPress={() => db.auth.signOut()} compact /> : <Button label={t('auth.signIn')} onPress={() => router.push('/auth')} />}
-      </Card>
-
       <Card style={{ gap: 12, marginBottom: 16 }}>
         <Txt weight="semibold">{t('common.theme')}</Txt>
         <Segmented<Mode> value={mode} onChange={setMode} options={[{ value: 'light', label: t('common.light') }, { value: 'dark', label: t('common.dark') }, { value: 'system', label: t('common.system') }]} />

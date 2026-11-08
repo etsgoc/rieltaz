@@ -1,6 +1,6 @@
 # Reeltaz
 
-One brand for every developer you work with. Residences, reservations with a call to the developer, and a services marketplace (transfers, flights, visas, rentals and more).
+Properties from anywhere in the world in one place: new developments, resale homes, rentals and stays, and renovation projects for investors. Visitors need no account. They find a property and call, message on WhatsApp or email you from the listing.
 
 ```
 data/properties.json     listings, payment plans, fees, services, partners, feature switches (edit this)
@@ -16,10 +16,13 @@ brand/                   icon generator (python3 brand/render.py)
 
 Web, admin and mobile are separate apps with their own `package.json`. They share `packages/core` and `data/`, so keep the whole folder in one git repo.
 
-## 1. Supabase
-1. Create a project and run `supabase/schema.sql`.
-2. Sign up once in the website, then make yourself admin in the SQL editor:
-   `update profiles set role = 'admin' where email = 'you@example.com';`
+## 1. Contact, no backend
+The website and the app have no login and no database. Edit the `contact` and `agent` blocks in `data/properties.json`:
+```
+"contact": { "phone": "...", "email": "...", "whatsapp": "...", "hours": "...", "city": "...", "formEndpoint": "", "formKey": "" }
+```
+Call, WhatsApp and email buttons work on their own. The enquiry form opens the visitor's email app with the message written. For a form that posts straight to you, create a free Formspree or Web3Forms form and paste its URL in `formEndpoint` (and the access key in `formKey` for Web3Forms).
+`supabase/` and `admin/` are no longer used by the website or the app. Keep or delete them.
 
 ## 2. Run the apps
 ```
@@ -27,7 +30,6 @@ cd web     && cp .env.example .env && npm install && npm run dev
 cd admin   && cp .env.example .env && npm install && npm run dev
 cd mobile  && cp .env.example .env && npm install && npx expo install --fix && npx expo start
 ```
-Fill the two Supabase values in each `.env`. Web and admin also work without them (browse only).
 
 ## 3. Listings data
 The catalog is bundled into every app, so listings always load. At runtime the apps try, in order: a fresh local copy, `CATALOG_URL`, the backup URL, the GitHub copy, then the bundled one. A remote file is only used when its `version` is the same or higher than the bundled one. After editing `data/properties.json`, raise `version`, push it to your GitHub repo and the apps pick it up within 30 minutes.
@@ -74,3 +76,14 @@ Terms, privacy, refund and cookie pages are generated from `packages/core/src/le
 - The admin Listings page edits unit prices, availability, services and the feature switches, then downloads a new `properties.json` for you to commit.
 - Saved properties are stored on the device (web and mobile). No account needed.
 - `npm run build` in `web` also regenerates `public/sitemap.xml` and `robots.txt` from the catalog, using `VITE_SITE_URL`.
+
+## Listing types
+Each project in `data/properties.json` has a `category`: `new-build`, `resale`, `rental` or `investment`. The page layout follows the content:
+- Units in the `units` list: unit picker and payment plan (new developments).
+- A `rental` block: stay terms, rating, house rules (Airbnb style finds and long lets).
+- An `investment` block: purchase, renovation budget, value after renovation, return, funding progress.
+- Anything else: price, facts, amenities, 360 tour, map.
+`facts` (bedrooms, bathrooms, area, guests, plot, year) feed the cards. `location.country` groups listings by place. `hero.image` replaces the home page picture. `rates` is only used to sort listings priced in different currencies.
+
+## Hosting free on GitHub
+`.github/workflows/deploy-web.yml` builds `web/` and publishes it with GitHub Pages. Set Settings, Pages, Source to GitHub Actions. Note that GitHub says Pages is not meant for sites mainly handling commercial transactions. Cloudflare Pages is free too and builds the same folder (root `web`, build `npm run build`, output `dist`).

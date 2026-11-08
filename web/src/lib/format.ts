@@ -1,5 +1,6 @@
-export const thb = (n: number, currency = 'THB') =>
-  new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(n) + ' ' + currency;
+import { money } from '@core';
+
+export const thb = (n: number, currency = 'THB') => money(n, currency);
 
 export const dateTime = (iso: string, locale?: string) =>
   new Date(iso).toLocaleString(locale, { dateStyle: 'medium', timeStyle: 'short' });

@@ -1,5 +1,5 @@
 import * as Haptics from 'expo-haptics';
-import { ConciergeBell, Compass, Ticket, UserRound } from 'lucide-react-native';
+import { ConciergeBell, Compass, MessageCircle, UserRound } from 'lucide-react-native';
 import type { Tabs } from 'expo-router';
 import type { ComponentProps } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
@@ -11,8 +11,8 @@ import { useTheme } from '@/theme/ThemeProvider';
 import { radius } from '@/theme/colors';
 import Txt from './ui/Txt';
 
-const icons = { index: Compass, services: ConciergeBell, bookings: Ticket, account: UserRound } as const;
-const labels = { index: 'nav.browse', services: 'nav.services', bookings: 'nav.bookings', account: 'nav.account' } as const;
+const icons = { index: Compass, services: ConciergeBell, contact: MessageCircle, account: UserRound } as const;
+const labels = { index: 'nav.browse', services: 'nav.services', contact: 'nav.contact', account: 'nav.account' } as const;
 type Name = keyof typeof icons;
 
 function Item({ name, active, onPress }: { name: Name; active: boolean; onPress: () => void }) {

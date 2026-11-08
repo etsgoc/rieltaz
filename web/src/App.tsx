@@ -1,7 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import About from './pages/About';
-import Account from './pages/Account';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Legal from './pages/Legal';
@@ -20,7 +19,6 @@ export default function App() {
         <Route path="properties/:id" element={<PropertyDetail />} />
         <Route path="services" element={<Services />} />
         <Route path="services/:category" element={<Services />} />
-        <Route path="account" element={<Account />} />
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
         <Route path="saved" element={<Saved />} />

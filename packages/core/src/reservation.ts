@@ -10,8 +10,9 @@ export function buildQuote(cat: Catalog, unit: Unit, ownership: Ownership) {
   }
   if (unit.status !== 'available') throw new Error('This unit is no longer available');
 
-  const plan = cat.paymentPlans[project.paymentPlan];
-  const fees = cat.feeSchedules[project.fees];
+  const plan = cat.paymentPlans[project.paymentPlan ?? ''];
+  const fees = cat.feeSchedules[project.fees ?? ''];
+  if (!plan || !fees) throw new Error('No payment plan for this project');
   const schedule = plan.steps.map(s => {
     let amount = unit.price * s.pct / 100 + (s.extra ?? 0);
     if (s.lessReservation) amount -= plan.reservation;
