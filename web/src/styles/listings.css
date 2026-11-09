@@ -122,3 +122,10 @@
   .grid.list .facts { gap: 4px 12px; padding-top: 8px; } .grid.list .facts small { display: none; } .grid.list .card-body .chips { display: none; }
 }
 @media (max-width: 640px) { .grid.list .property-card .price-pill .price-tag.muted { font-size: 12px; } }
+
+/* very small phones: let grid columns shrink and long emails wrap */
+.contact-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } @media (max-width: 860px) { .contact-grid { grid-template-columns: minmax(0, 1fr); } }
+.contact-list a, .contact-list strong, .footer-contact a, .footer-contact span, .agent > div, .inq-about { overflow-wrap: anywhere; min-width: 0; }
+.footer-grid > * { min-width: 0; }
+.contact-bar > .price-tag { flex: 1; min-width: 0; } .contact-bar .price-tag strong { font-size: 16px; }
+@media (max-width: 340px) { .contact-bar { left: 8px; right: 8px; padding-left: 12px; gap: 8px; } .actions-bar .act { padding: 10px; } .contact-bar .price-tag small { display: none; } }

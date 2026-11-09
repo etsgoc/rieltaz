@@ -16,7 +16,15 @@ export interface Order {
 export const features = (cat: Catalog): Features => ({
   services: cat.features?.services ?? false,
   onlinePayments: cat.features?.onlinePayments ?? false,
+  serviceCategories: cat.features?.serviceCategories ?? [],
 });
+
+/** Service categories that are switched on. Nothing is shown while `features.services` is off. */
+export const enabledCategories = (cat: Catalog) => {
+  const f = features(cat);
+  if (!f.services) return [];
+  return (cat.serviceCategories ?? []).filter(c => !f.serviceCategories.length || f.serviceCategories.includes(c.id));
+};
 
 export const servicesIn = (cat: Catalog, categoryId: string): Service[] =>
   (cat.services ?? []).filter(s => s.categoryId === categoryId && !s.hidden);

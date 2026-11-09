@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight, Building2, Hammer, Home as HomeIcon, KeyRound, MapPin, Search, type LucideIcon } from 'lucide-react';
-import { categoryOf, CATEGORIES } from '@core';
+import { categoryOf, CATEGORIES, enabledCategories } from '@core';
 import type { PropertyCategory } from '@core';
 import { useCatalog } from '@/providers/CatalogProvider';
 import { useI18n } from '@/providers/I18nProvider';
@@ -16,7 +16,8 @@ import { usePageMeta } from '@/lib/meta';
 const ICONS: Record<PropertyCategory, LucideIcon> = { 'new-build': Building2, resale: HomeIcon, rental: KeyRound, investment: Hammer };
 
 export default function Home() {
-  const { cat, features } = useCatalog();
+  const { cat } = useCatalog();
+  const serviceCats = enabledCategories(cat);
   const { t } = useI18n();
   const nav = useNavigate();
   usePageMeta(undefined, t('home.subtitle'));
@@ -83,14 +84,14 @@ export default function Home() {
         </ol>
       </section>
 
-      {features.services && cat.serviceCategories && (
+      {serviceCats.length > 0 && (
         <section className="wrap section">
           <div className="section-head">
             <div><h2>{t('home.servicesTitle')}</h2><p className="muted">{t('home.servicesSubtitle')}</p></div>
             <Link to="/services" className="more">{t('common.seeAll')} <ArrowRight size={16} /></Link>
           </div>
           <div className="cat-grid">
-            {cat.serviceCategories.map(c => {
+            {serviceCats.map(c => {
               const Icon = categoryIcon(c.icon);
               return (
                 <Link key={c.id} to={`/services/${c.id}`} className="card cat-card">

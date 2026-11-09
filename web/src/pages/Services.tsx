@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Navigate, useParams } from 'react-router-dom';
-import { servicesIn } from '@core';
+import { enabledCategories, servicesIn } from '@core';
 import type { Service } from '@core';
 import { useCatalog } from '@/providers/CatalogProvider';
 import { useI18n } from '@/providers/I18nProvider';
@@ -12,14 +12,14 @@ import ServiceCard from '@/components/services/ServiceCard';
 import ServiceRequestForm from '@/components/services/ServiceRequestForm';
 
 export default function Services() {
-  const { cat, features } = useCatalog();
+  const { cat } = useCatalog();
   const { t } = useI18n();
   const { category } = useParams();
   const [open, setOpen] = useState<Service | null>(null);
   usePageMeta(t('svc.title'), t('svc.subtitle'));
-  const cats = cat.serviceCategories ?? [];
+  const cats = enabledCategories(cat);
 
-  if (!features.services || !cats.length) return <div className="wrap section"><EmptyState title={t('svc.unavailable')} /></div>;
+  if (!cats.length) return <div className="wrap section"><EmptyState title={t('svc.unavailable')} /></div>;
   const current = cats.find(c => c.id === category);
   if (!current) return <Navigate to={`/services/${cats[0].id}`} replace />;
   const list = servicesIn(cat, current.id);

@@ -1,7 +1,7 @@
 import { useRouter } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { ImageBackground, Pressable, ScrollView, View } from 'react-native';
-import { CATEGORIES, categoryOf } from '@core';
+import { CATEGORIES, categoryOf, enabledCategories } from '@core';
 import type { PropertyCategory } from '@core';
 import { useI18n } from '@/i18n/I18nProvider';
 import { useCatalog } from '@/providers/CatalogProvider';
@@ -20,7 +20,8 @@ import Txt from '@/components/ui/Txt';
 export default function Explore() {
   const router = useRouter();
   const { colors } = useTheme();
-  const { cat, features } = useCatalog();
+  const { cat } = useCatalog();
+  const serviceCats = enabledCategories(cat);
   const { t } = useI18n();
   const [kind, setKind] = useState<'all' | PropertyCategory>('all');
   const [city, setCity] = useState('all');
@@ -62,12 +63,12 @@ export default function Explore() {
         ))}
       </View>
 
-      {features.services && cat.serviceCategories ? (
+      {serviceCats.length > 0 ? (
         <View style={{ marginTop: 32 }}>
           <Txt size={22} weight="bold">{t('home.servicesTitle')}</Txt>
           <Txt color="muted" style={{ marginBottom: 14 }}>{t('home.servicesSubtitle')}</Txt>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginHorizontal: -18 }} contentContainerStyle={{ gap: 12, paddingHorizontal: 18 }}>
-            {cat.serviceCategories.map(c => {
+            {serviceCats.map(c => {
               const Icon = categoryIcon(c.icon);
               return (
                 <Pressable key={c.id} onPress={() => router.navigate({ pathname: '/services', params: { cat: c.id } })}

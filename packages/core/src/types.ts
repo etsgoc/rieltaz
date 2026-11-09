@@ -52,7 +52,8 @@ export interface Contact {
   /** Optional free form endpoint (Formspree, Web3Forms). Without it the form opens the visitor's email app. */
   formEndpoint?: string; formKey?: string;
 }
-export interface Features { services: boolean; onlinePayments: boolean }
+/** `serviceCategories` picks which service categories show when `services` is on. Empty means all of them. */
+export interface Features { services: boolean; onlinePayments: boolean; serviceCategories: string[] }
 
 export interface Catalog {
   version: number; updatedAt: string; mediaBase: string;

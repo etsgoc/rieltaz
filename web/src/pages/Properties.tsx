@@ -13,6 +13,9 @@ import { placeOptions } from '@/lib/places';
 import { useDragScroll } from '@/lib/dragScroll';
 import { usePageMeta } from '@/lib/meta';
 
+const VIEW_KEY = 'propView';
+const readView = () => { try { return localStorage.getItem(VIEW_KEY) === 'list' ? 'list' : 'grid'; } catch { return 'grid'; } };
+
 export default function Properties() {
   const { cat } = useCatalog();
   const { t } = useI18n();
@@ -24,8 +27,11 @@ export default function Properties() {
   const beds = params.get('beds') ?? 'any';
   const own = params.get('own') ?? 'all';
   const sort = params.get('sort') ?? 'featured';
-  const view = params.get('view') ?? 'grid';
-  const set = (k: string, v: string) => { const n = new URLSearchParams(params); n.set(k, v); setParams(n, { replace: true }); };
+  const view = params.get('view') ?? readView();
+  const set = (k: string, v: string) => {
+    if (k === 'view') { try { localStorage.setItem(VIEW_KEY, v); } catch { /* storage blocked */ } }
+    const n = new URLSearchParams(params); n.set(k, v); setParams(n, { replace: true });
+  };
 
   const places = useMemo(() => placeOptions(cat), [cat]);
   const counts = useMemo(() => {

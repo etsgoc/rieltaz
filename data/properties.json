@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updatedAt": "2026-11-08",
   "mediaBase": "https://drive.google.com/thumbnail?sz=w1600&id=",
   "contact": {
@@ -2874,7 +2874,11 @@
     }
   ],
   "features": {
-    "services": true,
+    "services": false,
+    "serviceCategories": [
+      "flights",
+      "rentals"
+    ],
     "onlinePayments": false
   },
   "serviceCategories": [

@@ -1,7 +1,7 @@
 import { useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { View } from 'react-native';
-import { servicesIn } from '@core';
+import { enabledCategories, servicesIn } from '@core';
 import { useI18n } from '@/i18n/I18nProvider';
 import { useCatalog } from '@/providers/CatalogProvider';
 import CategoryBar from '@/components/services/CategoryBar';
@@ -12,14 +12,14 @@ import TabScreen from '@/components/ui/TabScreen';
 import Txt from '@/components/ui/Txt';
 
 export default function Services() {
-  const { cat, features } = useCatalog();
+  const { cat } = useCatalog();
   const { t } = useI18n();
   const params = useLocalSearchParams<{ cat?: string }>();
-  const cats = cat.serviceCategories ?? [];
+  const cats = enabledCategories(cat);
   const [active, setActive] = useState(cats[0]?.id ?? '');
   useEffect(() => { if (params.cat) setActive(params.cat); }, [params.cat]);
 
-  if (!features.services || !cats.length) return <Screen tabs><EmptyState title={t('svc.unavailable')} /></Screen>;
+  if (!cats.length) return <Screen tabs><EmptyState title={t('svc.unavailable')} /></Screen>;
   const current = cats.find(c => c.id === active) ?? cats[0];
   const list = servicesIn(cat, current.id);
   return (
