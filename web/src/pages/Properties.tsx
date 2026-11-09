@@ -10,12 +10,14 @@ import Dropdown from '@/components/ui/Dropdown';
 import EmptyState from '@/components/ui/EmptyState';
 import PropertyCard from '@/components/property/PropertyCard';
 import { placeOptions } from '@/lib/places';
+import { useDragScroll } from '@/lib/dragScroll';
 import { usePageMeta } from '@/lib/meta';
 
 export default function Properties() {
   const { cat } = useCatalog();
   const { t } = useI18n();
   const [params, setParams] = useSearchParams();
+  const tabsRef = useDragScroll<HTMLDivElement>();
   usePageMeta(t('nav.browse'), t('home.subtitle'));
   const kind = params.get('cat') ?? 'all';
   const place = params.get('place') ?? 'all';
@@ -52,7 +54,7 @@ export default function Properties() {
         <p className="muted">{list.length === 1 ? t('filters.result') : t('filters.results', { n: list.length })}</p>
       </div>
 
-      <div className="tabs-scroll" role="tablist">
+      <div className="tabs-scroll" role="tablist" ref={tabsRef}>
         {['all', ...CATEGORIES].map(c => (
           <button key={c} role="tab" aria-selected={kind === c} className={`pill${kind === c ? ' on' : ''}`} onClick={() => set('cat', c)}>
             {t(`cat.${c}` as 'cat.resale')}<span>{counts[c]}</span>
