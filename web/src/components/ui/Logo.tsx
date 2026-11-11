@@ -10,6 +10,7 @@ export function Mark({ size = 30 }: { size?: number }) {
       width={size}
       height={size}
       aria-hidden="true"
+      style={{ borderRadius: '24%' }}
     />
   );
 }
