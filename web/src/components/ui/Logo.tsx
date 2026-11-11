@@ -4,14 +4,24 @@ import { BRAND } from '@/config';
 
 export function Mark({ size = 30 }: { size?: number }) {
   return (
-    <img
-      src="/favicon.svg"
-      alt=""
-      width={size}
-      height={size}
-      aria-hidden="true"
-      style={{ borderRadius: '24%' }}
-    />
+    <div
+      style={{
+        width: size,
+        height: size,
+        overflow: 'hidden',
+        borderRadius: '8px',
+      }}
+    >
+      <img
+        src="/favicon.svg"
+        alt=""
+        width={size}
+        height={size}
+        style={{
+          transform: 'scale(1)',
+        }}
+      />
+    </div>
   );
 }
 
