@@ -87,3 +87,8 @@ Each project in `data/properties.json` has a `category`: `new-build`, `resale`, 
 
 ## Hosting free on GitHub
 `.github/workflows/deploy-web.yml` builds `web/` and publishes it with GitHub Pages. Set Settings, Pages, Source to GitHub Actions. Note that GitHub says Pages is not meant for sites mainly handling commercial transactions. Cloudflare Pages is free too and builds the same folder (root `web`, build `npm run build`, output `dist`).
+
+## Data and images live in this repo
+- Listings: `data/properties.json`. The website bundles it at build time. Website and mobile app also read `https://raw.githubusercontent.com/etsgoc/rieltaz/main/data/properties.json`, so a push is enough to update listings. Raise `version` on every change. The repo must be public for the app to read it. If it is private the app falls back to the copy bundled in its last build.
+- Images: put photos in `web/public/images/<listing id>/`. Name the cover `cover.jpg` and a 360 panorama `360.jpg`. Then run `node scripts/sync-media.mjs` from the repo root. It fills `media` for every listing and raises `version`. Commit the images and the JSON together.
+- Image links use `mediaBase` in the JSON (raw.githubusercontent.com of this repo). Compress photos first, around 1600 px wide as WebP or JPEG, to keep pages fast.

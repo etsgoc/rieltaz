@@ -5,7 +5,7 @@ const baht = (n: number) => Math.round(n * 100) / 100;
 /** Price of a unit for the chosen ownership type. */
 export const priceFor = (unit: Unit, ownership: Ownership) => unit.prices?.[ownership] ?? unit.price;
 
-export function buildQuote(cat: Catalog, unit: Unit, ownership: Ownership) {
+export function buildQuote(cat: Catalog, unit: Unit, ownership: Ownership, planKey?: string) {
   const project = cat.projects.find(p => p.id === unit.projectId);
   if (!project) throw new Error('Unknown project');
   if (!project.ownership.includes(ownership)) {
@@ -13,7 +13,7 @@ export function buildQuote(cat: Catalog, unit: Unit, ownership: Ownership) {
   }
   if (unit.status !== 'available') throw new Error('This unit is no longer available');
 
-  const plan = cat.paymentPlans[unit.plan ?? project.paymentPlan ?? ''];
+  const plan = cat.paymentPlans[planKey ?? unit.plan ?? project.paymentPlan ?? ''];
   const fees = cat.feeSchedules[project.fees ?? ''];
   if (!plan || !fees) throw new Error('No payment plan for this project');
   const price = priceFor(unit, ownership);

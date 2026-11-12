@@ -60,13 +60,13 @@ export default function Properties() {
         <p className="muted">{list.length === 1 ? t('filters.result') : t('filters.results', { n: list.length })}</p>
       </div>
 
-      <div className="tabs-scroll" role="tablist" ref={tabsRef}>
-        {['all', ...CATEGORIES].map(c => (
+      {CATEGORIES.filter(c => counts[c] > 0).length > 1 && <div className="tabs-scroll" role="tablist" ref={tabsRef}>
+        {['all', ...CATEGORIES.filter(c => counts[c] > 0)].map(c => (
           <button key={c} role="tab" aria-selected={kind === c} className={`pill${kind === c ? ' on' : ''}`} onClick={() => set('cat', c)}>
             {t(`cat.${c}` as 'cat.resale')}<span>{counts[c]}</span>
           </button>
         ))}
-      </div>
+      </div>}
 
       <div className="filters">
         <Dropdown label={t('filters.location')} value={place} onChange={v => set('place', v)} options={[{ value: 'all', label: t('filters.anywhere') }, ...places]} />

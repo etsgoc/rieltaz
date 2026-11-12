@@ -26,6 +26,7 @@ export default function Explore() {
   const [kind, setKind] = useState<'all' | PropertyCategory>('all');
   const [city, setCity] = useState('all');
   const places = useMemo(() => [...new Map(cat.projects.map(p => [p.location.city, p.location.city])).keys()].sort(), [cat]);
+  const used = CATEGORIES.filter(c => cat.projects.some(p => categoryOf(cat, p) === c));
   const list = cat.projects.filter(p => (kind === 'all' || categoryOf(cat, p) === kind) && (city === 'all' || p.location.city === city));
   const hero = cat.hero?.image ? { uri: cat.hero.image } : require('../../assets/hero.png');
 
@@ -38,14 +39,14 @@ export default function Explore() {
         </View>
       </ImageBackground>
 
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ flexGrow: 0, marginHorizontal: -18, marginTop: 16 }} contentContainerStyle={{ gap: 8, paddingHorizontal: 18 }}>
+      {used.length > 1 ? <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ flexGrow: 0, marginHorizontal: -18, marginTop: 16 }} contentContainerStyle={{ gap: 8, paddingHorizontal: 18 }}>
         <Chip label={t('cat.all')} on={kind === 'all'} onPress={() => setKind('all')} />
-        {CATEGORIES.map(c => <Chip key={c} label={t(`cat.${c}` as 'cat.resale')} on={kind === c} onPress={() => setKind(c)} />)}
-      </ScrollView>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ flexGrow: 0, marginHorizontal: -18, marginTop: 8 }} contentContainerStyle={{ gap: 8, paddingHorizontal: 18 }}>
+        {used.map(c => <Chip key={c} label={t(`cat.${c}` as 'cat.resale')} on={kind === c} onPress={() => setKind(c)} />)}
+      </ScrollView> : null}
+      {places.length > 1 ? <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ flexGrow: 0, marginHorizontal: -18, marginTop: 8 }} contentContainerStyle={{ gap: 8, paddingHorizontal: 18 }}>
         <Chip label={t('filters.anywhere')} on={city === 'all'} onPress={() => setCity('all')} />
         {places.map(c => <Chip key={c} label={c} on={city === c} onPress={() => setCity(c)} />)}
-      </ScrollView>
+      </ScrollView> : null}
 
       <View style={{ gap: 16, marginTop: 20 }}>
         {list.length ? list.map(p => <PropertyCard key={p.id} p={p} />) : (

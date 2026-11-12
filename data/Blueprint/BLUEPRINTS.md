@@ -89,3 +89,14 @@ Then add one entry per unit to the top level `units` list:
 
 ## 5. Developer project without a price list yet
 Use the new development blueprint without any units. The page then shows facts, tour and map, and the price reads "Price on request".
+
+## Choosing between payment plans
+When a developer offers more than one plan, add each to `paymentPlans` with a `name`, then list the extra ones on the project:
+```json
+"paymentPlan": "everprime",
+"altPaymentPlans": ["everprime-installments"]
+```
+Buyers then get a plan dropdown. A unit with its own `plan` skips the choice.
+
+## Photos and 360 tours
+Do not type image paths by hand. Put files in `web/public/images/<listing id>/` and run `node scripts/sync-media.mjs`. Files named `cover.*` become the cover and `360.*` or `pano*` becomes the 360 tour.

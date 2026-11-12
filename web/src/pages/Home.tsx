@@ -47,16 +47,16 @@ export default function Home() {
             <Dropdown label={t('hero.location')} icon={<MapPin size={17} />} value={place} onChange={setPlace}
               options={[{ value: 'all', label: t('hero.anywhere') }, ...places]} />
             <Dropdown label={t('hero.category')} value={type} onChange={setType}
-              options={[{ value: 'all', label: t('cat.all') }, ...CATEGORIES.map(c => ({ value: c, label: t(`cat.${c}` as 'cat.resale') }))]} />
+              options={[{ value: 'all', label: t('cat.all') }, ...CATEGORIES.filter(c => counts[c] > 0).map(c => ({ value: c, label: t(`cat.${c}` as 'cat.resale') }))]} />
             <Button size="lg" icon={<Search size={18} />} onClick={() => nav(`/properties?place=${encodeURIComponent(place)}&cat=${type}`)}>{t('hero.search')}</Button>
           </div>
         </div>
       </section>
 
-      <section className="wrap section">
+      {CATEGORIES.filter(c => counts[c] > 0).length > 1 && <section className="wrap section">
         <div className="section-head"><h2>{t('home.browseBy')}</h2></div>
         <div className="type-grid">
-          {CATEGORIES.map(c => {
+          {CATEGORIES.filter(c => counts[c] > 0).map(c => {
             const Icon = ICONS[c];
             return (
               <Link key={c} to={`/properties?cat=${c}`} className="card type-card">
@@ -68,7 +68,7 @@ export default function Home() {
             );
           })}
         </div>
-      </section>
+      </section>}
 
       <section className="wrap section">
         <div className="section-head"><h2>{t('home.latest')}</h2><Link to="/properties" className="more">{t('common.seeAll')} <ArrowRight size={16} /></Link></div>

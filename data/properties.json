@@ -1,7 +1,7 @@
 {
-  "version": 6,
+  "version": 7,
   "updatedAt": "2026-11-12",
-  "mediaBase": "https://drive.google.com/thumbnail?sz=w1600&id=",
+  "mediaBase": "https://raw.githubusercontent.com/etsgoc/rieltaz/main/web/public/images/",
   "contact": {
     "phone": "+66 99 259 6525",
     "email": "info@thetreesresidencephuket.com",
@@ -74,18 +74,9 @@
       "paymentPlan": "trees",
       "fees": "trees",
       "media": {
-        "cover": "https://picsum.photos/seed/trees-zone-b-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/trees-zone-b-1/1600/1000",
-          "https://picsum.photos/seed/trees-zone-b-2/1600/1000",
-          "https://picsum.photos/seed/trees-zone-b-3/1600/1000",
-          "https://picsum.photos/seed/trees-zone-b-4/1600/1000",
-          "https://picsum.photos/seed/trees-zone-b-5/1600/1000"
-        ],
-        "tour360": {
-          "type": "pano",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Laon_Cathedral_Interior_360x180%2C_Picardy%2C_France_-_Diliff.jpg/4096px-Laon_Cathedral_Interior_360x180%2C_Picardy%2C_France_-_Diliff.jpg"
-        }
+        "cover": "",
+        "gallery": [],
+        "tour360": null
       },
       "documents": {
         "brochure": "DRIVE_FILE_ID",
@@ -114,38 +105,39 @@
         "freehold"
       ],
       "types": [
-        "1 Bedroom"
+        "1 Bedroom",
+        "2 Bedroom",
+        "4 Bedroom"
       ],
       "sizes": [
-        51.36
+        32.89,
+        44.84,
+        46.53,
+        60.09,
+        176.35
       ],
       "furnished": true,
       "furniturePackageValue": 350000,
       "pricing": {
-        "from": null,
+        "from": 4788784.0,
         "currency": "THB"
       },
       "paymentPlan": "everprime",
       "fees": "everprime",
       "media": {
-        "cover": "https://picsum.photos/seed/ever-prime-karon-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/ever-prime-karon-1/1600/1000",
-          "https://picsum.photos/seed/ever-prime-karon-2/1600/1000",
-          "https://picsum.photos/seed/ever-prime-karon-3/1600/1000",
-          "https://picsum.photos/seed/ever-prime-karon-4/1600/1000",
-          "https://picsum.photos/seed/ever-prime-karon-5/1600/1000"
-        ],
-        "tour360": {
-          "type": "pano",
-          "url": "https://pannellum.org/images/alma.jpg"
-        }
+        "cover": "",
+        "gallery": [],
+        "tour360": null
       },
       "status": "selling",
       "tagline": "Furnished one bedrooms in Karon",
       "summary": "One bedroom residences of 51.36 m² in Karon, sold as leasehold or freehold. Every unit comes with a complimentary furniture package worth 350,000 THB.",
       "category": "new-build",
-      "featured": true
+      "featured": true,
+      "altPaymentPlans": [
+        "everprime-installments"
+      ],
+      "priceNote": "Prices valid 6 November 2026 to 31 January 2027. The furniture package is additional on all units. Freehold is 15 percent above leasehold."
     },
     {
       "id": "the-element",
@@ -170,18 +162,9 @@
       "paymentPlan": "element",
       "fees": "element",
       "media": {
-        "cover": "https://picsum.photos/seed/the-element-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/the-element-1/1600/1000",
-          "https://picsum.photos/seed/the-element-2/1600/1000",
-          "https://picsum.photos/seed/the-element-3/1600/1000",
-          "https://picsum.photos/seed/the-element-4/1600/1000",
-          "https://picsum.photos/seed/the-element-5/1600/1000"
-        ],
-        "tour360": {
-          "type": "pano",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Laon_Cathedral_Interior_360x180%2C_Picardy%2C_France_-_Diliff.jpg/4096px-Laon_Cathedral_Interior_360x180%2C_Picardy%2C_France_-_Diliff.jpg"
-        }
+        "cover": "",
+        "gallery": [],
+        "tour360": null
       },
       "status": "selling",
       "tagline": "Modern residences in Kamala",
@@ -210,533 +193,6 @@
         168.61
       ],
       "priceNote": "Prices valid 18 September to 31 December 2026. All prices exclude the furniture package. Freehold is 15 percent above leasehold."
-    },
-    {
-      "id": "lisbon-chiado-loft",
-      "name": "Chiado Loft",
-      "category": "resale",
-      "featured": true,
-      "location": {
-        "area": "Chiado",
-        "city": "Lisbon",
-        "country": "Portugal",
-        "lat": 38.7109,
-        "lng": -9.1409
-      },
-      "ownership": [
-        "freehold"
-      ],
-      "pricing": {
-        "from": 485000,
-        "currency": "EUR"
-      },
-      "facts": {
-        "bedrooms": 2,
-        "bathrooms": 2,
-        "area": 96,
-        "year": 2018
-      },
-      "amenities": [
-        "Lift",
-        "Air conditioning",
-        "Balcony",
-        "River view",
-        "Concierge",
-        "Bike storage"
-      ],
-      "media": {
-        "cover": "https://picsum.photos/seed/lisbon-chiado-loft-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/lisbon-chiado-loft-1/1600/1000",
-          "https://picsum.photos/seed/lisbon-chiado-loft-2/1600/1000",
-          "https://picsum.photos/seed/lisbon-chiado-loft-3/1600/1000",
-          "https://picsum.photos/seed/lisbon-chiado-loft-4/1600/1000",
-          "https://picsum.photos/seed/lisbon-chiado-loft-5/1600/1000"
-        ],
-        "tour360": {
-          "type": "pano",
-          "url": "https://pannellum.org/images/alma.jpg"
-        }
-      },
-      "status": "available",
-      "tagline": "Bright two bedroom loft in the heart of Chiado",
-      "summary": "A renovated loft with high ceilings, oak floors and a south facing balcony. Cafes, the metro and the river are a few minutes on foot. Sold freehold and ready to move into."
-    },
-    {
-      "id": "miami-brickell-condo",
-      "name": "Brickell Bay Residence",
-      "category": "resale",
-      "featured": true,
-      "location": {
-        "area": "Brickell",
-        "city": "Miami",
-        "country": "United States",
-        "lat": 25.7617,
-        "lng": -80.1918
-      },
-      "ownership": [
-        "freehold"
-      ],
-      "pricing": {
-        "from": 620000,
-        "currency": "USD"
-      },
-      "facts": {
-        "bedrooms": 2,
-        "bathrooms": 2,
-        "area": 112,
-        "year": 2015,
-        "parking": 1
-      },
-      "amenities": [
-        "Pool",
-        "Gym",
-        "Concierge",
-        "Bay view",
-        "Valet parking",
-        "Rooftop terrace"
-      ],
-      "media": {
-        "cover": "https://picsum.photos/seed/miami-brickell-condo-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/miami-brickell-condo-1/1600/1000",
-          "https://picsum.photos/seed/miami-brickell-condo-2/1600/1000",
-          "https://picsum.photos/seed/miami-brickell-condo-3/1600/1000",
-          "https://picsum.photos/seed/miami-brickell-condo-4/1600/1000",
-          "https://picsum.photos/seed/miami-brickell-condo-5/1600/1000"
-        ],
-        "tour360": null
-      },
-      "status": "available",
-      "tagline": "Bay view condo with resort style amenities",
-      "summary": "A corner two bedroom on a high floor with floor to ceiling glass and a view over Biscayne Bay. The building has a rooftop pool, gym and 24 hour concierge."
-    },
-    {
-      "id": "tenerife-seafront-apt",
-      "name": "Costa Adeje Seafront Apartment",
-      "category": "resale",
-      "featured": false,
-      "location": {
-        "area": "Costa Adeje",
-        "city": "Tenerife",
-        "country": "Spain",
-        "lat": 28.0875,
-        "lng": -16.734
-      },
-      "ownership": [
-        "freehold"
-      ],
-      "pricing": {
-        "from": 365000,
-        "currency": "EUR"
-      },
-      "facts": {
-        "bedrooms": 2,
-        "bathrooms": 1,
-        "area": 78,
-        "year": 2010
-      },
-      "amenities": [
-        "Sea view",
-        "Shared pool",
-        "Terrace",
-        "Garage",
-        "Walk to beach"
-      ],
-      "media": {
-        "cover": "https://picsum.photos/seed/tenerife-seafront-apt-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/tenerife-seafront-apt-1/1600/1000",
-          "https://picsum.photos/seed/tenerife-seafront-apt-2/1600/1000",
-          "https://picsum.photos/seed/tenerife-seafront-apt-3/1600/1000",
-          "https://picsum.photos/seed/tenerife-seafront-apt-4/1600/1000",
-          "https://picsum.photos/seed/tenerife-seafront-apt-5/1600/1000"
-        ],
-        "tour360": null
-      },
-      "status": "available",
-      "tagline": "Two minutes from the beach, with a sea view terrace",
-      "summary": "A well kept two bedroom apartment in a gated complex with a shared pool and garage. Works well as a holiday home or a rental."
-    },
-    {
-      "id": "bali-canggu-villa",
-      "name": "Canggu Rice Field Villa",
-      "category": "rental",
-      "featured": true,
-      "location": {
-        "area": "Canggu",
-        "city": "Bali",
-        "country": "Indonesia",
-        "lat": -8.6478,
-        "lng": 115.1385
-      },
-      "ownership": [],
-      "pricing": {
-        "from": 210,
-        "currency": "USD"
-      },
-      "facts": {
-        "bedrooms": 3,
-        "bathrooms": 3,
-        "guests": 6,
-        "area": 220
-      },
-      "amenities": [
-        "Private pool",
-        "Rice field view",
-        "Full kitchen",
-        "Fast wifi",
-        "Scooter hire",
-        "Daily housekeeping"
-      ],
-      "media": {
-        "cover": "https://picsum.photos/seed/bali-canggu-villa-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/bali-canggu-villa-1/1600/1000",
-          "https://picsum.photos/seed/bali-canggu-villa-2/1600/1000",
-          "https://picsum.photos/seed/bali-canggu-villa-3/1600/1000",
-          "https://picsum.photos/seed/bali-canggu-villa-4/1600/1000",
-          "https://picsum.photos/seed/bali-canggu-villa-5/1600/1000"
-        ],
-        "tour360": {
-          "type": "pano",
-          "url": "https://pannellum.org/images/alma.jpg"
-        }
-      },
-      "status": "available",
-      "tagline": "Private pool villa with daily housekeeping",
-      "summary": "Three bedroom villa a short ride from the beach, set against rice fields. Scouted and checked in person. Ask us for dates, long stay prices and direct booking.",
-      "rental": {
-        "nightly": 210,
-        "currency": "USD",
-        "minNights": 3,
-        "cleaningFee": 40,
-        "deposit": 300,
-        "occupancyPct": 78,
-        "rating": 4.9,
-        "reviews": 214,
-        "source": "Airbnb",
-        "sourceUrl": "https://www.airbnb.com",
-        "rules": [
-          "No parties or events",
-          "Check in after 14:00",
-          "No smoking indoors"
-        ]
-      }
-    },
-    {
-      "id": "krakow-old-town-studio",
-      "name": "Old Town Studio",
-      "category": "rental",
-      "featured": false,
-      "location": {
-        "area": "Old Town",
-        "city": "Krakow",
-        "country": "Poland",
-        "lat": 50.0647,
-        "lng": 19.945
-      },
-      "ownership": [],
-      "pricing": {
-        "from": 260,
-        "currency": "PLN"
-      },
-      "facts": {
-        "bedrooms": 0,
-        "bathrooms": 1,
-        "guests": 2,
-        "area": 34
-      },
-      "amenities": [
-        "Wifi",
-        "Kitchen",
-        "Washing machine",
-        "Air conditioning",
-        "Self check in"
-      ],
-      "media": {
-        "cover": "https://picsum.photos/seed/krakow-old-town-studio-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/krakow-old-town-studio-1/1600/1000",
-          "https://picsum.photos/seed/krakow-old-town-studio-2/1600/1000",
-          "https://picsum.photos/seed/krakow-old-town-studio-3/1600/1000",
-          "https://picsum.photos/seed/krakow-old-town-studio-4/1600/1000",
-          "https://picsum.photos/seed/krakow-old-town-studio-5/1600/1000"
-        ],
-        "tour360": null
-      },
-      "status": "available",
-      "tagline": "Studio on a quiet street, five minutes from the square",
-      "summary": "A bright studio with a proper kitchen, fast wifi and blackout curtains. Popular all year, especially in summer and at Christmas markets.",
-      "rental": {
-        "nightly": 260,
-        "currency": "PLN",
-        "minNights": 2,
-        "cleaningFee": 80,
-        "deposit": 500,
-        "occupancyPct": 82,
-        "rating": 4.8,
-        "reviews": 96,
-        "source": "Airbnb",
-        "sourceUrl": "https://www.airbnb.com",
-        "rules": [
-          "Quiet hours from 22:00",
-          "Self check in with a key box"
-        ]
-      }
-    },
-    {
-      "id": "athens-koukaki-rental",
-      "name": "Koukaki Garden Flat",
-      "category": "rental",
-      "featured": false,
-      "location": {
-        "area": "Koukaki",
-        "city": "Athens",
-        "country": "Greece",
-        "lat": 37.9644,
-        "lng": 23.7222
-      },
-      "ownership": [],
-      "pricing": {
-        "from": 1450,
-        "currency": "EUR"
-      },
-      "facts": {
-        "bedrooms": 1,
-        "bathrooms": 1,
-        "guests": 3,
-        "area": 58
-      },
-      "amenities": [
-        "Furnished",
-        "Garden",
-        "Air conditioning",
-        "Fibre internet",
-        "Metro nearby"
-      ],
-      "media": {
-        "cover": "https://picsum.photos/seed/athens-koukaki-rental-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/athens-koukaki-rental-1/1600/1000",
-          "https://picsum.photos/seed/athens-koukaki-rental-2/1600/1000",
-          "https://picsum.photos/seed/athens-koukaki-rental-3/1600/1000",
-          "https://picsum.photos/seed/athens-koukaki-rental-4/1600/1000",
-          "https://picsum.photos/seed/athens-koukaki-rental-5/1600/1000"
-        ],
-        "tour360": null
-      },
-      "status": "available",
-      "tagline": "Long let near the Acropolis, furnished",
-      "summary": "A furnished one bedroom flat with a small garden, ten minutes on foot from the Acropolis museum. Available for six months or longer.",
-      "rental": {
-        "monthly": 1450,
-        "currency": "EUR",
-        "minNights": 180,
-        "deposit": 2900,
-        "availableFrom": "2027-01-15",
-        "source": "Direct from owner",
-        "rules": [
-          "Minimum six month let",
-          "Bills not included"
-        ]
-      }
-    },
-    {
-      "id": "lisbon-alfama-renovation",
-      "name": "Alfama House Renovation",
-      "category": "investment",
-      "featured": true,
-      "location": {
-        "area": "Alfama",
-        "city": "Lisbon",
-        "country": "Portugal",
-        "lat": 38.7114,
-        "lng": -9.1285
-      },
-      "ownership": [
-        "freehold"
-      ],
-      "pricing": {
-        "from": 320000,
-        "currency": "EUR"
-      },
-      "facts": {
-        "bedrooms": 3,
-        "bathrooms": 2,
-        "area": 128,
-        "year": 1930
-      },
-      "amenities": [
-        "River view",
-        "Original tiles",
-        "Roof terrace potential",
-        "Walk to metro"
-      ],
-      "media": {
-        "cover": "https://picsum.photos/seed/lisbon-alfama-renovation-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/lisbon-alfama-renovation-1/1600/1000",
-          "https://picsum.photos/seed/lisbon-alfama-renovation-2/1600/1000",
-          "https://picsum.photos/seed/lisbon-alfama-renovation-3/1600/1000",
-          "https://picsum.photos/seed/lisbon-alfama-renovation-4/1600/1000",
-          "https://picsum.photos/seed/lisbon-alfama-renovation-5/1600/1000"
-        ],
-        "tour360": {
-          "type": "pano",
-          "url": "https://pannellum.org/images/alma.jpg"
-        }
-      },
-      "status": "available",
-      "tagline": "Four storey townhouse to renovate and sell",
-      "summary": "A narrow townhouse with its original tiles and a view over the Tagus, in need of full renovation. Our contractor has priced the works and the numbers are below.",
-      "investment": {
-        "purchasePrice": 320000,
-        "renovationBudget": 140000,
-        "afterRepairValue": 640000,
-        "currency": "EUR",
-        "strategy": "Renovate and sell",
-        "timelineMonths": 9,
-        "targetRaise": 460000,
-        "raised": 275000,
-        "minTicket": 25000,
-        "scope": [
-          "Structural repairs",
-          "New kitchen and two bathrooms",
-          "Electrics and plumbing",
-          "Windows and insulation",
-          "Interior finishing"
-        ]
-      }
-    },
-    {
-      "id": "phuket-rawai-reno",
-      "name": "Rawai Pool Villa Project",
-      "category": "investment",
-      "featured": false,
-      "location": {
-        "area": "Rawai",
-        "city": "Phuket",
-        "country": "Thailand",
-        "lat": 7.7798,
-        "lng": 98.3248
-      },
-      "ownership": [
-        "leasehold"
-      ],
-      "pricing": {
-        "from": 9800000,
-        "currency": "THB"
-      },
-      "facts": {
-        "bedrooms": 4,
-        "bathrooms": 4,
-        "area": 240,
-        "plot": 620,
-        "year": 2009
-      },
-      "amenities": [
-        "Private pool",
-        "Garden",
-        "Parking for three",
-        "Near Nai Harn beach"
-      ],
-      "media": {
-        "cover": "https://picsum.photos/seed/phuket-rawai-reno-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/phuket-rawai-reno-1/1600/1000",
-          "https://picsum.photos/seed/phuket-rawai-reno-2/1600/1000",
-          "https://picsum.photos/seed/phuket-rawai-reno-3/1600/1000",
-          "https://picsum.photos/seed/phuket-rawai-reno-4/1600/1000",
-          "https://picsum.photos/seed/phuket-rawai-reno-5/1600/1000"
-        ],
-        "tour360": null
-      },
-      "status": "available",
-      "tagline": "Dated pool villa to refresh and rent",
-      "summary": "A four bedroom villa on a large plot, ten minutes from Nai Harn beach. The plan is a full refresh and a hotel managed rental programme.",
-      "investment": {
-        "purchasePrice": 9800000,
-        "renovationBudget": 3200000,
-        "afterRepairValue": 17000000,
-        "currency": "THB",
-        "strategy": "Renovate and rent",
-        "timelineMonths": 8,
-        "targetRaise": 13000000,
-        "raised": 4200000,
-        "minTicket": 500000,
-        "scope": [
-          "New roof and pool equipment",
-          "Kitchen and bathrooms",
-          "Air conditioning and electrics",
-          "Landscaping",
-          "Furniture package"
-        ]
-      }
-    },
-    {
-      "id": "warsaw-praga-flat",
-      "name": "Praga Prewar Flat",
-      "category": "investment",
-      "featured": false,
-      "location": {
-        "area": "Praga Polnoc",
-        "city": "Warsaw",
-        "country": "Poland",
-        "lat": 52.2563,
-        "lng": 21.0447
-      },
-      "ownership": [
-        "freehold"
-      ],
-      "pricing": {
-        "from": 690000,
-        "currency": "PLN"
-      },
-      "facts": {
-        "bedrooms": 3,
-        "bathrooms": 1,
-        "area": 74,
-        "year": 1936
-      },
-      "amenities": [
-        "Lift planned",
-        "High ceilings",
-        "Metro nearby",
-        "Quiet courtyard"
-      ],
-      "media": {
-        "cover": "https://picsum.photos/seed/warsaw-praga-flat-cover/1600/1000",
-        "gallery": [
-          "https://picsum.photos/seed/warsaw-praga-flat-1/1600/1000",
-          "https://picsum.photos/seed/warsaw-praga-flat-2/1600/1000",
-          "https://picsum.photos/seed/warsaw-praga-flat-3/1600/1000",
-          "https://picsum.photos/seed/warsaw-praga-flat-4/1600/1000",
-          "https://picsum.photos/seed/warsaw-praga-flat-5/1600/1000"
-        ],
-        "tour360": null
-      },
-      "status": "available",
-      "tagline": "Prewar flat in a district on the rise",
-      "summary": "A three room prewar flat on the second floor of a restored tenement. The building is sound, the interior needs a full renovation before resale.",
-      "investment": {
-        "purchasePrice": 690000,
-        "renovationBudget": 180000,
-        "afterRepairValue": 1050000,
-        "currency": "PLN",
-        "strategy": "Renovate and sell",
-        "timelineMonths": 6,
-        "targetRaise": 870000,
-        "raised": 120000,
-        "minTicket": 20000,
-        "scope": [
-          "Floors and walls",
-          "New bathroom",
-          "Kitchen",
-          "Electrics",
-          "Painting and finishing"
-        ]
-      }
     }
   ],
   "paymentPlans": {
@@ -770,7 +226,8 @@
           "label": "Completion, before lease registration",
           "pct": 20
         }
-      ]
+      ],
+      "name": "Pay as it is built"
     },
     "everprime": {
       "reservation": 200000,
@@ -801,7 +258,8 @@
           "label": "Completion, before ownership registration",
           "pct": 20
         }
-      ]
+      ],
+      "name": "Option 1, pay as it is built"
     },
     "element": {
       "reservation": 200000,
@@ -825,7 +283,8 @@
           "pct": 25,
           "when": "Mid December 2026"
         }
-      ]
+      ],
+      "name": "Pay as it is built"
     },
     "element-a": {
       "reservation": 200000,
@@ -844,6 +303,28 @@
           "label": "Completion, before ownership registration",
           "pct": 25,
           "when": "Mid December 2026"
+        }
+      ],
+      "name": "Final stage tower"
+    },
+    "everprime-installments": {
+      "name": "Option 2, 30 monthly installments",
+      "reservation": 200000,
+      "steps": [
+        {
+          "label": "Sales and purchase agreement",
+          "pct": 35,
+          "lessReservation": true,
+          "when": "Within 30 days of reservation"
+        },
+        {
+          "label": "Monthly installments, equal payments for 30 months, interest free",
+          "pct": 40,
+          "when": "After signing the agreement"
+        },
+        {
+          "label": "Completion, before ownership registration",
+          "pct": 25
         }
       ]
     }
@@ -4153,6 +3634,5254 @@
       },
       "status": "available",
       "view": "Mountain"
+    },
+    {
+      "id": "AS308",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 152000,
+      "price": 6815680.0,
+      "prices": {
+        "leasehold": 6815680.0,
+        "freehold": 7838032.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS313",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS314",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS408",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 158000,
+      "price": 7084720.0,
+      "prices": {
+        "leasehold": 7084720.0,
+        "freehold": 8147428.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS508",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 163500,
+      "price": 7331340.0,
+      "prices": {
+        "leasehold": 7331340.0,
+        "freehold": 8431041.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS509",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS510",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS511",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS512",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS513",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS514",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS515",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS608",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 169000,
+      "price": 7577960.0,
+      "prices": {
+        "leasehold": 7577960.0,
+        "freehold": 8714654.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS609",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS610",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS611",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS612",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS613",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS614",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS615",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS708",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 175500,
+      "price": 7869420.0,
+      "prices": {
+        "leasehold": 7869420.0,
+        "freehold": 9049833.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS709",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175500,
+      "price": 10545795.0,
+      "prices": {
+        "leasehold": 10545795.0,
+        "freehold": 12127664.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS710",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175500,
+      "price": 10545795.0,
+      "prices": {
+        "leasehold": 10545795.0,
+        "freehold": 12127664.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS711",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175500,
+      "price": 10545795.0,
+      "prices": {
+        "leasehold": 10545795.0,
+        "freehold": 12127664.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS712",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175500,
+      "price": 10545795.0,
+      "prices": {
+        "leasehold": 10545795.0,
+        "freehold": 12127664.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS713",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175500,
+      "price": 10545795.0,
+      "prices": {
+        "leasehold": 10545795.0,
+        "freehold": 12127664.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS714",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175500,
+      "price": 10545795.0,
+      "prices": {
+        "leasehold": 10545795.0,
+        "freehold": 12127664.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "AS715",
+      "projectId": "ever-prime-karon",
+      "tower": "A",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175500,
+      "price": 10545795.0,
+      "prices": {
+        "leasehold": 10545795.0,
+        "freehold": 12127664.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BN103",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 145600,
+      "price": 4788784.0,
+      "prices": {
+        "leasehold": 4788784.0,
+        "freehold": 5507101.6
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BS108",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 148000,
+      "price": 6636320.0,
+      "prices": {
+        "leasehold": 6636320.0,
+        "freehold": 7631768.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS113",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 148000,
+      "price": 8893320.0,
+      "prices": {
+        "leasehold": 8893320.0,
+        "freehold": 10227318.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS114",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 148000,
+      "price": 8893320.0,
+      "prices": {
+        "leasehold": 8893320.0,
+        "freehold": 10227318.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS115",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 148000,
+      "price": 8893320.0,
+      "prices": {
+        "leasehold": 8893320.0,
+        "freehold": 10227318.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW116",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 1,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 148000,
+      "price": 26099800.0,
+      "prices": {
+        "leasehold": 26099800.0,
+        "freehold": 30014770.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW117",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 148000,
+      "price": 6886440.0,
+      "prices": {
+        "leasehold": 6886440.0,
+        "freehold": 7919406.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BN201",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 145600,
+      "price": 4788784.0,
+      "prices": {
+        "leasehold": 4788784.0,
+        "freehold": 5507101.6
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN202",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 145600,
+      "price": 4788784.0,
+      "prices": {
+        "leasehold": 4788784.0,
+        "freehold": 5507101.6
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN203",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 145600,
+      "price": 4788784.0,
+      "prices": {
+        "leasehold": 4788784.0,
+        "freehold": 5507101.6
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN204",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 145600,
+      "price": 4788784.0,
+      "prices": {
+        "leasehold": 4788784.0,
+        "freehold": 5507101.6
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN206",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 145600,
+      "price": 4788784.0,
+      "prices": {
+        "leasehold": 4788784.0,
+        "freehold": 5507101.6
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BS208",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 150000,
+      "price": 6726000.0,
+      "prices": {
+        "leasehold": 6726000.0,
+        "freehold": 7734900.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS209",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 150000,
+      "price": 9013500.0,
+      "prices": {
+        "leasehold": 9013500.0,
+        "freehold": 10365525.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS210",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 150000,
+      "price": 9013500.0,
+      "prices": {
+        "leasehold": 9013500.0,
+        "freehold": 10365525.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS211",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 150000,
+      "price": 9013500.0,
+      "prices": {
+        "leasehold": 9013500.0,
+        "freehold": 10365525.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS212",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 150000,
+      "price": 9013500.0,
+      "prices": {
+        "leasehold": 9013500.0,
+        "freehold": 10365525.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS213",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 150000,
+      "price": 9013500.0,
+      "prices": {
+        "leasehold": 9013500.0,
+        "freehold": 10365525.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS214",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 150000,
+      "price": 9013500.0,
+      "prices": {
+        "leasehold": 9013500.0,
+        "freehold": 10365525.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS215",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 150000,
+      "price": 9013500.0,
+      "prices": {
+        "leasehold": 9013500.0,
+        "freehold": 10365525.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW216",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 150000,
+      "price": 26452500.0,
+      "prices": {
+        "leasehold": 26452500.0,
+        "freehold": 30420375.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW217",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 150000,
+      "price": 6979500.0,
+      "prices": {
+        "leasehold": 6979500.0,
+        "freehold": 8026425.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS308",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 152000,
+      "price": 6815680.0,
+      "prices": {
+        "leasehold": 6815680.0,
+        "freehold": 7838032.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS309",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS310",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS311",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS312",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS313",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS314",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS315",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW316",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 152000,
+      "price": 26805200.0,
+      "prices": {
+        "leasehold": 26805200.0,
+        "freehold": 30825980.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW318",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 152000,
+      "price": 7072560.0,
+      "prices": {
+        "leasehold": 7072560.0,
+        "freehold": 8133444.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BN402",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 146700,
+      "price": 4824963.0,
+      "prices": {
+        "leasehold": 4824963.0,
+        "freehold": 5548707.45
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN403",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 146700,
+      "price": 4824963.0,
+      "prices": {
+        "leasehold": 4824963.0,
+        "freehold": 5548707.45
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN405",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 146700,
+      "price": 4824963.0,
+      "prices": {
+        "leasehold": 4824963.0,
+        "freehold": 5548707.45
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN406",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 146700,
+      "price": 4824963.0,
+      "prices": {
+        "leasehold": 4824963.0,
+        "freehold": 5548707.45
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BS408",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 158000,
+      "price": 7084720.0,
+      "prices": {
+        "leasehold": 7084720.0,
+        "freehold": 8147428.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS409",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS410",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS411",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS412",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS413",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS414",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS415",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW416",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 4,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 158000,
+      "price": 27863300.0,
+      "prices": {
+        "leasehold": 27863300.0,
+        "freehold": 32042795.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BN501",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 149000,
+      "price": 4900610.0,
+      "prices": {
+        "leasehold": 4900610.0,
+        "freehold": 5635701.5
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN502",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 149000,
+      "price": 4900610.0,
+      "prices": {
+        "leasehold": 4900610.0,
+        "freehold": 5635701.5
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN503",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 149000,
+      "price": 4900610.0,
+      "prices": {
+        "leasehold": 4900610.0,
+        "freehold": 5635701.5
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN504",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 149000,
+      "price": 4900610.0,
+      "prices": {
+        "leasehold": 4900610.0,
+        "freehold": 5635701.5
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN505",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 149000,
+      "price": 4900610.0,
+      "prices": {
+        "leasehold": 4900610.0,
+        "freehold": 5635701.5
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BS508",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 163500,
+      "price": 7331340.0,
+      "prices": {
+        "leasehold": 7331340.0,
+        "freehold": 8431041.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS509",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS510",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS511",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS512",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS513",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS514",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS515",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW516",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 175800,
+      "price": 31002330.0,
+      "prices": {
+        "leasehold": 31002330.0,
+        "freehold": 35652679.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BW517",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 175800,
+      "price": 8179974.0,
+      "prices": {
+        "leasehold": 8179974.0,
+        "freehold": 9406970.1
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BW518",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 175800,
+      "price": 8179974.0,
+      "prices": {
+        "leasehold": 8179974.0,
+        "freehold": 9406970.1
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BW519",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 175800,
+      "price": 8179974.0,
+      "prices": {
+        "leasehold": 8179974.0,
+        "freehold": 9406970.1
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BN601",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 151500,
+      "price": 4982835.0,
+      "prices": {
+        "leasehold": 4982835.0,
+        "freehold": 5730260.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN602",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 151500,
+      "price": 4982835.0,
+      "prices": {
+        "leasehold": 4982835.0,
+        "freehold": 5730260.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN603",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 151500,
+      "price": 4982835.0,
+      "prices": {
+        "leasehold": 4982835.0,
+        "freehold": 5730260.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN604",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 151500,
+      "price": 4982835.0,
+      "prices": {
+        "leasehold": 4982835.0,
+        "freehold": 5730260.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN605",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 151500,
+      "price": 4982835.0,
+      "prices": {
+        "leasehold": 4982835.0,
+        "freehold": 5730260.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN606",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 151500,
+      "price": 4982835.0,
+      "prices": {
+        "leasehold": 4982835.0,
+        "freehold": 5730260.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BS608",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 169000,
+      "price": 7577960.0,
+      "prices": {
+        "leasehold": 7577960.0,
+        "freehold": 8714654.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS609",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS610",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS611",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS612",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS613",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS614",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS615",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 169000,
+      "price": 10155210.0,
+      "prices": {
+        "leasehold": 10155210.0,
+        "freehold": 11678491.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW616",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 181500,
+      "price": 32007525.0,
+      "prices": {
+        "leasehold": 32007525.0,
+        "freehold": 36808653.75
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BW617",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 181500,
+      "price": 8445195.0,
+      "prices": {
+        "leasehold": 8445195.0,
+        "freehold": 9711974.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BW618",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 181500,
+      "price": 8445195.0,
+      "prices": {
+        "leasehold": 8445195.0,
+        "freehold": 9711974.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BW619",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 181500,
+      "price": 8445195.0,
+      "prices": {
+        "leasehold": 8445195.0,
+        "freehold": 9711974.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BN702",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 153500,
+      "price": 5048615.0,
+      "prices": {
+        "leasehold": 5048615.0,
+        "freehold": 5805907.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN703",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 153500,
+      "price": 5048615.0,
+      "prices": {
+        "leasehold": 5048615.0,
+        "freehold": 5805907.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN704",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 153500,
+      "price": 5048615.0,
+      "prices": {
+        "leasehold": 5048615.0,
+        "freehold": 5805907.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN705",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 153500,
+      "price": 5048615.0,
+      "prices": {
+        "leasehold": 5048615.0,
+        "freehold": 5805907.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN706",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 153500,
+      "price": 5048615.0,
+      "prices": {
+        "leasehold": 5048615.0,
+        "freehold": 5805907.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BS710",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175800,
+      "price": 10563822.0,
+      "prices": {
+        "leasehold": 10563822.0,
+        "freehold": 12148395.3
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS711",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175800,
+      "price": 10563822.0,
+      "prices": {
+        "leasehold": 10563822.0,
+        "freehold": 12148395.3
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS712",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175800,
+      "price": 10563822.0,
+      "prices": {
+        "leasehold": 10563822.0,
+        "freehold": 12148395.3
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS713",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175800,
+      "price": 10563822.0,
+      "prices": {
+        "leasehold": 10563822.0,
+        "freehold": 12148395.3
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS714",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175800,
+      "price": 10563822.0,
+      "prices": {
+        "leasehold": 10563822.0,
+        "freehold": 12148395.3
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS715",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 175800,
+      "price": 10563822.0,
+      "prices": {
+        "leasehold": 10563822.0,
+        "freehold": 12148395.3
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW716",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 187000,
+      "price": 32977450.0,
+      "prices": {
+        "leasehold": 32977450.0,
+        "freehold": 37924067.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BW717",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 187000,
+      "price": 8701110.0,
+      "prices": {
+        "leasehold": 8701110.0,
+        "freehold": 10006276.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BW718",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 187000,
+      "price": 8701110.0,
+      "prices": {
+        "leasehold": 8701110.0,
+        "freehold": 10006276.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "BN801",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 155500,
+      "price": 5114395.0,
+      "prices": {
+        "leasehold": 5114395.0,
+        "freehold": 5881554.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN802",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 155500,
+      "price": 5114395.0,
+      "prices": {
+        "leasehold": 5114395.0,
+        "freehold": 5881554.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN803",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 155500,
+      "price": 5114395.0,
+      "prices": {
+        "leasehold": 5114395.0,
+        "freehold": 5881554.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN804",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 155500,
+      "price": 5114395.0,
+      "prices": {
+        "leasehold": 5114395.0,
+        "freehold": 5881554.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN805",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 155500,
+      "price": 5114395.0,
+      "prices": {
+        "leasehold": 5114395.0,
+        "freehold": 5881554.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BN806",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 155500,
+      "price": 5114395.0,
+      "prices": {
+        "leasehold": 5114395.0,
+        "freehold": 5881554.25
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "BS808",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 181500,
+      "price": 8138460.0,
+      "prices": {
+        "leasehold": 8138460.0,
+        "freehold": 9359229.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS810",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181500,
+      "price": 10906335.0,
+      "prices": {
+        "leasehold": 10906335.0,
+        "freehold": 12542285.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS811",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181500,
+      "price": 10906335.0,
+      "prices": {
+        "leasehold": 10906335.0,
+        "freehold": 12542285.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS812",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181500,
+      "price": 10906335.0,
+      "prices": {
+        "leasehold": 10906335.0,
+        "freehold": 12542285.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS813",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181500,
+      "price": 10906335.0,
+      "prices": {
+        "leasehold": 10906335.0,
+        "freehold": 12542285.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS814",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181500,
+      "price": 10906335.0,
+      "prices": {
+        "leasehold": 10906335.0,
+        "freehold": 12542285.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BS815",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181500,
+      "price": 10906335.0,
+      "prices": {
+        "leasehold": 10906335.0,
+        "freehold": 12542285.25
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "BW816",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 206000,
+      "price": 36328100.0,
+      "prices": {
+        "leasehold": 36328100.0,
+        "freehold": 41777315.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "BW817",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 206000,
+      "price": 9585180.0,
+      "prices": {
+        "leasehold": 9585180.0,
+        "freehold": 11022957.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "BW819",
+      "projectId": "ever-prime-karon",
+      "tower": "B",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 206000,
+      "price": 9585180.0,
+      "prices": {
+        "leasehold": 9585180.0,
+        "freehold": 11022957.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CW101",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 1,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 152000,
+      "price": 26805200.0,
+      "prices": {
+        "leasehold": 26805200.0,
+        "freehold": 30825980.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "CN105",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "CN106",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152000,
+      "price": 9133680.0,
+      "prices": {
+        "leasehold": 9133680.0,
+        "freehold": 10503732.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "CW201",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 2,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 158000,
+      "price": 27863300.0,
+      "prices": {
+        "leasehold": 27863300.0,
+        "freehold": 32042795.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "CN202",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "CN206",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "CN207",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "CN209",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 158000,
+      "price": 7084720.0,
+      "prices": {
+        "leasehold": 7084720.0,
+        "freehold": 8147428.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "CW301",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 165000,
+      "price": 29097750.0,
+      "prices": {
+        "leasehold": 29097750.0,
+        "freehold": 33462412.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN302",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 165000,
+      "price": 9914850.0,
+      "prices": {
+        "leasehold": 9914850.0,
+        "freehold": 11402077.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN303",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 165000,
+      "price": 9914850.0,
+      "prices": {
+        "leasehold": 9914850.0,
+        "freehold": 11402077.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN304",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 165000,
+      "price": 9914850.0,
+      "prices": {
+        "leasehold": 9914850.0,
+        "freehold": 11402077.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN305",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 165000,
+      "price": 9914850.0,
+      "prices": {
+        "leasehold": 9914850.0,
+        "freehold": 11402077.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN306",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 165000,
+      "price": 9914850.0,
+      "prices": {
+        "leasehold": 9914850.0,
+        "freehold": 11402077.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN307",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 165000,
+      "price": 9914850.0,
+      "prices": {
+        "leasehold": 9914850.0,
+        "freehold": 11402077.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN308",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 165000,
+      "price": 9914850.0,
+      "prices": {
+        "leasehold": 9914850.0,
+        "freehold": 11402077.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN309",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 165000,
+      "price": 7398600.0,
+      "prices": {
+        "leasehold": 7398600.0,
+        "freehold": 8508390.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS315",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 165000,
+      "price": 5426850.0,
+      "prices": {
+        "leasehold": 5426850.0,
+        "freehold": 6240877.5
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "CS316",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 165000,
+      "price": 5426850.0,
+      "prices": {
+        "leasehold": 5426850.0,
+        "freehold": 6240877.5
+      },
+      "status": "available",
+      "view": "Pool side"
+    },
+    {
+      "id": "CW318",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 170000,
+      "price": 7910100.0,
+      "prices": {
+        "leasehold": 7910100.0,
+        "freehold": 9096615.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CW319",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 170000,
+      "price": 7910100.0,
+      "prices": {
+        "leasehold": 7910100.0,
+        "freehold": 9096615.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CW401",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 170000,
+      "price": 29979500.0,
+      "prices": {
+        "leasehold": 29979500.0,
+        "freehold": 34476425.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN402",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN403",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN404",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN405",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN406",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN407",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN408",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN409",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 181000,
+      "price": 8116040.0,
+      "prices": {
+        "leasehold": 8116040.0,
+        "freehold": 9333446.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS410",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181000,
+      "price": 5953090.0,
+      "prices": {
+        "leasehold": 5953090.0,
+        "freehold": 6846053.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS411",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181000,
+      "price": 5953090.0,
+      "prices": {
+        "leasehold": 5953090.0,
+        "freehold": 6846053.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS412",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181000,
+      "price": 5953090.0,
+      "prices": {
+        "leasehold": 5953090.0,
+        "freehold": 6846053.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS414",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181000,
+      "price": 5953090.0,
+      "prices": {
+        "leasehold": 5953090.0,
+        "freehold": 6846053.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS415",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181000,
+      "price": 5953090.0,
+      "prices": {
+        "leasehold": 5953090.0,
+        "freehold": 6846053.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS416",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181000,
+      "price": 5953090.0,
+      "prices": {
+        "leasehold": 5953090.0,
+        "freehold": 6846053.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CW501",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 181000,
+      "price": 31919350.0,
+      "prices": {
+        "leasehold": 31919350.0,
+        "freehold": 36707252.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN502",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181000,
+      "price": 10876290.0,
+      "prices": {
+        "leasehold": 10876290.0,
+        "freehold": 12507733.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN503",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181000,
+      "price": 10876290.0,
+      "prices": {
+        "leasehold": 10876290.0,
+        "freehold": 12507733.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN505",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181000,
+      "price": 10876290.0,
+      "prices": {
+        "leasehold": 10876290.0,
+        "freehold": 12507733.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN506",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181000,
+      "price": 10876290.0,
+      "prices": {
+        "leasehold": 10876290.0,
+        "freehold": 12507733.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN507",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181000,
+      "price": 10876290.0,
+      "prices": {
+        "leasehold": 10876290.0,
+        "freehold": 12507733.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN508",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 181000,
+      "price": 10876290.0,
+      "prices": {
+        "leasehold": 10876290.0,
+        "freehold": 12507733.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CN509",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 187000,
+      "price": 8385080.0,
+      "prices": {
+        "leasehold": 8385080.0,
+        "freehold": 9642842.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS511",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS512",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS513",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS514",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS515",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CS516",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "CW601",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 198000,
+      "price": 34917300.0,
+      "prices": {
+        "leasehold": 34917300.0,
+        "freehold": 40154895.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN602",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 198000,
+      "price": 11897820.0,
+      "prices": {
+        "leasehold": 11897820.0,
+        "freehold": 13682493.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN603",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 198000,
+      "price": 11897820.0,
+      "prices": {
+        "leasehold": 11897820.0,
+        "freehold": 13682493.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN604",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 198000,
+      "price": 11897820.0,
+      "prices": {
+        "leasehold": 11897820.0,
+        "freehold": 13682493.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN605",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 198000,
+      "price": 11897820.0,
+      "prices": {
+        "leasehold": 11897820.0,
+        "freehold": 13682493.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN606",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 198000,
+      "price": 11897820.0,
+      "prices": {
+        "leasehold": 11897820.0,
+        "freehold": 13682493.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN607",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 198000,
+      "price": 11897820.0,
+      "prices": {
+        "leasehold": 11897820.0,
+        "freehold": 13682493.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN608",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 198000,
+      "price": 11897820.0,
+      "prices": {
+        "leasehold": 11897820.0,
+        "freehold": 13682493.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN609",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 198000,
+      "price": 8878320.0,
+      "prices": {
+        "leasehold": 8878320.0,
+        "freehold": 10210068.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS610",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 198000,
+      "price": 6512220.0,
+      "prices": {
+        "leasehold": 6512220.0,
+        "freehold": 7489053.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS611",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 198000,
+      "price": 6512220.0,
+      "prices": {
+        "leasehold": 6512220.0,
+        "freehold": 7489053.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS612",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 198000,
+      "price": 6512220.0,
+      "prices": {
+        "leasehold": 6512220.0,
+        "freehold": 7489053.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS613",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 198000,
+      "price": 6512220.0,
+      "prices": {
+        "leasehold": 6512220.0,
+        "freehold": 7489053.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS614",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 198000,
+      "price": 6512220.0,
+      "prices": {
+        "leasehold": 6512220.0,
+        "freehold": 7489053.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS615",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 198000,
+      "price": 6512220.0,
+      "prices": {
+        "leasehold": 6512220.0,
+        "freehold": 7489053.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS616",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 198000,
+      "price": 6512220.0,
+      "prices": {
+        "leasehold": 6512220.0,
+        "freehold": 7489053.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CW619",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 46.53,
+      "pricePerSqm": 198000,
+      "price": 9212940.0,
+      "prices": {
+        "leasehold": 9212940.0,
+        "freehold": 10594881.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CW701",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 206000,
+      "price": 36328100.0,
+      "prices": {
+        "leasehold": 36328100.0,
+        "freehold": 41777315.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN702",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 206000,
+      "price": 12378540.0,
+      "prices": {
+        "leasehold": 12378540.0,
+        "freehold": 14235321.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN703",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 206000,
+      "price": 12378540.0,
+      "prices": {
+        "leasehold": 12378540.0,
+        "freehold": 14235321.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN704",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 206000,
+      "price": 12378540.0,
+      "prices": {
+        "leasehold": 12378540.0,
+        "freehold": 14235321.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN705",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 206000,
+      "price": 12378540.0,
+      "prices": {
+        "leasehold": 12378540.0,
+        "freehold": 14235321.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN706",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 206000,
+      "price": 12378540.0,
+      "prices": {
+        "leasehold": 12378540.0,
+        "freehold": 14235321.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN707",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 206000,
+      "price": 12378540.0,
+      "prices": {
+        "leasehold": 12378540.0,
+        "freehold": 14235321.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN708",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 206000,
+      "price": 12378540.0,
+      "prices": {
+        "leasehold": 12378540.0,
+        "freehold": 14235321.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN709",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 206000,
+      "price": 9237040.0,
+      "prices": {
+        "leasehold": 9237040.0,
+        "freehold": 10622596.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS710",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 206000,
+      "price": 6775340.0,
+      "prices": {
+        "leasehold": 6775340.0,
+        "freehold": 7791641.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS711",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 206000,
+      "price": 6775340.0,
+      "prices": {
+        "leasehold": 6775340.0,
+        "freehold": 7791641.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS712",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 206000,
+      "price": 6775340.0,
+      "prices": {
+        "leasehold": 6775340.0,
+        "freehold": 7791641.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS713",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 206000,
+      "price": 6775340.0,
+      "prices": {
+        "leasehold": 6775340.0,
+        "freehold": 7791641.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS714",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 206000,
+      "price": 6775340.0,
+      "prices": {
+        "leasehold": 6775340.0,
+        "freehold": 7791641.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS715",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 206000,
+      "price": 6775340.0,
+      "prices": {
+        "leasehold": 6775340.0,
+        "freehold": 7791641.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS716",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 206000,
+      "price": 6775340.0,
+      "prices": {
+        "leasehold": 6775340.0,
+        "freehold": 7791641.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CW801",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "4 Bedroom",
+      "sqm": 176.35,
+      "pricePerSqm": 216000,
+      "price": 38091600.0,
+      "prices": {
+        "leasehold": 38091600.0,
+        "freehold": 43805340.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN802",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 216000,
+      "price": 12979440.0,
+      "prices": {
+        "leasehold": 12979440.0,
+        "freehold": 14926356.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN803",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 216000,
+      "price": 12979440.0,
+      "prices": {
+        "leasehold": 12979440.0,
+        "freehold": 14926356.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN804",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 216000,
+      "price": 12979440.0,
+      "prices": {
+        "leasehold": 12979440.0,
+        "freehold": 14926356.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN805",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 216000,
+      "price": 12979440.0,
+      "prices": {
+        "leasehold": 12979440.0,
+        "freehold": 14926356.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN806",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 216000,
+      "price": 12979440.0,
+      "prices": {
+        "leasehold": 12979440.0,
+        "freehold": 14926356.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN807",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 216000,
+      "price": 12979440.0,
+      "prices": {
+        "leasehold": 12979440.0,
+        "freehold": 14926356.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN808",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 216000,
+      "price": 12979440.0,
+      "prices": {
+        "leasehold": 12979440.0,
+        "freehold": 14926356.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CN809",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 216000,
+      "price": 9685440.0,
+      "prices": {
+        "leasehold": 9685440.0,
+        "freehold": 11138256.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS810",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 216000,
+      "price": 7104240.0,
+      "prices": {
+        "leasehold": 7104240.0,
+        "freehold": 8169876.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS811",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 216000,
+      "price": 7104240.0,
+      "prices": {
+        "leasehold": 7104240.0,
+        "freehold": 8169876.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS812",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 216000,
+      "price": 7104240.0,
+      "prices": {
+        "leasehold": 7104240.0,
+        "freehold": 8169876.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS813",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 216000,
+      "price": 7104240.0,
+      "prices": {
+        "leasehold": 7104240.0,
+        "freehold": 8169876.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS814",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 216000,
+      "price": 7104240.0,
+      "prices": {
+        "leasehold": 7104240.0,
+        "freehold": 8169876.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS815",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 216000,
+      "price": 7104240.0,
+      "prices": {
+        "leasehold": 7104240.0,
+        "freehold": 8169876.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "CS816",
+      "projectId": "ever-prime-karon",
+      "tower": "C",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 216000,
+      "price": 7104240.0,
+      "prices": {
+        "leasehold": 7104240.0,
+        "freehold": 8169876.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN101",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 145600,
+      "price": 8749104.0,
+      "prices": {
+        "leasehold": 8749104.0,
+        "freehold": 10061469.6
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN102",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 145600,
+      "price": 8749104.0,
+      "prices": {
+        "leasehold": 8749104.0,
+        "freehold": 10061469.6
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN103",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 145600,
+      "price": 8749104.0,
+      "prices": {
+        "leasehold": 8749104.0,
+        "freehold": 10061469.6
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN104",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 145600,
+      "price": 8749104.0,
+      "prices": {
+        "leasehold": 8749104.0,
+        "freehold": 10061469.6
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN105",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 145600,
+      "price": 8749104.0,
+      "prices": {
+        "leasehold": 8749104.0,
+        "freehold": 10061469.6
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN106",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 145600,
+      "price": 6528704.0,
+      "prices": {
+        "leasehold": 6528704.0,
+        "freehold": 7508009.6
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN201",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 147000,
+      "price": 8833230.0,
+      "prices": {
+        "leasehold": 8833230.0,
+        "freehold": 10158214.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN202",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 147000,
+      "price": 8833230.0,
+      "prices": {
+        "leasehold": 8833230.0,
+        "freehold": 10158214.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN203",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 147000,
+      "price": 8833230.0,
+      "prices": {
+        "leasehold": 8833230.0,
+        "freehold": 10158214.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN204",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 147000,
+      "price": 8833230.0,
+      "prices": {
+        "leasehold": 8833230.0,
+        "freehold": 10158214.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN207",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 147000,
+      "price": 8833230.0,
+      "prices": {
+        "leasehold": 8833230.0,
+        "freehold": 10158214.5
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN208",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 147000,
+      "price": 6591480.0,
+      "prices": {
+        "leasehold": 6591480.0,
+        "freehold": 7580202.0
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN301",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152500,
+      "price": 9163725.0,
+      "prices": {
+        "leasehold": 9163725.0,
+        "freehold": 10538283.75
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN302",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152500,
+      "price": 9163725.0,
+      "prices": {
+        "leasehold": 9163725.0,
+        "freehold": 10538283.75
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN303",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152500,
+      "price": 9163725.0,
+      "prices": {
+        "leasehold": 9163725.0,
+        "freehold": 10538283.75
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN304",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152500,
+      "price": 9163725.0,
+      "prices": {
+        "leasehold": 9163725.0,
+        "freehold": 10538283.75
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN305",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152500,
+      "price": 9163725.0,
+      "prices": {
+        "leasehold": 9163725.0,
+        "freehold": 10538283.75
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN306",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152500,
+      "price": 9163725.0,
+      "prices": {
+        "leasehold": 9163725.0,
+        "freehold": 10538283.75
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN307",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 152500,
+      "price": 9163725.0,
+      "prices": {
+        "leasehold": 9163725.0,
+        "freehold": 10538283.75
+      },
+      "status": "available",
+      "view": "Mountain and city view"
+    },
+    {
+      "id": "DN308",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 152500,
+      "price": 6838100.0,
+      "prices": {
+        "leasehold": 6838100.0,
+        "freehold": 7863815.0
+      },
+      "status": "available",
+      "view": "Roof top pool view"
+    },
+    {
+      "id": "DS309",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 163500,
+      "price": 5377515.0,
+      "prices": {
+        "leasehold": 5377515.0,
+        "freehold": 6184142.25
+      },
+      "status": "available",
+      "view": "Roof top pool view"
+    },
+    {
+      "id": "DS310",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 163500,
+      "price": 5377515.0,
+      "prices": {
+        "leasehold": 5377515.0,
+        "freehold": 6184142.25
+      },
+      "status": "available",
+      "view": "Roof top pool view"
+    },
+    {
+      "id": "DS311",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 163500,
+      "price": 5377515.0,
+      "prices": {
+        "leasehold": 5377515.0,
+        "freehold": 6184142.25
+      },
+      "status": "available",
+      "view": "Roof top pool view"
+    },
+    {
+      "id": "DS312",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 163500,
+      "price": 5377515.0,
+      "prices": {
+        "leasehold": 5377515.0,
+        "freehold": 6184142.25
+      },
+      "status": "available",
+      "view": "Roof top pool view"
+    },
+    {
+      "id": "DS313",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 163500,
+      "price": 5377515.0,
+      "prices": {
+        "leasehold": 5377515.0,
+        "freehold": 6184142.25
+      },
+      "status": "available",
+      "view": "Roof top pool view"
+    },
+    {
+      "id": "DN402",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN403",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN404",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN405",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN406",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN407",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 158000,
+      "price": 9494220.0,
+      "prices": {
+        "leasehold": 9494220.0,
+        "freehold": 10918353.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN408",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 158000,
+      "price": 7084720.0,
+      "prices": {
+        "leasehold": 7084720.0,
+        "freehold": 8147428.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS409",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 170500,
+      "price": 5607745.0,
+      "prices": {
+        "leasehold": 5607745.0,
+        "freehold": 6448906.75
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS410",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 170500,
+      "price": 5607745.0,
+      "prices": {
+        "leasehold": 5607745.0,
+        "freehold": 6448906.75
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS411",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 170500,
+      "price": 5607745.0,
+      "prices": {
+        "leasehold": 5607745.0,
+        "freehold": 6448906.75
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS412",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 170500,
+      "price": 5607745.0,
+      "prices": {
+        "leasehold": 5607745.0,
+        "freehold": 6448906.75
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS413",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 170500,
+      "price": 5607745.0,
+      "prices": {
+        "leasehold": 5607745.0,
+        "freehold": 6448906.75
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS414",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 170500,
+      "price": 5607745.0,
+      "prices": {
+        "leasehold": 5607745.0,
+        "freehold": 6448906.75
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN501",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN502",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN503",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN504",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN505",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN506",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN507",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 163500,
+      "price": 9824715.0,
+      "prices": {
+        "leasehold": 9824715.0,
+        "freehold": 11298422.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN508",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 183000,
+      "price": 8205720.0,
+      "prices": {
+        "leasehold": 8205720.0,
+        "freehold": 9436578.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS509",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 183000,
+      "price": 6018870.0,
+      "prices": {
+        "leasehold": 6018870.0,
+        "freehold": 6921700.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS510",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 183000,
+      "price": 6018870.0,
+      "prices": {
+        "leasehold": 6018870.0,
+        "freehold": 6921700.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS512",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 183000,
+      "price": 6018870.0,
+      "prices": {
+        "leasehold": 6018870.0,
+        "freehold": 6921700.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS513",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 183000,
+      "price": 6018870.0,
+      "prices": {
+        "leasehold": 6018870.0,
+        "freehold": 6921700.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS514",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 183000,
+      "price": 6018870.0,
+      "prices": {
+        "leasehold": 6018870.0,
+        "freehold": 6921700.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS515",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 183000,
+      "price": 6018870.0,
+      "prices": {
+        "leasehold": 6018870.0,
+        "freehold": 6921700.5
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN601",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN602",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN603",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN604",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN605",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN606",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN607",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 170000,
+      "price": 10215300.0,
+      "prices": {
+        "leasehold": 10215300.0,
+        "freehold": 11747595.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN608",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 170000,
+      "price": 7622800.0,
+      "prices": {
+        "leasehold": 7622800.0,
+        "freehold": 8766220.0
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS609",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181500,
+      "price": 5969535.0,
+      "prices": {
+        "leasehold": 5969535.0,
+        "freehold": 6864965.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS610",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181500,
+      "price": 5969535.0,
+      "prices": {
+        "leasehold": 5969535.0,
+        "freehold": 6864965.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS611",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181500,
+      "price": 5969535.0,
+      "prices": {
+        "leasehold": 5969535.0,
+        "freehold": 6864965.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS612",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181500,
+      "price": 5969535.0,
+      "prices": {
+        "leasehold": 5969535.0,
+        "freehold": 6864965.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS613",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181500,
+      "price": 5969535.0,
+      "prices": {
+        "leasehold": 5969535.0,
+        "freehold": 6864965.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DS614",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 181500,
+      "price": 5969535.0,
+      "prices": {
+        "leasehold": 5969535.0,
+        "freehold": 6864965.25
+      },
+      "status": "available",
+      "view": "Partial Sea view"
+    },
+    {
+      "id": "DN701",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 187000,
+      "price": 11236830.0,
+      "prices": {
+        "leasehold": 11236830.0,
+        "freehold": 12922354.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN702",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 187000,
+      "price": 11236830.0,
+      "prices": {
+        "leasehold": 11236830.0,
+        "freehold": 12922354.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN703",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 187000,
+      "price": 11236830.0,
+      "prices": {
+        "leasehold": 11236830.0,
+        "freehold": 12922354.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN704",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 187000,
+      "price": 11236830.0,
+      "prices": {
+        "leasehold": 11236830.0,
+        "freehold": 12922354.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN705",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 187000,
+      "price": 11236830.0,
+      "prices": {
+        "leasehold": 11236830.0,
+        "freehold": 12922354.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN706",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 187000,
+      "price": 11236830.0,
+      "prices": {
+        "leasehold": 11236830.0,
+        "freehold": 12922354.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN707",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 187000,
+      "price": 11236830.0,
+      "prices": {
+        "leasehold": 11236830.0,
+        "freehold": 12922354.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN708",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 187000,
+      "price": 8385080.0,
+      "prices": {
+        "leasehold": 8385080.0,
+        "freehold": 9642842.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS709",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS710",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS711",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS712",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS713",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS714",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 7,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 187000,
+      "price": 6150430.0,
+      "prices": {
+        "leasehold": 6150430.0,
+        "freehold": 7072994.5
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN801",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 192500,
+      "price": 11567325.0,
+      "prices": {
+        "leasehold": 11567325.0,
+        "freehold": 13302423.75
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN802",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 192500,
+      "price": 11567325.0,
+      "prices": {
+        "leasehold": 11567325.0,
+        "freehold": 13302423.75
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN803",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 192500,
+      "price": 11567325.0,
+      "prices": {
+        "leasehold": 11567325.0,
+        "freehold": 13302423.75
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN804",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 192500,
+      "price": 11567325.0,
+      "prices": {
+        "leasehold": 11567325.0,
+        "freehold": 13302423.75
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN805",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 192500,
+      "price": 11567325.0,
+      "prices": {
+        "leasehold": 11567325.0,
+        "freehold": 13302423.75
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN806",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "2 Bedroom",
+      "sqm": 60.09,
+      "pricePerSqm": 192500,
+      "price": 11567325.0,
+      "prices": {
+        "leasehold": 11567325.0,
+        "freehold": 13302423.75
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DN808",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 44.84,
+      "pricePerSqm": 192500,
+      "price": 8631700.0,
+      "prices": {
+        "leasehold": 8631700.0,
+        "freehold": 9926455.0
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS810",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 192500,
+      "price": 6331325.0,
+      "prices": {
+        "leasehold": 6331325.0,
+        "freehold": 7281023.75
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS811",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 192500,
+      "price": 6331325.0,
+      "prices": {
+        "leasehold": 6331325.0,
+        "freehold": 7281023.75
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS812",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 192500,
+      "price": 6331325.0,
+      "prices": {
+        "leasehold": 6331325.0,
+        "freehold": 7281023.75
+      },
+      "status": "available",
+      "view": "Sea view"
+    },
+    {
+      "id": "DS813",
+      "projectId": "ever-prime-karon",
+      "tower": "D",
+      "floor": 8,
+      "type": "1 Bedroom",
+      "sqm": 32.89,
+      "pricePerSqm": 192500,
+      "price": 6331325.0,
+      "prices": {
+        "leasehold": 6331325.0,
+        "freehold": 7281023.75
+      },
+      "status": "available",
+      "view": "Sea view"
     }
   ],
   "services": [

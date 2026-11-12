@@ -20,13 +20,16 @@ export default function UnitsScreen() {
   const [tower, setTower] = useState('');
   const [unitId, setUnitId] = useState('');
   const [own, setOwn] = useState<Ownership>(p?.ownership[0] ?? 'freehold');
+  const [planPick, setPlanPick] = useState('');
 
   const units = p ? unitsOf(cat, p.id).filter(u => u.status === 'available') : [];
   const towers = [...new Set(units.map(u => u.tower))];
   const activeTower = towers.includes(tower) ? tower : towers[0];
   const inTower = units.filter(u => u.tower === activeTower);
   const unit = inTower.find(u => u.id === unitId) ?? inTower[0];
-  const quote = useMemo(() => { try { return unit ? buildQuote(cat, unit, own) : null; } catch { return null; } }, [cat, unit, own]);
+  const planKeys = !p || !unit ? [] : unit.plan ? [unit.plan] : [p.paymentPlan ?? '', ...(p.altPaymentPlans ?? [])].filter(Boolean);
+  const plan = planKeys.includes(planPick) ? planPick : planKeys[0];
+  const quote = useMemo(() => { try { return unit ? buildQuote(cat, unit, own, plan) : null; } catch { return null; } }, [cat, unit, own, plan]);
 
   if (!p || !unit) return <Screen><Header close title={t('res.title')} /><Txt color="muted">{t('prop.availabilityHint')}</Txt></Screen>;
   const cur = p.pricing?.currency ?? 'THB';
@@ -41,6 +44,8 @@ export default function UnitsScreen() {
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 14 }}>{inTower.map(u => <Chip key={u.id} label={`${u.id} · ${u.type} · ${u.sqm} m²`} on={u.id === unit.id} onPress={() => setUnitId(u.id)} />)}</View>
       {p.ownership.length > 1 ? <><Txt weight="semibold" style={{ marginBottom: 8 }}>{t('res.ownership')}</Txt>
         <View style={{ flexDirection: 'row', gap: 8, marginBottom: 14 }}>{p.ownership.map(o => <Chip key={o} label={t(`own.${o}`)} on={o === own} onPress={() => setOwn(o)} />)}</View></> : null}
+      {planKeys.length > 1 ? <><Txt weight="semibold" style={{ marginBottom: 8 }}>{t('res.plan')}</Txt>
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 14 }}>{planKeys.map(k => <Chip key={k} label={cat.paymentPlans[k]?.name ?? k} on={k === plan} onPress={() => setPlanPick(k)} />)}</View></> : null}
       <Txt size={30} weight="heavy" style={{ marginVertical: 6 }}>{money(priceFor(unit, own), cur)}</Txt>
       {unit.style || unit.view ? <Txt color="muted" style={{ marginBottom: 8 }}>{[unit.style, unit.view].filter(Boolean).join(' · ')}</Txt> : null}
       {quote ? <QuoteTable quote={quote} /> : null}

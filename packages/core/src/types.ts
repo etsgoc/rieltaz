@@ -2,7 +2,7 @@ export type Ownership = 'leasehold' | 'freehold';
 export type UnitStatus = 'available' | 'reserved' | 'sold';
 
 export interface PlanStep { label: string; pct: number; extra?: number; lessReservation?: boolean; when?: string }
-export interface PaymentPlan { reservation: number; steps: PlanStep[] }
+export interface PaymentPlan { name?: string; reservation: number; steps: PlanStep[] }
 export interface FeeSchedule {
   commonAreaPerSqmMonth: number; sinkingPerSqm: number; meters: number; admin: number;
   transferPct: Partial<Record<Ownership, number>>;
@@ -34,7 +34,9 @@ export interface InvestmentInfo {
 }
 export interface Project {
   id: string; name: string; developerId?: string; ownership: Ownership[];
-  category?: PropertyCategory; paymentPlan?: string; fees?: string; status: string;
+  category?: PropertyCategory; paymentPlan?: string;
+  /** Other payment plans buyers can choose between, by key in `paymentPlans`. */
+  altPaymentPlans?: string[]; fees?: string; status: string;
   tagline?: string; summary?: string; featured?: boolean;
   location: { area: string; city: string; country?: string; lat: number; lng: number };
   media: { cover: string; gallery: string[]; tour360: Tour | string | null };

@@ -6,7 +6,7 @@ export interface KV {
 }
 
 export const DEFAULT_SOURCES = [
-  'https://raw.githubusercontent.com/etsgoc/logos/main/properties.json',
+  'https://raw.githubusercontent.com/etsgoc/rieltaz/main/data/properties.json',
   'https://drive.google.com/uc?export=download&id=1sKusllYclSdtSt8dD2nywZHZnzwZ5y5s',
 ];
 
