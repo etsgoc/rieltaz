@@ -2,7 +2,7 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ArrowLeft, Check, Clock, Maximize2, MapPin, Orbit, TrendingUp } from 'lucide-react-native';
 import { Pressable, ScrollView, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { categoryOf, factsOf, investmentReturn, layoutOf, money, photos, placeOf, priceOf, tourOf, unitsOf } from '@core';
+import { categoryOf, factsOf, investmentReturn, layoutOf, money, photos, placeOf, priceOf, toursOf, unitsOf } from '@core';
 import type { InquiryContext } from '@core';
 import { useI18n } from '@/i18n/I18nProvider';
 import { shortDate } from '@/lib/format';
@@ -14,6 +14,7 @@ import ContactForm from '@/components/contact/ContactForm';
 import FactIcon from '@/components/property/FactIcon';
 import Gallery from '@/components/property/Gallery';
 import HeartButton from '@/components/property/HeartButton';
+import PhotoGroups from '@/components/property/PhotoGroups';
 import { priceLabel } from '@/components/property/PropertyCard';
 import Spec from '@/components/property/Spec';
 import Button from '@/components/ui/Button';
@@ -38,7 +39,8 @@ export default function PropertyScreen() {
   const layout = layoutOf(cat, p);
   const price = priceOf(cat, p);
   const open = unitsOf(cat, p.id).filter(u => u.status === 'available').length;
-  const tour = tourOf(p);
+  const tours = toursOf(p);
+  const groups = (p.media.groups ?? []).filter(g => g.images.length);
   const amenities = p.amenities ?? [];
   const facts = factsOf(cat, p).filter(f => f.key !== 'units' || layout === 'units');
   const r = p.rental;
@@ -129,12 +131,14 @@ export default function PropertyScreen() {
           {p.management ? <><H>{t('prop.management')}</H><Txt color="muted">{String(p.management)}</Txt></> : null}
           {amenities.length ? <><H>{t('prop.amenities')}</H><View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>{amenities.map(a => <Chip key={a} label={a} />)}</View></> : null}
 
-          {tour ? (
-            <Pressable onPress={() => router.push(`/tour/${p.id}`)} style={{ marginTop: 18, flexDirection: 'row', alignItems: 'center', gap: 14, padding: 16, borderRadius: radius.card, backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.line }}>
+          {groups.length ? <><H>{t('photos.title')}</H><PhotoGroups groups={groups} /></> : null}
+
+          {tours.map((tour, k) => (
+            <Pressable key={tour.url} onPress={() => router.push({ pathname: '/tour/[id]', params: { id: p.id, i: String(k) } })} style={{ marginTop: 18, flexDirection: 'row', alignItems: 'center', gap: 14, padding: 16, borderRadius: radius.card, backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.line }}>
               <View style={{ width: 46, height: 46, borderRadius: 14, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center' }}><Orbit size={22} color={colors.accent} /></View>
-              <View style={{ flex: 1 }}><Txt weight="bold">{t('prop.tour')}</Txt><Txt size={13} color="muted">{t('prop.dragTour')}</Txt></View>
+              <View style={{ flex: 1 }}><Txt weight="bold">{tour.label ? `${t('prop.tour')}: ${tour.label}` : t('prop.tour')}</Txt><Txt size={13} color="muted">{t('prop.dragTour')}</Txt></View>
             </Pressable>
-          ) : null}
+          ))}
 
           <H>{t('prop.map')}</H>
           <Pressable onPress={() => router.push(`/map/${p.id}`)} style={{ height: 210, borderRadius: radius.card, overflow: 'hidden', borderWidth: 1, borderColor: colors.line }}>

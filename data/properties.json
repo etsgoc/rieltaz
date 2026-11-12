@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "updatedAt": "2026-11-12",
   "mediaBase": "https://raw.githubusercontent.com/etsgoc/rieltaz/main/web/public/images/",
   "contact": {
@@ -76,7 +76,18 @@
       "media": {
         "cover": "",
         "gallery": [],
-        "tour360": null
+        "tour360": {
+          "type": "embed",
+          "label": "The Trees Residence",
+          "url": "https://takealook360.com/vrtour/thetreesbangtao/index.htm"
+        },
+        "tours": [
+          {
+            "type": "embed",
+            "label": "The Trees Residence",
+            "url": "https://takealook360.com/vrtour/thetreesbangtao/index.htm"
+          }
+        ]
       },
       "documents": {
         "brochure": "DRIVE_FILE_ID",
@@ -87,7 +98,8 @@
       "summary": "Low rise residences set in the Bang Tao hills, run like a five star hotel. Stay when you like and let the hotel rent the unit when you do not. 168 units across 10 buildings, handover in Q4 2028.",
       "category": "new-build",
       "featured": true,
-      "priceNote": "Prices valid 9 November to 10 December 2026 (draft high season promotion). Furniture package included."
+      "priceNote": "Prices valid 9 November to 10 December 2026 (draft high season promotion). Furniture package included.",
+      "imageFolder": "trees"
     },
     {
       "id": "ever-prime-karon",
@@ -127,7 +139,38 @@
       "media": {
         "cover": "",
         "gallery": [],
-        "tour360": null
+        "tour360": {
+          "type": "embed",
+          "label": "All towers",
+          "url": "https://takealook360.com/vrtour/everprime"
+        },
+        "tours": [
+          {
+            "type": "embed",
+            "label": "All towers",
+            "url": "https://takealook360.com/vrtour/everprime"
+          },
+          {
+            "type": "embed",
+            "label": "Tower A",
+            "url": "https://takealook360.com/vrtour/everprime_twa/"
+          },
+          {
+            "type": "embed",
+            "label": "Tower B",
+            "url": "https://takealook360.com/vrtour/everprime_twb/"
+          },
+          {
+            "type": "embed",
+            "label": "Tower C",
+            "url": "https://takealook360.com/vrtour/everprime_twc/"
+          },
+          {
+            "type": "embed",
+            "label": "Tower D",
+            "url": "https://takealook360.com/vrtour/everprime_twd/"
+          }
+        ]
       },
       "status": "selling",
       "tagline": "Furnished one bedrooms in Karon",
@@ -137,7 +180,8 @@
       "altPaymentPlans": [
         "everprime-installments"
       ],
-      "priceNote": "Prices valid 6 November 2026 to 31 January 2027. The furniture package is additional on all units. Freehold is 15 percent above leasehold."
+      "priceNote": "Prices valid 6 November 2026 to 31 January 2027. The furniture package is additional on all units. Freehold is 15 percent above leasehold.",
+      "imageFolder": "everprime"
     },
     {
       "id": "the-element",
@@ -164,7 +208,18 @@
       "media": {
         "cover": "",
         "gallery": [],
-        "tour360": null
+        "tour360": {
+          "type": "embed",
+          "label": "The Element",
+          "url": "https://takealook360.com/vrtour/theelementkamala"
+        },
+        "tours": [
+          {
+            "type": "embed",
+            "label": "The Element",
+            "url": "https://takealook360.com/vrtour/theelementkamala"
+          }
+        ]
       },
       "status": "selling",
       "tagline": "Modern residences in Kamala",
@@ -192,7 +247,8 @@
         124.74,
         168.61
       ],
-      "priceNote": "Prices valid 18 September to 31 December 2026. All prices exclude the furniture package. Freehold is 15 percent above leasehold."
+      "priceNote": "Prices valid 18 September to 31 December 2026. All prices exclude the furniture package. Freehold is 15 percent above leasehold.",
+      "imageFolder": "element"
     }
   ],
   "paymentPlans": {

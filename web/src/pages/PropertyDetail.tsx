@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, Check, Clock, MapPin, Orbit, Share2, TrendingUp } from 'lucide-react';
-import { categoryOf, factsOf, investmentReturn, layoutOf, money, photos, placeOf, priceOf, tourOf, unitsOf } from '@core';
+import { categoryOf, factsOf, investmentReturn, layoutOf, money, photos, placeOf, priceOf, toursOf, unitsOf } from '@core';
 import type { InquiryContext, Ownership, Unit } from '@core';
 import { useCatalog } from '@/providers/CatalogProvider';
 import { useI18n } from '@/providers/I18nProvider';
@@ -21,7 +21,8 @@ import InvestmentPanel from '@/components/property/InvestmentPanel';
 import MapView from '@/components/property/MapView';
 import PriceTag from '@/components/property/PriceTag';
 import RentalPanel from '@/components/property/RentalPanel';
-import Tour360 from '@/components/property/Tour360';
+import PhotoGroups from '@/components/property/PhotoGroups';
+import TourPicker from '@/components/property/TourPicker';
 import UnitExplorer from '@/components/property/UnitExplorer';
 
 export default function PropertyDetail() {
@@ -40,7 +41,9 @@ export default function PropertyDetail() {
   const layout = layoutOf(cat, p);
   const price = priceOf(cat, p);
   const units = unitsOf(cat, p.id).filter(u => u.status === 'available');
-  const tour = tourOf(p);
+  const tours = toursOf(p);
+  const tour = tours[0];
+  const groups = (p.media.groups ?? []).filter(g => g.images.length);
   const amenities = p.amenities ?? [];
   const cur = p.pricing?.currency ?? 'THB';
   const facts = factsOf(cat, p);
@@ -110,7 +113,8 @@ export default function PropertyDetail() {
           {p.leaseTerms ? <><h2>{t('prop.leaseTerms')}</h2><p className="body-text">{String(p.leaseTerms)}</p></> : null}
           {p.management ? <><h2>{t('prop.management')}</h2><p className="body-text">{String(p.management)}</p></> : null}
           {amenities.length > 0 && <><h2>{t('prop.amenities')}</h2><ul className="amenity-grid">{amenities.map(a => <li key={a}><Check size={16} />{a}</li>)}</ul></>}
-          {tour && <><h2 id="tour">{t('prop.tour')}</h2><ConsentGate><Tour360 tour={tour} /></ConsentGate></>}
+          {groups.length > 0 && <><h2>{t('photos.title')}</h2><PhotoGroups groups={groups} /></>}
+          {tour && <><h2 id="tour">{t('prop.tour')}</h2><ConsentGate><TourPicker tours={tours} /></ConsentGate></>}
           <h2>{t('prop.map')}</h2>
           <ConsentGate><MapView lat={p.location.lat} lng={p.location.lng} name={p.name} /></ConsentGate>
         </div>

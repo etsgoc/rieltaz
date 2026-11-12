@@ -2,17 +2,17 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { X } from 'lucide-react-native';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { tourOf } from '@core';
+import { toursOf } from '@core';
 import { useCatalog } from '@/providers/CatalogProvider';
 import Pano from '@/components/web/Pano';
 
 export default function TourScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const { id, i } = useLocalSearchParams<{ id: string; i?: string }>();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { cat } = useCatalog();
   const p = cat.projects.find(x => x.id === id);
-  const tour = p ? tourOf(p) : null;
+  const tour = p ? toursOf(p)[Number(i ?? 0)] ?? null : null;
   if (!tour) return null;
   return (
     <View style={{ flex: 1, backgroundColor: '#000' }}>

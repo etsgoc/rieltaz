@@ -17,7 +17,9 @@ export interface Unit {
   /** Free text shown beside the type, for example "Premium pool access, high ceiling 3.75 m". */
   style?: string; view?: string;
 }
-export interface Tour { type: 'pano' | 'embed'; url: string }
+export interface Tour { type: 'pano' | 'embed'; url: string; label?: string }
+/** Photos grouped by area, for example Kitchen, Pool or a unit type. Image paths are relative to `mediaBase`. */
+export interface PhotoGroup { id: string; label: string; images: string[] }
 export type PropertyCategory = 'new-build' | 'resale' | 'rental' | 'investment';
 
 /** Optional quick facts. Any of them can be left out. */
@@ -39,7 +41,9 @@ export interface Project {
   altPaymentPlans?: string[]; fees?: string; status: string;
   tagline?: string; summary?: string; featured?: boolean;
   location: { area: string; city: string; country?: string; lat: number; lng: number };
-  media: { cover: string; gallery: string[]; tour360: Tour | string | null };
+  media: { cover: string; gallery: string[]; tour360: Tour | string | null; tours?: Tour[]; groups?: PhotoGroup[] };
+  /** Folder under web/public/images used by scripts/sync-media.mjs when it differs from the listing id. */
+  imageFolder?: string;
   pricing?: { from: number | null; currency: string };
   facts?: Facts; rental?: RentalInfo; investment?: InvestmentInfo;
   amenities?: string[];

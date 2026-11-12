@@ -100,3 +100,19 @@ Buyers then get a plan dropdown. A unit with its own `plan` skips the choice.
 
 ## Photos and 360 tours
 Do not type image paths by hand. Put files in `web/public/images/<listing id>/` and run `node scripts/sync-media.mjs`. Files named `cover.*` become the cover and `360.*` or `pano*` becomes the 360 tour.
+
+## 360 tours hosted on another site
+One tour: `"tour360": { "type": "embed", "url": "https://..." }`. Several tours, for example one per tower, use `tours` and keep `tour360` as the first one:
+```json
+"media": {
+  "tour360": { "type": "embed", "label": "All towers", "url": "https://takealook360.com/vrtour/everprime" },
+  "tours": [
+    { "type": "embed", "label": "All towers", "url": "https://takealook360.com/vrtour/everprime" },
+    { "type": "embed", "label": "Tower A", "url": "https://takealook360.com/vrtour/everprime_twa/" }
+  ]
+}
+```
+Visitors get a tab per tour and a link to open it in a new tab, in case the other site does not allow embedding. A panorama image of your own uses `"type": "pano"` instead.
+
+## Photo areas
+`media.groups` is written by `scripts/sync-media.mjs` from the sub folders of `web/public/images/<imageFolder>/`, so do not edit it by hand. Set `"imageFolder": "everprime"` on a listing when the folder name differs from its id.

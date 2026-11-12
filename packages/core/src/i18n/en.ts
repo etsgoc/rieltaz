@@ -97,6 +97,8 @@ export const en = {
   'inv.raise': 'Funding target', 'inv.raised': 'Committed so far', 'inv.minTicket': 'Minimum investment', 'inv.scope': 'Renovation scope',
   'inv.note': 'Projections are estimates, not guarantees. Ask us for the full cost breakdown and the contractor quotes.',
   'res.plan': 'Payment plan',
+  'photos.title': 'Photos by area', 'photos.all': 'All', 'photos.more': 'Show more', 'photos.count': '{n} photos',
+  'tour.openTab': 'Open the tour in a new tab', 'tour.choose': 'Choose a tour',
   'inq.title': 'Send an enquiry', 'inq.phone': 'Phone, optional', 'inq.send': 'Send enquiry', 'inq.opening': 'Opening your email app. If nothing opens, write to {email}.',
   'inq.sent': 'Enquiry sent. We will get back to you soon.', 'inq.or': 'or', 'inq.consent': 'We only use your details to answer this enquiry.',
   'act.call': 'Call', 'act.whatsapp': 'WhatsApp', 'act.email': 'Email', 'act.callNow': 'Call now', 'act.writeWhatsapp': 'Message on WhatsApp', 'act.writeEmail': 'Write an email',

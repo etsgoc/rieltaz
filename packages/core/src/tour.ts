@@ -8,6 +8,14 @@ export function tourOf(p: Project): Tour | null {
   return { type: 'embed', url: t.startsWith('http') ? t : `https://drive.google.com/file/d/${t}/preview` };
 }
 
+/** All tours of a listing. `media.tours` can hold several (for example one per tower), otherwise the single `tour360`. */
+export function toursOf(p: Project): Tour[] {
+  const many = (p.media.tours ?? []).filter(t => t?.url);
+  if (many.length) return many;
+  const one = tourOf(p);
+  return one ? [one] : [];
+}
+
 export const PANNELLUM_JS = 'https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.js';
 export const PANNELLUM_CSS = 'https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.css';
 

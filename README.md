@@ -90,5 +90,7 @@ Each project in `data/properties.json` has a `category`: `new-build`, `resale`, 
 
 ## Data and images live in this repo
 - Listings: `data/properties.json`. The website bundles it at build time. Website and mobile app also read `https://raw.githubusercontent.com/etsgoc/rieltaz/main/data/properties.json`, so a push is enough to update listings. Raise `version` on every change. The repo must be public for the app to read it. If it is private the app falls back to the copy bundled in its last build.
-- Images: put photos in `web/public/images/<listing id>/`. Name the cover `cover.jpg` and a 360 panorama `360.jpg`. Then run `node scripts/sync-media.mjs` from the repo root. It fills `media` for every listing and raises `version`. Commit the images and the JSON together.
+- Images: put photos in `web/public/images/<imageFolder>/` (the folder name is `imageFolder` in the JSON, or the listing id). Every sub folder becomes a photo area on the listing page (Kitchen, Pool, a unit type). Name a cover `cover.jpg`. Then run `node scripts/sync-media.mjs` from the repo root. It fills `media` for every listing and raises `version`. Commit the images and the JSON together.
+- Big renders from Google Drive: open `scripts/colab/rieltaz-copy-renders.ipynb` in Google Colab. It copies the three RENDERS folders, shrinks them to web size, pushes them to this repo and runs the sync.
+- 360 tours hosted elsewhere: add them to `media.tours` in the JSON, see `data/BLUEPRINTS.md`.
 - Image links use `mediaBase` in the JSON (raw.githubusercontent.com of this repo). Compress photos first, around 1600 px wide as WebP or JPEG, to keep pages fast.
