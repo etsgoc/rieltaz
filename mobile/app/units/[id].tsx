@@ -1,7 +1,7 @@
 import { useLocalSearchParams } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { View } from 'react-native';
-import { buildQuote, money, unitsOf } from '@core';
+import { buildQuote, money, priceFor, unitsOf } from '@core';
 import type { InquiryContext, Ownership } from '@core';
 import { useI18n } from '@/i18n/I18nProvider';
 import { useCatalog } from '@/providers/CatalogProvider';
@@ -30,7 +30,7 @@ export default function UnitsScreen() {
 
   if (!p || !unit) return <Screen><Header close title={t('res.title')} /><Txt color="muted">{t('prop.availabilityHint')}</Txt></Screen>;
   const cur = p.pricing?.currency ?? 'THB';
-  const ctx: InquiryContext = { property: p.name, unit: `${unit.id}, ${unit.type}, ${unit.sqm} m²`, ownership: p.ownership.length ? t(`own.${own}`) : undefined, price: money(unit.price, cur) };
+  const ctx: InquiryContext = { property: p.name, unit: `${unit.id}, ${unit.type}, ${unit.sqm} m²`, ownership: p.ownership.length ? t(`own.${own}`) : undefined, price: money(priceFor(unit, own), cur) };
 
   return (
     <Screen bottom={20}>
@@ -38,11 +38,13 @@ export default function UnitsScreen() {
       {towers.length > 1 ? <><Txt weight="semibold" style={{ marginBottom: 8 }}>{t('res.tower')}</Txt>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 14 }}>{towers.map(x => <Chip key={x} label={x} on={x === activeTower} onPress={() => setTower(x)} />)}</View></> : null}
       <Txt weight="semibold" style={{ marginBottom: 8 }}>{t('res.unit')}</Txt>
-      <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 14 }}>{inTower.map(u => <Chip key={u.id} label={`${u.id} · ${u.sqm} m²`} on={u.id === unit.id} onPress={() => setUnitId(u.id)} />)}</View>
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 14 }}>{inTower.map(u => <Chip key={u.id} label={`${u.id} · ${u.type} · ${u.sqm} m²`} on={u.id === unit.id} onPress={() => setUnitId(u.id)} />)}</View>
       {p.ownership.length > 1 ? <><Txt weight="semibold" style={{ marginBottom: 8 }}>{t('res.ownership')}</Txt>
         <View style={{ flexDirection: 'row', gap: 8, marginBottom: 14 }}>{p.ownership.map(o => <Chip key={o} label={t(`own.${o}`)} on={o === own} onPress={() => setOwn(o)} />)}</View></> : null}
-      <Txt size={30} weight="heavy" style={{ marginVertical: 6 }}>{money(unit.price, cur)}</Txt>
+      <Txt size={30} weight="heavy" style={{ marginVertical: 6 }}>{money(priceFor(unit, own), cur)}</Txt>
+      {unit.style || unit.view ? <Txt color="muted" style={{ marginBottom: 8 }}>{[unit.style, unit.view].filter(Boolean).join(' · ')}</Txt> : null}
       {quote ? <QuoteTable quote={quote} /> : null}
+      {typeof p.priceNote === 'string' ? <Txt size={13} color="muted" style={{ marginTop: 8 }}>{p.priceNote}</Txt> : null}
       <Txt weight="bold" size={18} style={{ marginTop: 22, marginBottom: 10 }}>{t('res.cta')}</Txt>
       <ContactActions ctx={ctx} />
     </Screen>

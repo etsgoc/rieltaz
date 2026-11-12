@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { buildQuote } from '@core';
+import { buildQuote, priceFor } from '@core';
 import type { Ownership, Project, Unit } from '@core';
 import { useCatalog } from '@/providers/CatalogProvider';
 import { useI18n } from '@/providers/I18nProvider';
@@ -25,12 +25,15 @@ export default function UnitExplorer({ p, units, onSelect }: { p: Project; units
     <div className="unit-explorer">
       <div className="stack">
         {towers.length > 1 && <Dropdown label={t('res.tower')} value={tower} onChange={v => { setTower(v); setUnitId(''); }} options={towers.map(x => ({ value: x, label: x }))} />}
-        <Dropdown label={t('res.unit')} value={unit.id} onChange={setUnitId} options={inTower.map(u => ({ value: u.id, label: `${u.id} · ${u.type} · ${u.sqm} m²` }))} />
+        <Dropdown label={t('res.unit')} value={unit.id} onChange={setUnitId} options={inTower.map(u => ({ value: u.id, label: `${u.id} · ${u.type}${u.style ? `, ${u.style}` : ''} · ${u.sqm} m²` }))} />
         {p.ownership.length > 1 && <Dropdown label={t('res.ownership')} value={own} onChange={setOwn} options={p.ownership.map(o => ({ value: o, label: t(`own.${o}`) }))} />}
-        <div className="unit-price"><span className="muted small">{unit.id} · {unit.type} · {unit.sqm} m²</span><div className="big-price">{thb(unit.price, p.pricing?.currency)}</div></div>
+        <div className="unit-price"><span className="muted small">{unit.id} · {unit.type} · {unit.sqm} m²{unit.view ? ` · ${unit.view}` : ''}</span><div className="big-price">{thb(priceFor(unit, own), p.pricing?.currency)}</div></div>
         <Button block onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>{t('res.cta')}</Button>
       </div>
-      {quote && <QuoteTable quote={quote} />}
+      <div>
+        {quote && <QuoteTable quote={quote} />}
+        {typeof p.priceNote === 'string' && <p className="muted small">{p.priceNote}</p>}
+      </div>
     </div>
   );
 }

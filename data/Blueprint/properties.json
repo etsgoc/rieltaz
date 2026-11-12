@@ -1,0 +1,2968 @@
+{
+  "version": 5,
+  "updatedAt": "2026-11-08",
+  "mediaBase": "https://drive.google.com/thumbnail?sz=w1600&id=",
+  "contact": {
+    "phone": "+66 99 259 6525",
+    "email": "info@thetreesresidencephuket.com",
+    "whatsapp": "+66 99 259 6525",
+    "hours": "Messages answered within one working day",
+    "formEndpoint": "",
+    "formKey": ""
+  },
+  "developers": [
+    {
+      "id": "ever-prime",
+      "name": "Ever Prime Development Co., Ltd",
+      "area": "Kamala, Phuket",
+      "email": "info@everprimeresidences.com",
+      "phone": "+66 76 279 225",
+      "blurb": "Developer of Ever Prime Residences in Karon."
+    },
+    {
+      "id": "anocha",
+      "name": "The Trees Residence by Anocha Co., Ltd",
+      "area": "Bang Tao, Phuket",
+      "phone": "+66 99 259 6525",
+      "blurb": "Developer of The Trees Residence in Bang Tao and The Element in Kamala."
+    }
+  ],
+  "projects": [
+    {
+      "id": "trees-zone-b",
+      "name": "The Trees Residence, Zone B",
+      "developerId": "anocha",
+      "location": {
+        "area": "Bang Tao",
+        "city": "Phuket",
+        "lat": 8.0,
+        "lng": 98.3,
+        "country": "Thailand"
+      },
+      "ownership": [
+        "leasehold"
+      ],
+      "leaseTerms": "30 years, two 30 year renewals, up to 90 years",
+      "handover": "Q4 2028",
+      "totalUnits": 168,
+      "sizes": [
+        37.28,
+        55.03
+      ],
+      "types": [
+        "1 Bedroom",
+        "2 Bedroom"
+      ],
+      "furnished": true,
+      "amenities": [
+        "Pool",
+        "Fitness",
+        "Sauna",
+        "Ice bath",
+        "Spa",
+        "Kids club",
+        "Co-working",
+        "Cafe",
+        "Outdoor cinema",
+        "Library"
+      ],
+      "management": "Hotel managed. 75% of net room income goes to the owner. Personal use is unrestricted.",
+      "pricing": {
+        "from": 5077051.36,
+        "currency": "THB"
+      },
+      "paymentPlan": "trees",
+      "fees": "trees",
+      "media": {
+        "cover": "https://picsum.photos/seed/trees-zone-b-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/trees-zone-b-1/1600/1000",
+          "https://picsum.photos/seed/trees-zone-b-2/1600/1000",
+          "https://picsum.photos/seed/trees-zone-b-3/1600/1000",
+          "https://picsum.photos/seed/trees-zone-b-4/1600/1000",
+          "https://picsum.photos/seed/trees-zone-b-5/1600/1000"
+        ],
+        "tour360": {
+          "type": "pano",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Laon_Cathedral_Interior_360x180%2C_Picardy%2C_France_-_Diliff.jpg/4096px-Laon_Cathedral_Interior_360x180%2C_Picardy%2C_France_-_Diliff.jpg"
+        }
+      },
+      "documents": {
+        "brochure": "DRIVE_FILE_ID",
+        "priceList": "DRIVE_FILE_ID"
+      },
+      "status": "selling",
+      "tagline": "Hotel managed residences in Bang Tao",
+      "summary": "Low rise residences set in the Bang Tao hills, run like a five star hotel. Stay when you like and let the hotel rent the unit when you do not. 168 units across 10 buildings, handover in Q4 2028.",
+      "category": "new-build",
+      "featured": true
+    },
+    {
+      "id": "ever-prime-karon",
+      "name": "Ever Prime Residences",
+      "developerId": "ever-prime",
+      "location": {
+        "area": "Karon",
+        "city": "Phuket",
+        "lat": 7.84,
+        "lng": 98.3,
+        "country": "Thailand"
+      },
+      "ownership": [
+        "leasehold",
+        "freehold"
+      ],
+      "types": [
+        "1 Bedroom"
+      ],
+      "sizes": [
+        51.36
+      ],
+      "furnished": true,
+      "furniturePackageValue": 350000,
+      "pricing": {
+        "from": null,
+        "currency": "THB"
+      },
+      "paymentPlan": "everprime",
+      "fees": "everprime",
+      "media": {
+        "cover": "https://picsum.photos/seed/ever-prime-karon-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/ever-prime-karon-1/1600/1000",
+          "https://picsum.photos/seed/ever-prime-karon-2/1600/1000",
+          "https://picsum.photos/seed/ever-prime-karon-3/1600/1000",
+          "https://picsum.photos/seed/ever-prime-karon-4/1600/1000",
+          "https://picsum.photos/seed/ever-prime-karon-5/1600/1000"
+        ],
+        "tour360": {
+          "type": "pano",
+          "url": "https://pannellum.org/images/alma.jpg"
+        }
+      },
+      "status": "selling",
+      "tagline": "Furnished one bedrooms in Karon",
+      "summary": "One bedroom residences of 51.36 m² in Karon, sold as leasehold or freehold. Every unit comes with a complimentary furniture package worth 350,000 THB.",
+      "category": "new-build",
+      "featured": true
+    },
+    {
+      "id": "the-element",
+      "name": "The Element by Anocha",
+      "developerId": "anocha",
+      "location": {
+        "area": "Kamala",
+        "city": "Phuket",
+        "lat": 7.95,
+        "lng": 98.28,
+        "country": "Thailand"
+      },
+      "ownership": [
+        "leasehold",
+        "freehold"
+      ],
+      "interiorCollection": "Timeless Ivory",
+      "pricing": {
+        "from": null,
+        "currency": "THB"
+      },
+      "paymentPlan": "everprime",
+      "fees": "everprime",
+      "media": {
+        "cover": "https://picsum.photos/seed/the-element-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/the-element-1/1600/1000",
+          "https://picsum.photos/seed/the-element-2/1600/1000",
+          "https://picsum.photos/seed/the-element-3/1600/1000",
+          "https://picsum.photos/seed/the-element-4/1600/1000",
+          "https://picsum.photos/seed/the-element-5/1600/1000"
+        ],
+        "tour360": {
+          "type": "pano",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Laon_Cathedral_Interior_360x180%2C_Picardy%2C_France_-_Diliff.jpg/4096px-Laon_Cathedral_Interior_360x180%2C_Picardy%2C_France_-_Diliff.jpg"
+        }
+      },
+      "status": "selling",
+      "tagline": "Modern residences in Kamala",
+      "summary": "A calm, modern project in Kamala by Anocha. The Timeless Ivory interior collection uses beige, champagne and soft white tones.",
+      "category": "new-build",
+      "featured": true
+    },
+    {
+      "id": "lisbon-chiado-loft",
+      "name": "Chiado Loft",
+      "category": "resale",
+      "featured": true,
+      "location": {
+        "area": "Chiado",
+        "city": "Lisbon",
+        "country": "Portugal",
+        "lat": 38.7109,
+        "lng": -9.1409
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 485000,
+        "currency": "EUR"
+      },
+      "facts": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "area": 96,
+        "year": 2018
+      },
+      "amenities": [
+        "Lift",
+        "Air conditioning",
+        "Balcony",
+        "River view",
+        "Concierge",
+        "Bike storage"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/lisbon-chiado-loft-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/lisbon-chiado-loft-1/1600/1000",
+          "https://picsum.photos/seed/lisbon-chiado-loft-2/1600/1000",
+          "https://picsum.photos/seed/lisbon-chiado-loft-3/1600/1000",
+          "https://picsum.photos/seed/lisbon-chiado-loft-4/1600/1000",
+          "https://picsum.photos/seed/lisbon-chiado-loft-5/1600/1000"
+        ],
+        "tour360": {
+          "type": "pano",
+          "url": "https://pannellum.org/images/alma.jpg"
+        }
+      },
+      "status": "available",
+      "tagline": "Bright two bedroom loft in the heart of Chiado",
+      "summary": "A renovated loft with high ceilings, oak floors and a south facing balcony. Cafes, the metro and the river are a few minutes on foot. Sold freehold and ready to move into."
+    },
+    {
+      "id": "miami-brickell-condo",
+      "name": "Brickell Bay Residence",
+      "category": "resale",
+      "featured": true,
+      "location": {
+        "area": "Brickell",
+        "city": "Miami",
+        "country": "United States",
+        "lat": 25.7617,
+        "lng": -80.1918
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 620000,
+        "currency": "USD"
+      },
+      "facts": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "area": 112,
+        "year": 2015,
+        "parking": 1
+      },
+      "amenities": [
+        "Pool",
+        "Gym",
+        "Concierge",
+        "Bay view",
+        "Valet parking",
+        "Rooftop terrace"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/miami-brickell-condo-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/miami-brickell-condo-1/1600/1000",
+          "https://picsum.photos/seed/miami-brickell-condo-2/1600/1000",
+          "https://picsum.photos/seed/miami-brickell-condo-3/1600/1000",
+          "https://picsum.photos/seed/miami-brickell-condo-4/1600/1000",
+          "https://picsum.photos/seed/miami-brickell-condo-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Bay view condo with resort style amenities",
+      "summary": "A corner two bedroom on a high floor with floor to ceiling glass and a view over Biscayne Bay. The building has a rooftop pool, gym and 24 hour concierge."
+    },
+    {
+      "id": "tenerife-seafront-apt",
+      "name": "Costa Adeje Seafront Apartment",
+      "category": "resale",
+      "featured": false,
+      "location": {
+        "area": "Costa Adeje",
+        "city": "Tenerife",
+        "country": "Spain",
+        "lat": 28.0875,
+        "lng": -16.734
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 365000,
+        "currency": "EUR"
+      },
+      "facts": {
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "area": 78,
+        "year": 2010
+      },
+      "amenities": [
+        "Sea view",
+        "Shared pool",
+        "Terrace",
+        "Garage",
+        "Walk to beach"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/tenerife-seafront-apt-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/tenerife-seafront-apt-1/1600/1000",
+          "https://picsum.photos/seed/tenerife-seafront-apt-2/1600/1000",
+          "https://picsum.photos/seed/tenerife-seafront-apt-3/1600/1000",
+          "https://picsum.photos/seed/tenerife-seafront-apt-4/1600/1000",
+          "https://picsum.photos/seed/tenerife-seafront-apt-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Two minutes from the beach, with a sea view terrace",
+      "summary": "A well kept two bedroom apartment in a gated complex with a shared pool and garage. Works well as a holiday home or a rental."
+    },
+    {
+      "id": "bali-canggu-villa",
+      "name": "Canggu Rice Field Villa",
+      "category": "rental",
+      "featured": true,
+      "location": {
+        "area": "Canggu",
+        "city": "Bali",
+        "country": "Indonesia",
+        "lat": -8.6478,
+        "lng": 115.1385
+      },
+      "ownership": [],
+      "pricing": {
+        "from": 210,
+        "currency": "USD"
+      },
+      "facts": {
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "guests": 6,
+        "area": 220
+      },
+      "amenities": [
+        "Private pool",
+        "Rice field view",
+        "Full kitchen",
+        "Fast wifi",
+        "Scooter hire",
+        "Daily housekeeping"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/bali-canggu-villa-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/bali-canggu-villa-1/1600/1000",
+          "https://picsum.photos/seed/bali-canggu-villa-2/1600/1000",
+          "https://picsum.photos/seed/bali-canggu-villa-3/1600/1000",
+          "https://picsum.photos/seed/bali-canggu-villa-4/1600/1000",
+          "https://picsum.photos/seed/bali-canggu-villa-5/1600/1000"
+        ],
+        "tour360": {
+          "type": "pano",
+          "url": "https://pannellum.org/images/alma.jpg"
+        }
+      },
+      "status": "available",
+      "tagline": "Private pool villa with daily housekeeping",
+      "summary": "Three bedroom villa a short ride from the beach, set against rice fields. Scouted and checked in person. Ask us for dates, long stay prices and direct booking.",
+      "rental": {
+        "nightly": 210,
+        "currency": "USD",
+        "minNights": 3,
+        "cleaningFee": 40,
+        "deposit": 300,
+        "occupancyPct": 78,
+        "rating": 4.9,
+        "reviews": 214,
+        "source": "Airbnb",
+        "sourceUrl": "https://www.airbnb.com",
+        "rules": [
+          "No parties or events",
+          "Check in after 14:00",
+          "No smoking indoors"
+        ]
+      }
+    },
+    {
+      "id": "krakow-old-town-studio",
+      "name": "Old Town Studio",
+      "category": "rental",
+      "featured": false,
+      "location": {
+        "area": "Old Town",
+        "city": "Krakow",
+        "country": "Poland",
+        "lat": 50.0647,
+        "lng": 19.945
+      },
+      "ownership": [],
+      "pricing": {
+        "from": 260,
+        "currency": "PLN"
+      },
+      "facts": {
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "guests": 2,
+        "area": 34
+      },
+      "amenities": [
+        "Wifi",
+        "Kitchen",
+        "Washing machine",
+        "Air conditioning",
+        "Self check in"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/krakow-old-town-studio-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/krakow-old-town-studio-1/1600/1000",
+          "https://picsum.photos/seed/krakow-old-town-studio-2/1600/1000",
+          "https://picsum.photos/seed/krakow-old-town-studio-3/1600/1000",
+          "https://picsum.photos/seed/krakow-old-town-studio-4/1600/1000",
+          "https://picsum.photos/seed/krakow-old-town-studio-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Studio on a quiet street, five minutes from the square",
+      "summary": "A bright studio with a proper kitchen, fast wifi and blackout curtains. Popular all year, especially in summer and at Christmas markets.",
+      "rental": {
+        "nightly": 260,
+        "currency": "PLN",
+        "minNights": 2,
+        "cleaningFee": 80,
+        "deposit": 500,
+        "occupancyPct": 82,
+        "rating": 4.8,
+        "reviews": 96,
+        "source": "Airbnb",
+        "sourceUrl": "https://www.airbnb.com",
+        "rules": [
+          "Quiet hours from 22:00",
+          "Self check in with a key box"
+        ]
+      }
+    },
+    {
+      "id": "athens-koukaki-rental",
+      "name": "Koukaki Garden Flat",
+      "category": "rental",
+      "featured": false,
+      "location": {
+        "area": "Koukaki",
+        "city": "Athens",
+        "country": "Greece",
+        "lat": 37.9644,
+        "lng": 23.7222
+      },
+      "ownership": [],
+      "pricing": {
+        "from": 1450,
+        "currency": "EUR"
+      },
+      "facts": {
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "guests": 3,
+        "area": 58
+      },
+      "amenities": [
+        "Furnished",
+        "Garden",
+        "Air conditioning",
+        "Fibre internet",
+        "Metro nearby"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/athens-koukaki-rental-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/athens-koukaki-rental-1/1600/1000",
+          "https://picsum.photos/seed/athens-koukaki-rental-2/1600/1000",
+          "https://picsum.photos/seed/athens-koukaki-rental-3/1600/1000",
+          "https://picsum.photos/seed/athens-koukaki-rental-4/1600/1000",
+          "https://picsum.photos/seed/athens-koukaki-rental-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Long let near the Acropolis, furnished",
+      "summary": "A furnished one bedroom flat with a small garden, ten minutes on foot from the Acropolis museum. Available for six months or longer.",
+      "rental": {
+        "monthly": 1450,
+        "currency": "EUR",
+        "minNights": 180,
+        "deposit": 2900,
+        "availableFrom": "2027-01-15",
+        "source": "Direct from owner",
+        "rules": [
+          "Minimum six month let",
+          "Bills not included"
+        ]
+      }
+    },
+    {
+      "id": "lisbon-alfama-renovation",
+      "name": "Alfama House Renovation",
+      "category": "investment",
+      "featured": true,
+      "location": {
+        "area": "Alfama",
+        "city": "Lisbon",
+        "country": "Portugal",
+        "lat": 38.7114,
+        "lng": -9.1285
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 320000,
+        "currency": "EUR"
+      },
+      "facts": {
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area": 128,
+        "year": 1930
+      },
+      "amenities": [
+        "River view",
+        "Original tiles",
+        "Roof terrace potential",
+        "Walk to metro"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/lisbon-alfama-renovation-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/lisbon-alfama-renovation-1/1600/1000",
+          "https://picsum.photos/seed/lisbon-alfama-renovation-2/1600/1000",
+          "https://picsum.photos/seed/lisbon-alfama-renovation-3/1600/1000",
+          "https://picsum.photos/seed/lisbon-alfama-renovation-4/1600/1000",
+          "https://picsum.photos/seed/lisbon-alfama-renovation-5/1600/1000"
+        ],
+        "tour360": {
+          "type": "pano",
+          "url": "https://pannellum.org/images/alma.jpg"
+        }
+      },
+      "status": "available",
+      "tagline": "Four storey townhouse to renovate and sell",
+      "summary": "A narrow townhouse with its original tiles and a view over the Tagus, in need of full renovation. Our contractor has priced the works and the numbers are below.",
+      "investment": {
+        "purchasePrice": 320000,
+        "renovationBudget": 140000,
+        "afterRepairValue": 640000,
+        "currency": "EUR",
+        "strategy": "Renovate and sell",
+        "timelineMonths": 9,
+        "targetRaise": 460000,
+        "raised": 275000,
+        "minTicket": 25000,
+        "scope": [
+          "Structural repairs",
+          "New kitchen and two bathrooms",
+          "Electrics and plumbing",
+          "Windows and insulation",
+          "Interior finishing"
+        ]
+      }
+    },
+    {
+      "id": "phuket-rawai-reno",
+      "name": "Rawai Pool Villa Project",
+      "category": "investment",
+      "featured": false,
+      "location": {
+        "area": "Rawai",
+        "city": "Phuket",
+        "country": "Thailand",
+        "lat": 7.7798,
+        "lng": 98.3248
+      },
+      "ownership": [
+        "leasehold"
+      ],
+      "pricing": {
+        "from": 9800000,
+        "currency": "THB"
+      },
+      "facts": {
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "area": 240,
+        "plot": 620,
+        "year": 2009
+      },
+      "amenities": [
+        "Private pool",
+        "Garden",
+        "Parking for three",
+        "Near Nai Harn beach"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/phuket-rawai-reno-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/phuket-rawai-reno-1/1600/1000",
+          "https://picsum.photos/seed/phuket-rawai-reno-2/1600/1000",
+          "https://picsum.photos/seed/phuket-rawai-reno-3/1600/1000",
+          "https://picsum.photos/seed/phuket-rawai-reno-4/1600/1000",
+          "https://picsum.photos/seed/phuket-rawai-reno-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Dated pool villa to refresh and rent",
+      "summary": "A four bedroom villa on a large plot, ten minutes from Nai Harn beach. The plan is a full refresh and a hotel managed rental programme.",
+      "investment": {
+        "purchasePrice": 9800000,
+        "renovationBudget": 3200000,
+        "afterRepairValue": 17000000,
+        "currency": "THB",
+        "strategy": "Renovate and rent",
+        "timelineMonths": 8,
+        "targetRaise": 13000000,
+        "raised": 4200000,
+        "minTicket": 500000,
+        "scope": [
+          "New roof and pool equipment",
+          "Kitchen and bathrooms",
+          "Air conditioning and electrics",
+          "Landscaping",
+          "Furniture package"
+        ]
+      }
+    },
+    {
+      "id": "warsaw-praga-flat",
+      "name": "Praga Prewar Flat",
+      "category": "investment",
+      "featured": false,
+      "location": {
+        "area": "Praga Polnoc",
+        "city": "Warsaw",
+        "country": "Poland",
+        "lat": 52.2563,
+        "lng": 21.0447
+      },
+      "ownership": [
+        "freehold"
+      ],
+      "pricing": {
+        "from": 690000,
+        "currency": "PLN"
+      },
+      "facts": {
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "area": 74,
+        "year": 1936
+      },
+      "amenities": [
+        "Lift planned",
+        "High ceilings",
+        "Metro nearby",
+        "Quiet courtyard"
+      ],
+      "media": {
+        "cover": "https://picsum.photos/seed/warsaw-praga-flat-cover/1600/1000",
+        "gallery": [
+          "https://picsum.photos/seed/warsaw-praga-flat-1/1600/1000",
+          "https://picsum.photos/seed/warsaw-praga-flat-2/1600/1000",
+          "https://picsum.photos/seed/warsaw-praga-flat-3/1600/1000",
+          "https://picsum.photos/seed/warsaw-praga-flat-4/1600/1000",
+          "https://picsum.photos/seed/warsaw-praga-flat-5/1600/1000"
+        ],
+        "tour360": null
+      },
+      "status": "available",
+      "tagline": "Prewar flat in a district on the rise",
+      "summary": "A three room prewar flat on the second floor of a restored tenement. The building is sound, the interior needs a full renovation before resale.",
+      "investment": {
+        "purchasePrice": 690000,
+        "renovationBudget": 180000,
+        "afterRepairValue": 1050000,
+        "currency": "PLN",
+        "strategy": "Renovate and sell",
+        "timelineMonths": 6,
+        "targetRaise": 870000,
+        "raised": 120000,
+        "minTicket": 20000,
+        "scope": [
+          "Floors and walls",
+          "New bathroom",
+          "Kitchen",
+          "Electrics",
+          "Painting and finishing"
+        ]
+      }
+    }
+  ],
+  "paymentPlans": {
+    "trees": {
+      "reservation": 200000,
+      "steps": [
+        {
+          "label": "Lease signing",
+          "pct": 35,
+          "extra": 35000,
+          "lessReservation": true,
+          "when": "Within 30 days of reservation"
+        },
+        {
+          "label": "Earthworks and retaining wall",
+          "pct": 10
+        },
+        {
+          "label": "Building foundations",
+          "pct": 10
+        },
+        {
+          "label": "Building structure",
+          "pct": 15
+        },
+        {
+          "label": "Internal systems and architecture",
+          "pct": 10
+        },
+        {
+          "label": "Completion, before lease registration",
+          "pct": 20
+        }
+      ]
+    },
+    "everprime": {
+      "reservation": 200000,
+      "steps": [
+        {
+          "label": "Sales agreement",
+          "pct": 35,
+          "lessReservation": true,
+          "when": "Within 30 days of reservation"
+        },
+        {
+          "label": "Building foundations",
+          "pct": 10
+        },
+        {
+          "label": "Building structure",
+          "pct": 15
+        },
+        {
+          "label": "Internal systems and architecture",
+          "pct": 15
+        },
+        {
+          "label": "Completion, before ownership registration",
+          "pct": 25
+        }
+      ]
+    }
+  },
+  "feeSchedules": {
+    "trees": {
+      "commonAreaPerSqmMonth": 100,
+      "sinkingPerSqm": 1000,
+      "meters": 20000,
+      "admin": 35000,
+      "transferPct": {
+        "leasehold": 1
+      }
+    },
+    "everprime": {
+      "commonAreaPerSqmMonth": 50,
+      "sinkingPerSqm": 1000,
+      "meters": 20000,
+      "admin": 0,
+      "transferPct": {
+        "leasehold": 1,
+        "freehold": 2
+      }
+    }
+  },
+  "units": [
+    {
+      "id": "H101",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 134087.0,
+      "price": 7378807.61,
+      "status": "available"
+    },
+    {
+      "id": "H102",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 136187.0,
+      "price": 5077051.36,
+      "status": "available"
+    },
+    {
+      "id": "H103",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 136187.0,
+      "price": 5077051.36,
+      "status": "available"
+    },
+    {
+      "id": "H104",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 134087.0,
+      "price": 7378807.61,
+      "status": "available"
+    },
+    {
+      "id": "H201",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 135190.0,
+      "price": 7439505.7,
+      "status": "available"
+    },
+    {
+      "id": "H202",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 137290.0,
+      "price": 5118171.2,
+      "status": "available"
+    },
+    {
+      "id": "H203",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 137290.0,
+      "price": 5118171.2,
+      "status": "available"
+    },
+    {
+      "id": "H204",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 135190.0,
+      "price": 7439505.7,
+      "status": "available"
+    },
+    {
+      "id": "H301",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 136292.0,
+      "price": 7500148.76,
+      "status": "available"
+    },
+    {
+      "id": "H302",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 138392.0,
+      "price": 5159253.76,
+      "status": "available"
+    },
+    {
+      "id": "H303",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 138393.0,
+      "price": 5159291.04,
+      "status": "available"
+    },
+    {
+      "id": "H304",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 136292.0,
+      "price": 7500148.76,
+      "status": "available"
+    },
+    {
+      "id": "H401",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 148420.0,
+      "price": 8167552.6,
+      "status": "available"
+    },
+    {
+      "id": "H402",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 150520.0,
+      "price": 5611385.6,
+      "status": "available"
+    },
+    {
+      "id": "H403",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 150520.0,
+      "price": 5611385.6,
+      "status": "available"
+    },
+    {
+      "id": "H404",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 148420.0,
+      "price": 8167552.6,
+      "status": "available"
+    },
+    {
+      "id": "H501",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 156137.0,
+      "price": 8592219.11,
+      "status": "available"
+    },
+    {
+      "id": "H502",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 158237.0,
+      "price": 5899075.36,
+      "status": "available"
+    },
+    {
+      "id": "H503",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 158237.0,
+      "price": 5899075.36,
+      "status": "available"
+    },
+    {
+      "id": "H504",
+      "projectId": "trees-zone-b",
+      "tower": "H",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 156137.0,
+      "price": 8592219.11,
+      "status": "available"
+    },
+    {
+      "id": "I101",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 134087.0,
+      "price": 7378807.61,
+      "status": "available"
+    },
+    {
+      "id": "I102",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 136187.0,
+      "price": 5077051.36,
+      "status": "available"
+    },
+    {
+      "id": "I103",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 136187.0,
+      "price": 5077051.36,
+      "status": "available"
+    },
+    {
+      "id": "I104",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 134087.0,
+      "price": 7378807.61,
+      "status": "available"
+    },
+    {
+      "id": "I201",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 135190.0,
+      "price": 7439505.7,
+      "status": "available"
+    },
+    {
+      "id": "I202",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 137290.0,
+      "price": 5118171.2,
+      "status": "available"
+    },
+    {
+      "id": "I203",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 137290.0,
+      "price": 5118171.2,
+      "status": "available"
+    },
+    {
+      "id": "I204",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 135190.0,
+      "price": 7439505.7,
+      "status": "available"
+    },
+    {
+      "id": "I301",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 136292.0,
+      "price": 7500148.76,
+      "status": "available"
+    },
+    {
+      "id": "I302",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 138392.0,
+      "price": 5159253.76,
+      "status": "available"
+    },
+    {
+      "id": "I303",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 138393.0,
+      "price": 5159291.04,
+      "status": "available"
+    },
+    {
+      "id": "I304",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 136292.0,
+      "price": 7500148.76,
+      "status": "available"
+    },
+    {
+      "id": "I401",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 148420.0,
+      "price": 8167552.6,
+      "status": "available"
+    },
+    {
+      "id": "I402",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 150520.0,
+      "price": 5611385.6,
+      "status": "available"
+    },
+    {
+      "id": "I403",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 150520.0,
+      "price": 5611385.6,
+      "status": "available"
+    },
+    {
+      "id": "I404",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 148420.0,
+      "price": 8167552.6,
+      "status": "available"
+    },
+    {
+      "id": "I501",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 156137.0,
+      "price": 8592219.11,
+      "status": "available"
+    },
+    {
+      "id": "I502",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 158237.0,
+      "price": 5899075.36,
+      "status": "available"
+    },
+    {
+      "id": "I503",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 158237.0,
+      "price": 5899075.36,
+      "status": "available"
+    },
+    {
+      "id": "I504",
+      "projectId": "trees-zone-b",
+      "tower": "I",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 156137.0,
+      "price": 8592219.11,
+      "status": "available"
+    },
+    {
+      "id": "J201",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 134087.0,
+      "price": 7378807.61,
+      "status": "available"
+    },
+    {
+      "id": "J202",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 136187.0,
+      "price": 5077051.36,
+      "status": "available"
+    },
+    {
+      "id": "J203",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 136187.0,
+      "price": 5077051.36,
+      "status": "available"
+    },
+    {
+      "id": "J204",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 134087.0,
+      "price": 7378807.61,
+      "status": "available"
+    },
+    {
+      "id": "J301",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 136292.0,
+      "price": 7500148.76,
+      "status": "available"
+    },
+    {
+      "id": "J302",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 138292.0,
+      "price": 5155525.76,
+      "status": "available"
+    },
+    {
+      "id": "J303",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 138392.0,
+      "price": 5159253.76,
+      "status": "available"
+    },
+    {
+      "id": "J304",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 136292.0,
+      "price": 7500148.76,
+      "status": "available"
+    },
+    {
+      "id": "J401",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 148420.0,
+      "price": 8167552.6,
+      "status": "available"
+    },
+    {
+      "id": "J402",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 150520.0,
+      "price": 5611385.6,
+      "status": "available"
+    },
+    {
+      "id": "J403",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 150520.0,
+      "price": 5611385.6,
+      "status": "available"
+    },
+    {
+      "id": "J404",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 148420.0,
+      "price": 8167552.6,
+      "status": "available"
+    },
+    {
+      "id": "J501",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 156137.0,
+      "price": 8592219.11,
+      "status": "available"
+    },
+    {
+      "id": "J502",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 158237.0,
+      "price": 5899075.36,
+      "status": "available"
+    },
+    {
+      "id": "J503",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 158237.0,
+      "price": 5899075.36,
+      "status": "available"
+    },
+    {
+      "id": "J504",
+      "projectId": "trees-zone-b",
+      "tower": "J",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 156137.0,
+      "price": 8592219.11,
+      "status": "available"
+    },
+    {
+      "id": "K201",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 134087.0,
+      "price": 7378807.61,
+      "status": "available"
+    },
+    {
+      "id": "K202",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 136187.0,
+      "price": 5077051.36,
+      "status": "available"
+    },
+    {
+      "id": "K203",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 136187.0,
+      "price": 5077051.36,
+      "status": "available"
+    },
+    {
+      "id": "K204",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 134087.0,
+      "price": 7378807.61,
+      "status": "available"
+    },
+    {
+      "id": "K301",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 136292.0,
+      "price": 7500148.76,
+      "status": "available"
+    },
+    {
+      "id": "K302",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 138392.0,
+      "price": 5159253.76,
+      "status": "available"
+    },
+    {
+      "id": "K303",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 138392.0,
+      "price": 5159253.76,
+      "status": "available"
+    },
+    {
+      "id": "K304",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 136292.0,
+      "price": 7500148.76,
+      "status": "available"
+    },
+    {
+      "id": "K401",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 148420.0,
+      "price": 8167552.6,
+      "status": "available"
+    },
+    {
+      "id": "K402",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 150520.0,
+      "price": 5611385.6,
+      "status": "available"
+    },
+    {
+      "id": "K403",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 150520.0,
+      "price": 5611385.6,
+      "status": "available"
+    },
+    {
+      "id": "K404",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 148420.0,
+      "price": 8167552.6,
+      "status": "available"
+    },
+    {
+      "id": "K501",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 156137.0,
+      "price": 8592219.11,
+      "status": "available"
+    },
+    {
+      "id": "K502",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 158237.0,
+      "price": 5899075.36,
+      "status": "available"
+    },
+    {
+      "id": "K503",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 158237.0,
+      "price": 5899075.36,
+      "status": "available"
+    },
+    {
+      "id": "K504",
+      "projectId": "trees-zone-b",
+      "tower": "K",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 156137.0,
+      "price": 8592219.11,
+      "status": "available"
+    },
+    {
+      "id": "L101",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "L102",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "L103",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "L104",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "L201",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "L202",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "L203",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "L204",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "L301",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "L302",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "L303",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "L304",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138363.0,
+      "price": 7614115.89,
+      "status": "available"
+    },
+    {
+      "id": "L401",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "L402",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "L403",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "L404",
+      "projectId": "trees-zone-b",
+      "tower": "L",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "M101",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "M102",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "M103",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "M104",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "M201",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "M202",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "M203",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "M204",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "M301",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "M302",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "M303",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "M304",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "M401",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "M402",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "M403",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "M404",
+      "projectId": "trees-zone-b",
+      "tower": "M",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "N101",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "N102",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "N103",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "N104",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "N201",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "N202",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "N203",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "N204",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "N301",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "N302",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "N303",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "N304",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "N401",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "N402",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "N403",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "N404",
+      "projectId": "trees-zone-b",
+      "tower": "N",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "O101",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "O102",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "O103",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "O104",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "O201",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138245.0,
+      "price": 7607622.35,
+      "status": "available"
+    },
+    {
+      "id": "O202",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140345.0,
+      "price": 5232061.6,
+      "status": "available"
+    },
+    {
+      "id": "O203",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140345.0,
+      "price": 5232061.6,
+      "status": "available"
+    },
+    {
+      "id": "O204",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138245.0,
+      "price": 7607622.35,
+      "status": "available"
+    },
+    {
+      "id": "O301",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "O302",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "O303",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "O304",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "O401",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "O402",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "O403",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "O404",
+      "projectId": "trees-zone-b",
+      "tower": "O",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "P101",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "P102",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "P103",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "P104",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "P201",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "P202",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "P203",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "P204",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "P301",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "P302",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "P303",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "P304",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "P401",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "P402",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "P403",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "P404",
+      "projectId": "trees-zone-b",
+      "tower": "P",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "Q101",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "Q102",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "Q103",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 139206.0,
+      "price": 5189599.68,
+      "status": "available"
+    },
+    {
+      "id": "Q104",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 137106.0,
+      "price": 7544943.18,
+      "status": "available"
+    },
+    {
+      "id": "Q201",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "Q202",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "Q203",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 2,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 140335.0,
+      "price": 5231688.8,
+      "status": "available"
+    },
+    {
+      "id": "Q204",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 138235.0,
+      "price": 7607072.05,
+      "status": "available"
+    },
+    {
+      "id": "Q301",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "Q302",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "Q303",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 141463.0,
+      "price": 5273740.64,
+      "status": "available"
+    },
+    {
+      "id": "Q304",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 139363.0,
+      "price": 7669145.89,
+      "status": "available"
+    },
+    {
+      "id": "Q401",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    },
+    {
+      "id": "Q402",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "Q403",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 37.28,
+      "pricePerSqm": 153880.0,
+      "price": 5736646.4,
+      "status": "available"
+    },
+    {
+      "id": "Q404",
+      "projectId": "trees-zone-b",
+      "tower": "Q",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 55.03,
+      "pricePerSqm": 151780.0,
+      "price": 8352453.4,
+      "status": "available"
+    }
+  ],
+  "services": [
+    {
+      "id": "airport-transfer",
+      "categoryId": "transport",
+      "title": "Airport transfer",
+      "blurb": "Meet and greet at Phuket airport, then a private car to your door.",
+      "image": "https://picsum.photos/seed/svc-airport-transfer/1200/800",
+      "currency": "THB",
+      "needsDate": true,
+      "needsPeople": false,
+      "requestOnly": false,
+      "partnerId": "local-partners",
+      "commissionPct": 15,
+      "unit": "per trip",
+      "options": [
+        {
+          "id": "sedan",
+          "label": "Sedan, up to 3 people",
+          "price": 900
+        },
+        {
+          "id": "suv",
+          "label": "SUV, up to 5 people",
+          "price": 1300
+        },
+        {
+          "id": "van",
+          "label": "Van, up to 9 people",
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "id": "car-hire-driver",
+      "categoryId": "transport",
+      "title": "Car with driver",
+      "blurb": "A car and driver for the day, around Phuket.",
+      "image": "https://picsum.photos/seed/svc-car-hire-driver/1200/800",
+      "currency": "THB",
+      "needsDate": true,
+      "needsPeople": true,
+      "requestOnly": false,
+      "partnerId": "local-partners",
+      "commissionPct": 15,
+      "priceFrom": 3200,
+      "unit": "per day"
+    },
+    {
+      "id": "flight-help",
+      "categoryId": "flights",
+      "title": "Flight booking help",
+      "blurb": "Tell us where you fly from and when. We find options and book for you.",
+      "image": "https://picsum.photos/seed/svc-flight-help/1200/800",
+      "currency": "THB",
+      "needsDate": true,
+      "needsPeople": false,
+      "requestOnly": true,
+      "partnerId": "local-partners",
+      "commissionPct": 15
+    },
+    {
+      "id": "visa-longstay",
+      "categoryId": "visa",
+      "title": "Long stay visa support",
+      "blurb": "Guidance and paperwork for the visa that fits your stay.",
+      "image": "https://picsum.photos/seed/svc-visa-longstay/1200/800",
+      "currency": "THB",
+      "needsDate": false,
+      "needsPeople": false,
+      "requestOnly": true,
+      "partnerId": "local-partners",
+      "commissionPct": 15
+    },
+    {
+      "id": "visa-90day",
+      "categoryId": "visa",
+      "title": "90 day report",
+      "blurb": "We file your 90 day address report for you.",
+      "image": "https://picsum.photos/seed/svc-visa-90day/1200/800",
+      "currency": "THB",
+      "needsDate": false,
+      "needsPeople": false,
+      "requestOnly": false,
+      "partnerId": "local-partners",
+      "commissionPct": 15,
+      "priceFrom": 800,
+      "unit": "per report"
+    },
+    {
+      "id": "lease-registration",
+      "categoryId": "legal",
+      "title": "Lease registration",
+      "blurb": "Support through registering your lease at the Land Office.",
+      "image": "https://picsum.photos/seed/svc-lease-registration/1200/800",
+      "currency": "THB",
+      "needsDate": false,
+      "needsPeople": false,
+      "requestOnly": true,
+      "partnerId": "legal-partner",
+      "commissionPct": 15
+    },
+    {
+      "id": "tax-bank",
+      "categoryId": "legal",
+      "title": "Tax ID and bank account",
+      "blurb": "Help getting a Thai tax ID and opening a bank account.",
+      "image": "https://picsum.photos/seed/svc-tax-bank/1200/800",
+      "currency": "THB",
+      "needsDate": false,
+      "needsPeople": false,
+      "requestOnly": true,
+      "partnerId": "legal-partner",
+      "commissionPct": 15
+    },
+    {
+      "id": "rent-out",
+      "categoryId": "rentals",
+      "title": "Rent out my unit",
+      "blurb": "Hotel style management and booking for your unit when you are away.",
+      "image": "https://picsum.photos/seed/svc-rent-out/1200/800",
+      "currency": "THB",
+      "needsDate": false,
+      "needsPeople": false,
+      "requestOnly": true,
+      "partnerId": "local-partners",
+      "commissionPct": 20
+    },
+    {
+      "id": "find-rental",
+      "categoryId": "rentals",
+      "title": "Find a rental",
+      "blurb": "Monthly and long term rentals across Phuket, matched to your budget.",
+      "image": "https://picsum.photos/seed/svc-find-rental/1200/800",
+      "currency": "THB",
+      "needsDate": true,
+      "needsPeople": false,
+      "requestOnly": true,
+      "partnerId": "local-partners",
+      "commissionPct": 15
+    },
+    {
+      "id": "cleaning",
+      "categoryId": "furnishing",
+      "title": "Deep cleaning",
+      "blurb": "Move in or move out cleaning by a trained team.",
+      "image": "https://picsum.photos/seed/svc-cleaning/1200/800",
+      "currency": "THB",
+      "needsDate": true,
+      "needsPeople": false,
+      "requestOnly": false,
+      "partnerId": "local-partners",
+      "commissionPct": 15,
+      "priceFrom": 2500,
+      "unit": "per visit"
+    },
+    {
+      "id": "utilities",
+      "categoryId": "furnishing",
+      "title": "Utilities and internet set-up",
+      "blurb": "Electricity, water and fibre internet connected and in your name.",
+      "image": "https://picsum.photos/seed/svc-utilities/1200/800",
+      "currency": "THB",
+      "needsDate": false,
+      "needsPeople": false,
+      "requestOnly": false,
+      "partnerId": "local-partners",
+      "commissionPct": 15,
+      "priceFrom": 1500,
+      "unit": "one time"
+    },
+    {
+      "id": "concierge-daily",
+      "categoryId": "concierge",
+      "title": "Concierge request",
+      "blurb": "Restaurant bookings, groceries, a spa day, anything you need arranged.",
+      "image": "https://picsum.photos/seed/svc-concierge-daily/1200/800",
+      "currency": "THB",
+      "needsDate": true,
+      "needsPeople": false,
+      "requestOnly": true,
+      "partnerId": "local-partners",
+      "commissionPct": 15
+    },
+    {
+      "id": "island-tour",
+      "categoryId": "experiences",
+      "title": "Island tour",
+      "blurb": "Phi Phi and the bays by speedboat, lunch and snorkel gear included.",
+      "image": "https://picsum.photos/seed/svc-island-tour/1200/800",
+      "currency": "THB",
+      "needsDate": true,
+      "needsPeople": true,
+      "requestOnly": false,
+      "partnerId": "local-partners",
+      "commissionPct": 15,
+      "unit": "per person",
+      "options": [
+        {
+          "id": "shared",
+          "label": "Shared boat, per person",
+          "price": 2200
+        },
+        {
+          "id": "private",
+          "label": "Private boat, per person",
+          "price": 4800
+        }
+      ]
+    },
+    {
+      "id": "golf",
+      "categoryId": "experiences",
+      "title": "Golf day",
+      "blurb": "Tee time, transfer and caddie at a Phuket course.",
+      "image": "https://picsum.photos/seed/svc-golf/1200/800",
+      "currency": "THB",
+      "needsDate": true,
+      "needsPeople": true,
+      "requestOnly": false,
+      "partnerId": "local-partners",
+      "commissionPct": 15,
+      "priceFrom": 3900,
+      "unit": "per person"
+    }
+  ],
+  "features": {
+    "services": false,
+    "serviceCategories": [
+      "flights",
+      "rentals"
+    ],
+    "onlinePayments": false
+  },
+  "serviceCategories": [
+    {
+      "id": "transport",
+      "title": "Transport",
+      "blurb": "Airport transfers, private cars and vans.",
+      "icon": "car"
+    },
+    {
+      "id": "flights",
+      "title": "Flights",
+      "blurb": "Flight search and booking help.",
+      "icon": "plane"
+    },
+    {
+      "id": "visa",
+      "title": "Visa and residency",
+      "blurb": "Long stay visas, extensions and 90 day reports.",
+      "icon": "passport"
+    },
+    {
+      "id": "legal",
+      "title": "Legal and banking",
+      "blurb": "Lease registration, tax ID and bank accounts.",
+      "icon": "scale"
+    },
+    {
+      "id": "rentals",
+      "title": "Rentals",
+      "blurb": "Rent out your unit or find a place to rent.",
+      "icon": "key"
+    },
+    {
+      "id": "furnishing",
+      "title": "Furnishing and care",
+      "blurb": "Furniture, cleaning, utilities and repairs.",
+      "icon": "sofa"
+    },
+    {
+      "id": "concierge",
+      "title": "Concierge",
+      "blurb": "Dining, groceries, wellness and daily help.",
+      "icon": "bell"
+    },
+    {
+      "id": "experiences",
+      "title": "Experiences",
+      "blurb": "Island tours, golf, boats and more.",
+      "icon": "sparkles"
+    }
+  ],
+  "partners": [
+    {
+      "id": "local-partners",
+      "name": "Local partners"
+    },
+    {
+      "id": "legal-partner",
+      "name": "Legal partner"
+    }
+  ],
+  "legal": {
+    "company": "Reeltaz (legal entity to be added)",
+    "email": "info@thetreesresidencephuket.com",
+    "address": "Warsaw, Poland"
+  },
+  "agent": {
+    "name": "Edward",
+    "title": "Property consultant",
+    "languages": [
+      "English",
+      "Polish"
+    ]
+  },
+  "hero": {
+    "image": ""
+  },
+  "rates": {
+    "USD": 1,
+    "EUR": 1.08,
+    "GBP": 1.27,
+    "THB": 0.029,
+    "PLN": 0.25,
+    "IDR": 6.2e-05
+  }
+}

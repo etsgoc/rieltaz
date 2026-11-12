@@ -10,6 +10,12 @@ export interface FeeSchedule {
 export interface Unit {
   id: string; projectId: string; tower: string; floor: number;
   type: string; sqm: number; pricePerSqm: number; price: number; status: UnitStatus;
+  /** Price per ownership type when they differ (for example freehold above leasehold). `price` is the default. */
+  prices?: Partial<Record<Ownership, number>>;
+  /** Payment plan key when this unit uses a different plan than the project (for example a nearly finished tower). */
+  plan?: string;
+  /** Free text shown beside the type, for example "Premium pool access, high ceiling 3.75 m". */
+  style?: string; view?: string;
 }
 export interface Tour { type: 'pano' | 'embed'; url: string }
 export type PropertyCategory = 'new-build' | 'resale' | 'rental' | 'investment';

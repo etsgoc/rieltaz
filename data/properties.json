@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "updatedAt": "2026-11-08",
+  "version": 6,
+  "updatedAt": "2026-11-12",
   "mediaBase": "https://drive.google.com/thumbnail?sz=w1600&id=",
   "contact": {
     "phone": "+66 99 259 6525",
@@ -68,7 +68,7 @@
       ],
       "management": "Hotel managed. 75% of net room income goes to the owner. Personal use is unrestricted.",
       "pricing": {
-        "from": 5077051.36,
+        "from": 5554720.0,
         "currency": "THB"
       },
       "paymentPlan": "trees",
@@ -95,7 +95,8 @@
       "tagline": "Hotel managed residences in Bang Tao",
       "summary": "Low rise residences set in the Bang Tao hills, run like a five star hotel. Stay when you like and let the hotel rent the unit when you do not. 168 units across 10 buildings, handover in Q4 2028.",
       "category": "new-build",
-      "featured": true
+      "featured": true,
+      "priceNote": "Prices valid 9 November to 10 December 2026 (draft high season promotion). Furniture package included."
     },
     {
       "id": "ever-prime-karon",
@@ -163,11 +164,11 @@
       ],
       "interiorCollection": "Timeless Ivory",
       "pricing": {
-        "from": null,
+        "from": 4480500.0,
         "currency": "THB"
       },
-      "paymentPlan": "everprime",
-      "fees": "everprime",
+      "paymentPlan": "element",
+      "fees": "element",
       "media": {
         "cover": "https://picsum.photos/seed/the-element-cover/1600/1000",
         "gallery": [
@@ -186,7 +187,29 @@
       "tagline": "Modern residences in Kamala",
       "summary": "A calm, modern project in Kamala by Anocha. The Timeless Ivory interior collection uses beige, champagne and soft white tones.",
       "category": "new-build",
-      "featured": true
+      "featured": true,
+      "types": [
+        "1 Bedroom",
+        "2 Bedroom",
+        "1 Bedroom + private pool",
+        "2 Bedroom + private pool",
+        "Master penthouse"
+      ],
+      "sizes": [
+        29.87,
+        31.24,
+        46.1,
+        48.78,
+        49.83,
+        50.09,
+        52.95,
+        57.25,
+        74.15,
+        92.61,
+        124.74,
+        168.61
+      ],
+      "priceNote": "Prices valid 18 September to 31 December 2026. All prices exclude the furniture package. Freehold is 15 percent above leasehold."
     },
     {
       "id": "lisbon-chiado-loft",
@@ -753,10 +776,14 @@
       "reservation": 200000,
       "steps": [
         {
-          "label": "Sales agreement",
+          "label": "Sales and purchase agreement",
           "pct": 35,
           "lessReservation": true,
           "when": "Within 30 days of reservation"
+        },
+        {
+          "label": "Earthworks and retaining walls",
+          "pct": 10
         },
         {
           "label": "Building foundations",
@@ -768,11 +795,55 @@
         },
         {
           "label": "Internal systems and architecture",
+          "pct": 10
+        },
+        {
+          "label": "Completion, before ownership registration",
+          "pct": 20
+        }
+      ]
+    },
+    "element": {
+      "reservation": 200000,
+      "steps": [
+        {
+          "label": "Sales and purchase agreement",
+          "pct": 45,
+          "lessReservation": true,
+          "when": "Within 30 days of reservation"
+        },
+        {
+          "label": "Main building structure",
+          "pct": 15
+        },
+        {
+          "label": "Internal systems and architecture",
           "pct": 15
         },
         {
           "label": "Completion, before ownership registration",
+          "pct": 25,
+          "when": "Mid December 2026"
+        }
+      ]
+    },
+    "element-a": {
+      "reservation": 200000,
+      "steps": [
+        {
+          "label": "Sales and purchase agreement",
+          "pct": 50,
+          "lessReservation": true,
+          "when": "Within 30 days of reservation"
+        },
+        {
+          "label": "Internal systems and architecture",
           "pct": 25
+        },
+        {
+          "label": "Completion, before ownership registration",
+          "pct": 25,
+          "when": "Mid December 2026"
         }
       ]
     }
@@ -796,6 +867,16 @@
         "leasehold": 1,
         "freehold": 2
       }
+    },
+    "element": {
+      "commonAreaPerSqmMonth": 50,
+      "sinkingPerSqm": 1000,
+      "meters": 20000,
+      "admin": 0,
+      "transferPct": {
+        "leasehold": 1,
+        "freehold": 2
+      }
     }
   },
   "units": [
@@ -806,8 +887,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 134087.0,
-      "price": 7378807.61,
+      "pricePerSqm": 149000,
+      "price": 8199470.0,
       "status": "available"
     },
     {
@@ -817,8 +898,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 136187.0,
-      "price": 5077051.36,
+      "pricePerSqm": 149000,
+      "price": 5554720.0,
       "status": "available"
     },
     {
@@ -828,8 +909,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 136187.0,
-      "price": 5077051.36,
+      "pricePerSqm": 149000,
+      "price": 5554720.0,
       "status": "available"
     },
     {
@@ -839,8 +920,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 134087.0,
-      "price": 7378807.61,
+      "pricePerSqm": 149000,
+      "price": 8199470.0,
       "status": "available"
     },
     {
@@ -850,8 +931,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 135190.0,
-      "price": 7439505.7,
+      "pricePerSqm": 151000,
+      "price": 8309530.0,
       "status": "available"
     },
     {
@@ -861,8 +942,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 137290.0,
-      "price": 5118171.2,
+      "pricePerSqm": 151000,
+      "price": 5629280.0,
       "status": "available"
     },
     {
@@ -872,8 +953,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 137290.0,
-      "price": 5118171.2,
+      "pricePerSqm": 151000,
+      "price": 5629280.0,
       "status": "available"
     },
     {
@@ -883,8 +964,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 135190.0,
-      "price": 7439505.7,
+      "pricePerSqm": 151000,
+      "price": 8309530.0,
       "status": "available"
     },
     {
@@ -894,8 +975,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 136292.0,
-      "price": 7500148.76,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -905,8 +986,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 138392.0,
-      "price": 5159253.76,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -916,8 +997,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 138393.0,
-      "price": 5159291.04,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -927,8 +1008,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 136292.0,
-      "price": 7500148.76,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -938,8 +1019,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 148420.0,
-      "price": 8167552.6,
+      "pricePerSqm": 164000,
+      "price": 9024920.0,
       "status": "available"
     },
     {
@@ -949,8 +1030,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 150520.0,
-      "price": 5611385.6,
+      "pricePerSqm": 164000,
+      "price": 6113920.0,
       "status": "available"
     },
     {
@@ -960,8 +1041,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 150520.0,
-      "price": 5611385.6,
+      "pricePerSqm": 164000,
+      "price": 6113920.0,
       "status": "available"
     },
     {
@@ -971,8 +1052,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 148420.0,
-      "price": 8167552.6,
+      "pricePerSqm": 164000,
+      "price": 9024920.0,
       "status": "available"
     },
     {
@@ -982,8 +1063,8 @@
       "floor": 5,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 156137.0,
-      "price": 8592219.11,
+      "pricePerSqm": 166000,
+      "price": 9134980.0,
       "status": "available"
     },
     {
@@ -993,8 +1074,8 @@
       "floor": 5,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 158237.0,
-      "price": 5899075.36,
+      "pricePerSqm": 166000,
+      "price": 6188480.0,
       "status": "available"
     },
     {
@@ -1004,8 +1085,8 @@
       "floor": 5,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 158237.0,
-      "price": 5899075.36,
+      "pricePerSqm": 166000,
+      "price": 6188480.0,
       "status": "available"
     },
     {
@@ -1015,8 +1096,8 @@
       "floor": 5,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 156137.0,
-      "price": 8592219.11,
+      "pricePerSqm": 166000,
+      "price": 9134980.0,
       "status": "available"
     },
     {
@@ -1026,8 +1107,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 134087.0,
-      "price": 7378807.61,
+      "pricePerSqm": 149000,
+      "price": 8199470.0,
       "status": "available"
     },
     {
@@ -1037,8 +1118,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 136187.0,
-      "price": 5077051.36,
+      "pricePerSqm": 149000,
+      "price": 5554720.0,
       "status": "available"
     },
     {
@@ -1048,8 +1129,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 136187.0,
-      "price": 5077051.36,
+      "pricePerSqm": 149000,
+      "price": 5554720.0,
       "status": "available"
     },
     {
@@ -1059,8 +1140,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 134087.0,
-      "price": 7378807.61,
+      "pricePerSqm": 149000,
+      "price": 8199470.0,
       "status": "available"
     },
     {
@@ -1070,8 +1151,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 135190.0,
-      "price": 7439505.7,
+      "pricePerSqm": 151000,
+      "price": 8309530.0,
       "status": "available"
     },
     {
@@ -1081,8 +1162,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 137290.0,
-      "price": 5118171.2,
+      "pricePerSqm": 151000,
+      "price": 5629280.0,
       "status": "available"
     },
     {
@@ -1092,8 +1173,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 137290.0,
-      "price": 5118171.2,
+      "pricePerSqm": 151000,
+      "price": 5629280.0,
       "status": "available"
     },
     {
@@ -1103,8 +1184,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 135190.0,
-      "price": 7439505.7,
+      "pricePerSqm": 151000,
+      "price": 8309530.0,
       "status": "available"
     },
     {
@@ -1114,8 +1195,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 136292.0,
-      "price": 7500148.76,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1125,8 +1206,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 138392.0,
-      "price": 5159253.76,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1136,8 +1217,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 138393.0,
-      "price": 5159291.04,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1147,8 +1228,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 136292.0,
-      "price": 7500148.76,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1158,8 +1239,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 148420.0,
-      "price": 8167552.6,
+      "pricePerSqm": 164000,
+      "price": 9024920.0,
       "status": "available"
     },
     {
@@ -1169,8 +1250,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 150520.0,
-      "price": 5611385.6,
+      "pricePerSqm": 164000,
+      "price": 6113920.0,
       "status": "available"
     },
     {
@@ -1180,8 +1261,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 150520.0,
-      "price": 5611385.6,
+      "pricePerSqm": 164000,
+      "price": 6113920.0,
       "status": "available"
     },
     {
@@ -1191,8 +1272,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 148420.0,
-      "price": 8167552.6,
+      "pricePerSqm": 164000,
+      "price": 9024920.0,
       "status": "available"
     },
     {
@@ -1202,8 +1283,8 @@
       "floor": 5,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 156137.0,
-      "price": 8592219.11,
+      "pricePerSqm": 166000,
+      "price": 9134980.0,
       "status": "available"
     },
     {
@@ -1213,8 +1294,8 @@
       "floor": 5,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 158237.0,
-      "price": 5899075.36,
+      "pricePerSqm": 166000,
+      "price": 6188480.0,
       "status": "available"
     },
     {
@@ -1224,8 +1305,8 @@
       "floor": 5,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 158237.0,
-      "price": 5899075.36,
+      "pricePerSqm": 166000,
+      "price": 6188480.0,
       "status": "available"
     },
     {
@@ -1235,8 +1316,8 @@
       "floor": 5,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 156137.0,
-      "price": 8592219.11,
+      "pricePerSqm": 166000,
+      "price": 9134980.0,
       "status": "available"
     },
     {
@@ -1246,8 +1327,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 134087.0,
-      "price": 7378807.61,
+      "pricePerSqm": 149000,
+      "price": 8199470.0,
       "status": "available"
     },
     {
@@ -1257,8 +1338,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 136187.0,
-      "price": 5077051.36,
+      "pricePerSqm": 149000,
+      "price": 5554720.0,
       "status": "available"
     },
     {
@@ -1268,8 +1349,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 136187.0,
-      "price": 5077051.36,
+      "pricePerSqm": 149000,
+      "price": 5554720.0,
       "status": "available"
     },
     {
@@ -1279,8 +1360,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 134087.0,
-      "price": 7378807.61,
+      "pricePerSqm": 149000,
+      "price": 8199470.0,
       "status": "available"
     },
     {
@@ -1290,8 +1371,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 136292.0,
-      "price": 7500148.76,
+      "pricePerSqm": 151000,
+      "price": 8309530.0,
       "status": "available"
     },
     {
@@ -1301,8 +1382,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 138292.0,
-      "price": 5155525.76,
+      "pricePerSqm": 151000,
+      "price": 5629280.0,
       "status": "available"
     },
     {
@@ -1312,8 +1393,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 138392.0,
-      "price": 5159253.76,
+      "pricePerSqm": 151000,
+      "price": 5629280.0,
       "status": "available"
     },
     {
@@ -1323,8 +1404,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 136292.0,
-      "price": 7500148.76,
+      "pricePerSqm": 151000,
+      "price": 8309530.0,
       "status": "available"
     },
     {
@@ -1334,8 +1415,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 148420.0,
-      "price": 8167552.6,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1345,8 +1426,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 150520.0,
-      "price": 5611385.6,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1356,8 +1437,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 150520.0,
-      "price": 5611385.6,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1367,8 +1448,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 148420.0,
-      "price": 8167552.6,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1378,8 +1459,8 @@
       "floor": 5,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 156137.0,
-      "price": 8592219.11,
+      "pricePerSqm": 164000,
+      "price": 9024920.0,
       "status": "available"
     },
     {
@@ -1389,8 +1470,8 @@
       "floor": 5,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 158237.0,
-      "price": 5899075.36,
+      "pricePerSqm": 164000,
+      "price": 6113920.0,
       "status": "available"
     },
     {
@@ -1400,8 +1481,8 @@
       "floor": 5,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 158237.0,
-      "price": 5899075.36,
+      "pricePerSqm": 164000,
+      "price": 6113920.0,
       "status": "available"
     },
     {
@@ -1411,8 +1492,8 @@
       "floor": 5,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 156137.0,
-      "price": 8592219.11,
+      "pricePerSqm": 164000,
+      "price": 9024920.0,
       "status": "available"
     },
     {
@@ -1422,8 +1503,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 134087.0,
-      "price": 7378807.61,
+      "pricePerSqm": 149000,
+      "price": 8199470.0,
       "status": "available"
     },
     {
@@ -1433,8 +1514,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 136187.0,
-      "price": 5077051.36,
+      "pricePerSqm": 149000,
+      "price": 5554720.0,
       "status": "available"
     },
     {
@@ -1444,8 +1525,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 136187.0,
-      "price": 5077051.36,
+      "pricePerSqm": 149000,
+      "price": 5554720.0,
       "status": "available"
     },
     {
@@ -1455,8 +1536,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 134087.0,
-      "price": 7378807.61,
+      "pricePerSqm": 149000,
+      "price": 8199470.0,
       "status": "available"
     },
     {
@@ -1466,8 +1547,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 136292.0,
-      "price": 7500148.76,
+      "pricePerSqm": 151000,
+      "price": 8309530.0,
       "status": "available"
     },
     {
@@ -1477,8 +1558,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 138392.0,
-      "price": 5159253.76,
+      "pricePerSqm": 151000,
+      "price": 5629280.0,
       "status": "available"
     },
     {
@@ -1488,8 +1569,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 138392.0,
-      "price": 5159253.76,
+      "pricePerSqm": 151000,
+      "price": 5629280.0,
       "status": "available"
     },
     {
@@ -1499,8 +1580,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 136292.0,
-      "price": 7500148.76,
+      "pricePerSqm": 151000,
+      "price": 8309530.0,
       "status": "available"
     },
     {
@@ -1510,8 +1591,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 148420.0,
-      "price": 8167552.6,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1521,8 +1602,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 150520.0,
-      "price": 5611385.6,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1532,8 +1613,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 150520.0,
-      "price": 5611385.6,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1543,8 +1624,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 148420.0,
-      "price": 8167552.6,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1554,8 +1635,8 @@
       "floor": 5,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 156137.0,
-      "price": 8592219.11,
+      "pricePerSqm": 164000,
+      "price": 9024920.0,
       "status": "available"
     },
     {
@@ -1565,8 +1646,8 @@
       "floor": 5,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 158237.0,
-      "price": 5899075.36,
+      "pricePerSqm": 164000,
+      "price": 6113920.0,
       "status": "available"
     },
     {
@@ -1576,8 +1657,8 @@
       "floor": 5,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 158237.0,
-      "price": 5899075.36,
+      "pricePerSqm": 164000,
+      "price": 6113920.0,
       "status": "available"
     },
     {
@@ -1587,8 +1668,8 @@
       "floor": 5,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 156137.0,
-      "price": 8592219.11,
+      "pricePerSqm": 164000,
+      "price": 9024920.0,
       "status": "available"
     },
     {
@@ -1598,8 +1679,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1609,8 +1690,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1620,8 +1701,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1631,8 +1712,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1642,8 +1723,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -1653,8 +1734,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -1664,8 +1745,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -1675,8 +1756,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -1686,8 +1767,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -1697,8 +1778,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -1708,8 +1789,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -1719,8 +1800,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138363.0,
-      "price": 7614115.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -1730,8 +1811,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -1741,8 +1822,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -1752,8 +1833,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -1763,8 +1844,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -1774,8 +1855,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1785,8 +1866,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1796,8 +1877,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1807,8 +1888,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1818,8 +1899,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -1829,8 +1910,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -1840,8 +1921,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -1851,8 +1932,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -1862,8 +1943,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -1873,8 +1954,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -1884,8 +1965,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -1895,8 +1976,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -1906,8 +1987,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -1917,8 +1998,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -1928,8 +2009,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -1939,8 +2020,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -1950,8 +2031,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1961,8 +2042,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1972,8 +2053,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -1983,8 +2064,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -1994,8 +2075,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -2005,8 +2086,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -2016,8 +2097,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -2027,8 +2108,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -2038,8 +2119,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -2049,8 +2130,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -2060,8 +2141,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -2071,8 +2152,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -2082,8 +2163,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -2093,8 +2174,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -2104,8 +2185,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -2115,8 +2196,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -2126,8 +2207,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -2137,8 +2218,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -2148,8 +2229,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -2159,8 +2240,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -2170,8 +2251,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138245.0,
-      "price": 7607622.35,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -2181,8 +2262,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140345.0,
-      "price": 5232061.6,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -2192,8 +2273,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140345.0,
-      "price": 5232061.6,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -2203,8 +2284,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138245.0,
-      "price": 7607622.35,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -2214,8 +2295,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -2225,9 +2306,9 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
-      "status": "available"
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
+      "status": "sold"
     },
     {
       "id": "O303",
@@ -2236,8 +2317,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -2247,8 +2328,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -2258,8 +2339,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -2269,8 +2350,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -2280,8 +2361,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -2291,8 +2372,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -2302,8 +2383,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -2313,8 +2394,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -2324,8 +2405,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -2335,8 +2416,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -2346,8 +2427,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -2357,8 +2438,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -2368,8 +2449,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -2379,8 +2460,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -2390,8 +2471,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -2401,8 +2482,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -2412,8 +2493,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -2423,8 +2504,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -2434,8 +2515,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -2445,8 +2526,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -2456,8 +2537,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -2467,8 +2548,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -2478,8 +2559,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -2489,8 +2570,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -2500,8 +2581,8 @@
       "floor": 1,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 139206.0,
-      "price": 5189599.68,
+      "pricePerSqm": 153000,
+      "price": 5703840.0,
       "status": "available"
     },
     {
@@ -2511,8 +2592,8 @@
       "floor": 1,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 137106.0,
-      "price": 7544943.18,
+      "pricePerSqm": 153000,
+      "price": 8419590.0,
       "status": "available"
     },
     {
@@ -2522,8 +2603,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -2533,8 +2614,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -2544,8 +2625,8 @@
       "floor": 2,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 140335.0,
-      "price": 5231688.8,
+      "pricePerSqm": 156000,
+      "price": 5815680.0,
       "status": "available"
     },
     {
@@ -2555,8 +2636,8 @@
       "floor": 2,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 138235.0,
-      "price": 7607072.05,
+      "pricePerSqm": 156000,
+      "price": 8584680.0,
       "status": "available"
     },
     {
@@ -2566,8 +2647,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -2577,8 +2658,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -2588,8 +2669,8 @@
       "floor": 3,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 141463.0,
-      "price": 5273740.64,
+      "pricePerSqm": 158000,
+      "price": 5890240.0,
       "status": "available"
     },
     {
@@ -2599,8 +2680,8 @@
       "floor": 3,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 139363.0,
-      "price": 7669145.89,
+      "pricePerSqm": 158000,
+      "price": 8694740.0,
       "status": "available"
     },
     {
@@ -2610,8 +2691,8 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
     },
     {
@@ -2621,8 +2702,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -2632,8 +2713,8 @@
       "floor": 4,
       "type": "1 Bedroom",
       "sqm": 37.28,
-      "pricePerSqm": 153880.0,
-      "price": 5736646.4,
+      "pricePerSqm": 170000,
+      "price": 6337600.0,
       "status": "available"
     },
     {
@@ -2643,9 +2724,1435 @@
       "floor": 4,
       "type": "2 Bedroom",
       "sqm": 55.03,
-      "pricePerSqm": 151780.0,
-      "price": 8352453.4,
+      "pricePerSqm": 170000,
+      "price": 9355100.0,
       "status": "available"
+    },
+    {
+      "id": "A104",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 48.78,
+      "pricePerSqm": 140000,
+      "price": 6829200.0,
+      "prices": {
+        "leasehold": 6829200.0,
+        "freehold": 7853580.0
+      },
+      "status": "available",
+      "plan": "element-a",
+      "style": "Investment style unit",
+      "view": "Garden"
+    },
+    {
+      "id": "A105",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 204600,
+      "price": 10195218.0,
+      "prices": {
+        "leasehold": 10195218.0,
+        "freehold": 11724500.7
+      },
+      "status": "available",
+      "plan": "element-a",
+      "view": "Garden"
+    },
+    {
+      "id": "A106",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 31.24,
+      "pricePerSqm": 204600,
+      "price": 6391704.0,
+      "prices": {
+        "leasehold": 6391704.0,
+        "freehold": 7350459.6
+      },
+      "status": "available",
+      "plan": "element-a",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "A109",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 52.95,
+      "pricePerSqm": 204600,
+      "price": 10833570.0,
+      "prices": {
+        "leasehold": 10833570.0,
+        "freehold": 12458605.5
+      },
+      "status": "available",
+      "plan": "element-a",
+      "style": "Premium pool access, Investment style unit",
+      "view": "Pool"
+    },
+    {
+      "id": "A206",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 138000,
+      "price": 7900500.0,
+      "prices": {
+        "leasehold": 7900500.0,
+        "freehold": 9085575.0
+      },
+      "status": "available",
+      "plan": "element-a",
+      "view": "Pool"
+    },
+    {
+      "id": "A404",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 48.78,
+      "pricePerSqm": 155000,
+      "price": 7560900.0,
+      "prices": {
+        "leasehold": 7560900.0,
+        "freehold": 8695035.0
+      },
+      "status": "available",
+      "plan": "element-a",
+      "style": "Investment style unit",
+      "view": "Garden"
+    },
+    {
+      "id": "A605",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 170000,
+      "price": 9732500.0,
+      "prices": {
+        "leasehold": 9732500.0,
+        "freehold": 11192375.0
+      },
+      "status": "available",
+      "plan": "element-a",
+      "view": "Garden"
+    },
+    {
+      "id": "A606",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 155000,
+      "price": 8873750.0,
+      "prices": {
+        "leasehold": 8873750.0,
+        "freehold": 10204812.5
+      },
+      "status": "available",
+      "plan": "element-a",
+      "style": "High ceiling 3.75 m",
+      "view": "Pool"
+    },
+    {
+      "id": "A611",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 52.95,
+      "pricePerSqm": 158000,
+      "price": 8366100.0,
+      "prices": {
+        "leasehold": 8366100.0,
+        "freehold": 9621015.0
+      },
+      "status": "available",
+      "plan": "element-a",
+      "style": "High ceiling 3.75 m, Investment style unit",
+      "view": "Pool"
+    },
+    {
+      "id": "A701",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 7,
+      "type": "1 Bedroom + private pool",
+      "sqm": 74.15,
+      "pricePerSqm": 189000,
+      "price": 14014350.0,
+      "prices": {
+        "leasehold": 14014350.0,
+        "freehold": 16116502.5
+      },
+      "status": "available",
+      "plan": "element-a",
+      "view": "Mountain"
+    },
+    {
+      "id": "A702",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 7,
+      "type": "2 Bedroom + private pool",
+      "sqm": 124.74,
+      "pricePerSqm": 189000,
+      "price": 23575860.0,
+      "prices": {
+        "leasehold": 23575860.0,
+        "freehold": 27112239.0
+      },
+      "status": "available",
+      "plan": "element-a",
+      "view": "Mountain"
+    },
+    {
+      "id": "A703",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 7,
+      "type": "1 Bedroom + private pool",
+      "sqm": 92.61,
+      "pricePerSqm": 189000,
+      "price": 17503290.0,
+      "prices": {
+        "leasehold": 17503290.0,
+        "freehold": 20128783.5
+      },
+      "status": "available",
+      "plan": "element-a",
+      "view": "Mountain"
+    },
+    {
+      "id": "A704",
+      "projectId": "the-element",
+      "tower": "A",
+      "floor": 7,
+      "type": "Master penthouse 2 Bedroom + pool",
+      "sqm": 168.61,
+      "pricePerSqm": 189000,
+      "price": 31867290.0,
+      "prices": {
+        "leasehold": 31867290.0,
+        "freehold": 36647383.5
+      },
+      "status": "available",
+      "plan": "element-a",
+      "view": "Mountain"
+    },
+    {
+      "id": "B104",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 48.78,
+      "pricePerSqm": 140000,
+      "price": 6829200.0,
+      "prices": {
+        "leasehold": 6829200.0,
+        "freehold": 7853580.0
+      },
+      "status": "available",
+      "style": "Investment style unit",
+      "view": "Garden"
+    },
+    {
+      "id": "B105",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 140000,
+      "price": 8015000.0,
+      "prices": {
+        "leasehold": 8015000.0,
+        "freehold": 9217250.0
+      },
+      "status": "available",
+      "view": "Garden"
+    },
+    {
+      "id": "B106",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 204600,
+      "price": 11713350.0,
+      "prices": {
+        "leasehold": 11713350.0,
+        "freehold": 13470352.5
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "B107",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 204600,
+      "price": 10195218.0,
+      "prices": {
+        "leasehold": 10195218.0,
+        "freehold": 11724500.7
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "B108",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 31.24,
+      "pricePerSqm": 204600,
+      "price": 6391704.0,
+      "prices": {
+        "leasehold": 6391704.0,
+        "freehold": 7350459.6
+      },
+      "status": "reserved",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "B109",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 29.87,
+      "pricePerSqm": 204600,
+      "price": 6111402.0,
+      "prices": {
+        "leasehold": 6111402.0,
+        "freehold": 7028112.3
+      },
+      "status": "reserved",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "B110",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 29.87,
+      "pricePerSqm": 204600,
+      "price": 6111402.0,
+      "prices": {
+        "leasehold": 6111402.0,
+        "freehold": 7028112.3
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "B111",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 52.95,
+      "pricePerSqm": 204600,
+      "price": 10833570.0,
+      "prices": {
+        "leasehold": 10833570.0,
+        "freehold": 12458605.5
+      },
+      "status": "available",
+      "style": "Premium pool access, Investment style unit",
+      "view": "Pool"
+    },
+    {
+      "id": "B205",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 145000,
+      "price": 8301250.0,
+      "prices": {
+        "leasehold": 8301250.0,
+        "freehold": 9546437.5
+      },
+      "status": "available",
+      "view": "Garden"
+    },
+    {
+      "id": "B206",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 138000,
+      "price": 7900500.0,
+      "prices": {
+        "leasehold": 7900500.0,
+        "freehold": 9085575.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "B306",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 145000,
+      "price": 8301250.0,
+      "prices": {
+        "leasehold": 8301250.0,
+        "freehold": 9546437.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "B311",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 50.09,
+      "pricePerSqm": 145000,
+      "price": 7263050.0,
+      "prices": {
+        "leasehold": 7263050.0,
+        "freehold": 8352507.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "B404",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 46.1,
+      "pricePerSqm": 155000,
+      "price": 7145500.0,
+      "prices": {
+        "leasehold": 7145500.0,
+        "freehold": 8217325.0
+      },
+      "status": "available",
+      "style": "Deluxe unit",
+      "view": "Garden"
+    },
+    {
+      "id": "B406",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 150000,
+      "price": 8587500.0,
+      "prices": {
+        "leasehold": 8587500.0,
+        "freehold": 9875625.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "B408",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 31.24,
+      "pricePerSqm": 150000,
+      "price": 4686000.0,
+      "prices": {
+        "leasehold": 4686000.0,
+        "freehold": 5388900.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "B411",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 50.09,
+      "pricePerSqm": 150000,
+      "price": 7513500.0,
+      "prices": {
+        "leasehold": 7513500.0,
+        "freehold": 8640525.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "B504",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 46.1,
+      "pricePerSqm": 160000,
+      "price": 7376000.0,
+      "prices": {
+        "leasehold": 7376000.0,
+        "freehold": 8482400.0
+      },
+      "status": "available",
+      "style": "Deluxe unit",
+      "view": "Garden"
+    },
+    {
+      "id": "B506",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 155000,
+      "price": 8873750.0,
+      "prices": {
+        "leasehold": 8873750.0,
+        "freehold": 10204812.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "B507",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 155000,
+      "price": 7723650.0,
+      "prices": {
+        "leasehold": 7723650.0,
+        "freehold": 8882197.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "B511",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 50.09,
+      "pricePerSqm": 155000,
+      "price": 7763950.0,
+      "prices": {
+        "leasehold": 7763950.0,
+        "freehold": 8928542.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "B607",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 158000,
+      "price": 7873140.0,
+      "prices": {
+        "leasehold": 7873140.0,
+        "freehold": 9054111.0
+      },
+      "status": "available",
+      "style": "High ceiling 3.75 m",
+      "view": "Pool"
+    },
+    {
+      "id": "B611",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 50.09,
+      "pricePerSqm": 158000,
+      "price": 7914220.0,
+      "prices": {
+        "leasehold": 7914220.0,
+        "freehold": 9101353.0
+      },
+      "status": "available",
+      "style": "High ceiling 3.75 m",
+      "view": "Pool"
+    },
+    {
+      "id": "B702",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 7,
+      "type": "2 Bedroom + private pool",
+      "sqm": 124.74,
+      "pricePerSqm": 189000,
+      "price": 23575860.0,
+      "prices": {
+        "leasehold": 23575860.0,
+        "freehold": 27112239.0
+      },
+      "status": "available",
+      "view": "Mountain"
+    },
+    {
+      "id": "B703",
+      "projectId": "the-element",
+      "tower": "B",
+      "floor": 7,
+      "type": "1 Bedroom + private pool",
+      "sqm": 92.61,
+      "pricePerSqm": 189000,
+      "price": 17503290.0,
+      "prices": {
+        "leasehold": 17503290.0,
+        "freehold": 20128783.5
+      },
+      "status": "available",
+      "view": "Mountain"
+    },
+    {
+      "id": "C104",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 48.78,
+      "pricePerSqm": 140000,
+      "price": 6829200.0,
+      "prices": {
+        "leasehold": 6829200.0,
+        "freehold": 7853580.0
+      },
+      "status": "available",
+      "style": "Investment style unit",
+      "view": "Garden"
+    },
+    {
+      "id": "C105",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 140000,
+      "price": 8015000.0,
+      "prices": {
+        "leasehold": 8015000.0,
+        "freehold": 9217250.0
+      },
+      "status": "available",
+      "view": "Garden"
+    },
+    {
+      "id": "C106",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 204600,
+      "price": 11713350.0,
+      "prices": {
+        "leasehold": 11713350.0,
+        "freehold": 13470352.5
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "C107",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 204600,
+      "price": 10195218.0,
+      "prices": {
+        "leasehold": 10195218.0,
+        "freehold": 11724500.7
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "C108",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 31.24,
+      "pricePerSqm": 204600,
+      "price": 6391704.0,
+      "prices": {
+        "leasehold": 6391704.0,
+        "freehold": 7350459.6
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "C110",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 29.87,
+      "pricePerSqm": 204600,
+      "price": 6111402.0,
+      "prices": {
+        "leasehold": 6111402.0,
+        "freehold": 7028112.3
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "C111",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 52.95,
+      "pricePerSqm": 204600,
+      "price": 10833570.0,
+      "prices": {
+        "leasehold": 10833570.0,
+        "freehold": 12458605.5
+      },
+      "status": "available",
+      "style": "Premium pool access, Investment style unit",
+      "view": "Pool"
+    },
+    {
+      "id": "C206",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 138000,
+      "price": 7900500.0,
+      "prices": {
+        "leasehold": 7900500.0,
+        "freehold": 9085575.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "C408",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 31.24,
+      "pricePerSqm": 150000,
+      "price": 4686000.0,
+      "prices": {
+        "leasehold": 4686000.0,
+        "freehold": 5388900.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "C505",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 160000,
+      "price": 9160000.0,
+      "prices": {
+        "leasehold": 9160000.0,
+        "freehold": 10534000.0
+      },
+      "status": "available",
+      "view": "Garden"
+    },
+    {
+      "id": "C507",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 155000,
+      "price": 7723650.0,
+      "prices": {
+        "leasehold": 7723650.0,
+        "freehold": 8882197.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "C508",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 31.24,
+      "pricePerSqm": 155000,
+      "price": 4842200.0,
+      "prices": {
+        "leasehold": 4842200.0,
+        "freehold": 5568530.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "C511",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 52.95,
+      "pricePerSqm": 155000,
+      "price": 8207250.0,
+      "prices": {
+        "leasehold": 8207250.0,
+        "freehold": 9438337.5
+      },
+      "status": "available",
+      "style": "Investment style unit",
+      "view": "Pool"
+    },
+    {
+      "id": "C604",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 48.78,
+      "pricePerSqm": 170000,
+      "price": 8292600.0,
+      "prices": {
+        "leasehold": 8292600.0,
+        "freehold": 9536490.0
+      },
+      "status": "available",
+      "style": "Investment style unit",
+      "view": "Garden"
+    },
+    {
+      "id": "C605",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 170000,
+      "price": 9732500.0,
+      "prices": {
+        "leasehold": 9732500.0,
+        "freehold": 11192375.0
+      },
+      "status": "available",
+      "view": "Garden"
+    },
+    {
+      "id": "C607",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 158000,
+      "price": 7873140.0,
+      "prices": {
+        "leasehold": 7873140.0,
+        "freehold": 9054111.0
+      },
+      "status": "available",
+      "style": "High ceiling 3.75 m",
+      "view": "Pool"
+    },
+    {
+      "id": "C701",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom + private pool",
+      "sqm": 74.15,
+      "pricePerSqm": 189000,
+      "price": 14014350.0,
+      "prices": {
+        "leasehold": 14014350.0,
+        "freehold": 16116502.5
+      },
+      "status": "available",
+      "view": "Mountain"
+    },
+    {
+      "id": "C702",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 7,
+      "type": "2 Bedroom + private pool",
+      "sqm": 124.74,
+      "pricePerSqm": 189000,
+      "price": 23575860.0,
+      "prices": {
+        "leasehold": 23575860.0,
+        "freehold": 27112239.0
+      },
+      "status": "available",
+      "view": "Mountain"
+    },
+    {
+      "id": "C703",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 7,
+      "type": "1 Bedroom + private pool",
+      "sqm": 92.61,
+      "pricePerSqm": 189000,
+      "price": 17503290.0,
+      "prices": {
+        "leasehold": 17503290.0,
+        "freehold": 20128783.5
+      },
+      "status": "available",
+      "view": "Mountain"
+    },
+    {
+      "id": "C704",
+      "projectId": "the-element",
+      "tower": "C",
+      "floor": 7,
+      "type": "Master penthouse 2 Bedroom + pool",
+      "sqm": 168.61,
+      "pricePerSqm": 189000,
+      "price": 31867290.0,
+      "prices": {
+        "leasehold": 31867290.0,
+        "freehold": 36647383.5
+      },
+      "status": "available",
+      "view": "Mountain"
+    },
+    {
+      "id": "D104",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 48.78,
+      "pricePerSqm": 140000,
+      "price": 6829200.0,
+      "prices": {
+        "leasehold": 6829200.0,
+        "freehold": 7853580.0
+      },
+      "status": "available",
+      "style": "Investment style unit",
+      "view": "Garden"
+    },
+    {
+      "id": "D105",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 140000,
+      "price": 8015000.0,
+      "prices": {
+        "leasehold": 8015000.0,
+        "freehold": 9217250.0
+      },
+      "status": "available",
+      "view": "Garden"
+    },
+    {
+      "id": "D106",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 204600,
+      "price": 11713350.0,
+      "prices": {
+        "leasehold": 11713350.0,
+        "freehold": 13470352.5
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "D107",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 204600,
+      "price": 10195218.0,
+      "prices": {
+        "leasehold": 10195218.0,
+        "freehold": 11724500.7
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "D108",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 31.24,
+      "pricePerSqm": 204600,
+      "price": 6391704.0,
+      "prices": {
+        "leasehold": 6391704.0,
+        "freehold": 7350459.6
+      },
+      "status": "reserved",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "D109",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 29.87,
+      "pricePerSqm": 204600,
+      "price": 6111402.0,
+      "prices": {
+        "leasehold": 6111402.0,
+        "freehold": 7028112.3
+      },
+      "status": "reserved",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "D110",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 1,
+      "type": "1 Bedroom",
+      "sqm": 29.87,
+      "pricePerSqm": 204600,
+      "price": 6111402.0,
+      "prices": {
+        "leasehold": 6111402.0,
+        "freehold": 7028112.3
+      },
+      "status": "available",
+      "style": "Premium pool access",
+      "view": "Pool"
+    },
+    {
+      "id": "D111",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 1,
+      "type": "2 Bedroom",
+      "sqm": 52.95,
+      "pricePerSqm": 204600,
+      "price": 10833570.0,
+      "prices": {
+        "leasehold": 10833570.0,
+        "freehold": 12458605.5
+      },
+      "status": "available",
+      "style": "Premium pool access, Investment style unit",
+      "view": "Pool"
+    },
+    {
+      "id": "D206",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 138000,
+      "price": 7900500.0,
+      "prices": {
+        "leasehold": 7900500.0,
+        "freehold": 9085575.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D211",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 2,
+      "type": "2 Bedroom",
+      "sqm": 52.95,
+      "pricePerSqm": 138000,
+      "price": 7307100.0,
+      "prices": {
+        "leasehold": 7307100.0,
+        "freehold": 8403165.0
+      },
+      "status": "available",
+      "style": "Investment style unit",
+      "view": "Pool"
+    },
+    {
+      "id": "D306",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 3,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 145000,
+      "price": 8301250.0,
+      "prices": {
+        "leasehold": 8301250.0,
+        "freehold": 9546437.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D311",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 3,
+      "type": "1 Bedroom",
+      "sqm": 50.09,
+      "pricePerSqm": 145000,
+      "price": 7263050.0,
+      "prices": {
+        "leasehold": 7263050.0,
+        "freehold": 8352507.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D406",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 4,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 150000,
+      "price": 8587500.0,
+      "prices": {
+        "leasehold": 8587500.0,
+        "freehold": 9875625.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D408",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 31.24,
+      "pricePerSqm": 150000,
+      "price": 4686000.0,
+      "prices": {
+        "leasehold": 4686000.0,
+        "freehold": 5388900.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D409",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 29.87,
+      "pricePerSqm": 150000,
+      "price": 4480500.0,
+      "prices": {
+        "leasehold": 4480500.0,
+        "freehold": 5152575.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D411",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 4,
+      "type": "1 Bedroom",
+      "sqm": 50.09,
+      "pricePerSqm": 150000,
+      "price": 7513500.0,
+      "prices": {
+        "leasehold": 7513500.0,
+        "freehold": 8640525.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D504",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 46.1,
+      "pricePerSqm": 160000,
+      "price": 7376000.0,
+      "prices": {
+        "leasehold": 7376000.0,
+        "freehold": 8482400.0
+      },
+      "status": "available",
+      "style": "Deluxe unit",
+      "view": "Garden"
+    },
+    {
+      "id": "D506",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 57.25,
+      "pricePerSqm": 155000,
+      "price": 8873750.0,
+      "prices": {
+        "leasehold": 8873750.0,
+        "freehold": 10204812.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D507",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 5,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 155000,
+      "price": 7723650.0,
+      "prices": {
+        "leasehold": 7723650.0,
+        "freehold": 8882197.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D508",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 31.24,
+      "pricePerSqm": 155000,
+      "price": 4842200.0,
+      "prices": {
+        "leasehold": 4842200.0,
+        "freehold": 5568530.0
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D510",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 29.87,
+      "pricePerSqm": 155000,
+      "price": 4629850.0,
+      "prices": {
+        "leasehold": 4629850.0,
+        "freehold": 5324327.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D511",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 5,
+      "type": "1 Bedroom",
+      "sqm": 50.09,
+      "pricePerSqm": 155000,
+      "price": 7763950.0,
+      "prices": {
+        "leasehold": 7763950.0,
+        "freehold": 8928542.5
+      },
+      "status": "available",
+      "view": "Pool"
+    },
+    {
+      "id": "D602",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 29.87,
+      "pricePerSqm": 170000,
+      "price": 5077900.0,
+      "prices": {
+        "leasehold": 5077900.0,
+        "freehold": 5839585.0
+      },
+      "status": "available",
+      "view": "Garden"
+    },
+    {
+      "id": "D603",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 29.87,
+      "pricePerSqm": 170000,
+      "price": 5077900.0,
+      "prices": {
+        "leasehold": 5077900.0,
+        "freehold": 5839585.0
+      },
+      "status": "available",
+      "view": "Garden"
+    },
+    {
+      "id": "D607",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 6,
+      "type": "2 Bedroom",
+      "sqm": 49.83,
+      "pricePerSqm": 158000,
+      "price": 7873140.0,
+      "prices": {
+        "leasehold": 7873140.0,
+        "freehold": 9054111.0
+      },
+      "status": "available",
+      "style": "High ceiling 3.75 m",
+      "view": "Pool"
+    },
+    {
+      "id": "D611",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 6,
+      "type": "1 Bedroom",
+      "sqm": 50.09,
+      "pricePerSqm": 158000,
+      "price": 7914220.0,
+      "prices": {
+        "leasehold": 7914220.0,
+        "freehold": 9101353.0
+      },
+      "status": "available",
+      "style": "High ceiling 3.75 m",
+      "view": "Pool"
+    },
+    {
+      "id": "D701",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 7,
+      "type": "1 Bedroom + private pool",
+      "sqm": 74.15,
+      "pricePerSqm": 189000,
+      "price": 14014350.0,
+      "prices": {
+        "leasehold": 14014350.0,
+        "freehold": 16116502.5
+      },
+      "status": "available",
+      "view": "Mountain"
+    },
+    {
+      "id": "D702",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 7,
+      "type": "2 Bedroom + private pool",
+      "sqm": 124.74,
+      "pricePerSqm": 189000,
+      "price": 23575860.0,
+      "prices": {
+        "leasehold": 23575860.0,
+        "freehold": 27112239.0
+      },
+      "status": "available",
+      "view": "Mountain"
+    },
+    {
+      "id": "D703",
+      "projectId": "the-element",
+      "tower": "D",
+      "floor": 7,
+      "type": "1 Bedroom + private pool",
+      "sqm": 92.61,
+      "pricePerSqm": 189000,
+      "price": 17503290.0,
+      "prices": {
+        "leasehold": 17503290.0,
+        "freehold": 20128783.5
+      },
+      "status": "available",
+      "view": "Mountain"
     }
   ],
   "services": [
