@@ -29,6 +29,7 @@ function walk(base, dir = base, out = new Map()) {
 const FIRST = ['external', 'exterior', 'facilities'];
 const rank = rel => { const i = FIRST.indexOf(rel.split('/')[0]); return i === -1 ? FIRST.length : i; };
 
+const before = JSON.stringify(data.projects);
 let changed = 0;
 for (const p of data.projects) {
   const folder = p.imageFolder ?? p.id;
@@ -66,5 +67,6 @@ for (const p of data.projects) {
   changed++;
   console.log(`${p.id}: ${flat.length} photos in ${groups.length} areas${pano ? ', 360 image' : ''}`);
 }
-if (changed) { data.version = (data.version ?? 0) + 1; data.updatedAt = new Date().toISOString().slice(0, 10); writeFileSync(file, JSON.stringify(data, null, 2) + '\n'); }
-console.log(changed ? `Updated ${changed} listings, version ${data.version}.` : `No image folders found. Create ${root}/<listing id>/ and add photos.`);
+const modified = JSON.stringify(data.projects) !== before;
+if (modified) { data.version = (data.version ?? 0) + 1; data.updatedAt = new Date().toISOString().slice(0, 10); writeFileSync(file, JSON.stringify(data, null, 2) + '\n'); }
+console.log(changed ? (modified ? `Updated ${changed} listings, version ${data.version}.` : `${changed} listings already up to date.`) : `No image folders found. Create ${root}/<listing id>/ and add photos.`);
