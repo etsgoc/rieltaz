@@ -1,0 +1,14 @@
+{
+  "external": "External",
+  "facilities": "Facilities",
+  "ph-c1-74-15-sq-m": "Penthouse C1, 74.15 m²",
+  "ph-c2-92-61-sq-m": "Penthouse C2, 92.61 m²",
+  "ph-d-124-74-sq-m": "Penthouse D, 124.74 m²",
+  "ph-e-168-61-sq-m": "Penthouse E, 168.61 m²",
+  "type-a1-29-87-sq-m": "Type A1, 29.87 m²",
+  "type-a2-31-11-sq-m": "Type A2, 31.11 m²",
+  "type-a3-42-30-sq-m": "Type A3, 42.30 m²",
+  "type-a4-50-27-sq-m": "Type A4, 50.27 m²",
+  "type-b1-49-83-sq-m": "Type B1, 49.83 m²",
+  "type-b2-57-25-sq-m": "Type B2, 57.25 m²"
+}
