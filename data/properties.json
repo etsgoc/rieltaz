@@ -1,11 +1,11 @@
 {
-  "version": 10,
+  "version": 11,
   "updatedAt": "2026-11-13",
   "mediaBase": "https://www.rieltaz.com/images/",
   "contact": {
-    "phone": "+66 99 259 6525",
-    "email": "info@thetreesresidencephuket.com",
-    "whatsapp": "+66 99 259 6525",
+    "phone": "+48 780 152 591",
+    "email": "contact@rieltaz.com",
+    "whatsapp": "+48 780 152 591",
     "hours": "Messages answered within one working day",
     "formEndpoint": "",
     "formKey": ""
@@ -15,15 +15,12 @@
       "id": "ever-prime",
       "name": "Ever Prime Development Co., Ltd",
       "area": "Kamala, Phuket",
-      "email": "info@everprimeresidences.com",
-      "phone": "+66 76 279 225",
       "blurb": "Developer of Ever Prime Residences in Karon."
     },
     {
       "id": "anocha",
       "name": "The Trees Residence by Anocha Co., Ltd",
       "area": "Bang Tao, Phuket",
-      "phone": "+66 99 259 6525",
       "blurb": "Developer of The Trees Residence in Bang Tao and The Element in Kamala."
     }
   ],
