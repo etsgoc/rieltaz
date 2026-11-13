@@ -25,6 +25,10 @@ function walk(base, dir = base, out = new Map()) {
   return out;
 }
 
+// External and Facilities come before the unit types
+const FIRST = ['external', 'exterior', 'facilities'];
+const rank = rel => { const i = FIRST.indexOf(rel.split('/')[0]); return i === -1 ? FIRST.length : i; };
+
 let changed = 0;
 for (const p of data.projects) {
   const folder = p.imageFolder ?? p.id;
@@ -39,7 +43,7 @@ for (const p of data.projects) {
   const pano = rootFiles.find(n => /^(360|pano)/i.test(n));
   if (pano) dirs.set('', rootFiles.filter(n => n !== pano));
 
-  const groups = [...dirs.entries()].filter(([, f]) => f.length).sort(([a], [b]) => (a === '' ? -1 : b === '' ? 1 : natural(a, b)))
+  const groups = [...dirs.entries()].filter(([, f]) => f.length).sort(([a], [b]) => (a === '' ? -1 : b === '' ? 1 : rank(a) - rank(b) || natural(a, b)))
     .map(([rel, f]) => ({
       id: rel === '' ? 'general' : rel.replace(/\//g, '-'),
       label: rel === '' ? 'General' : labels[rel] ?? rel.split('/').map(s => labels[s] ?? pretty(s)).join(' / '),
